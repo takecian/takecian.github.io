@@ -201,7 +201,8 @@ git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde
           May 30, 2018
         </span>
         
-        takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions.
+        Irisを作ったんだけど firmware を焼くのに手順を忘れるのでここのメモしておく。
+takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions.
         
         
           ... <a class="read-more-symbol" href="/posts/2018-05-30-build-log/">➦</a>
@@ -221,8 +222,7 @@ git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde
 今やりたいのは自作キーボード。
 ２年くらい前に Ergodox EZ を買ったんだけど、最近は他にもいろんな分割キーボードがあるらしい。
 調べた範囲でまとめてみた。
-|名前|購入先| |Let&rsquo;s split|switchtop, MEHKEE| |Iris|keebio| |Nyquist|keebio| |Helix|遊舎工房| |Levinson|keebio|
-けっこうあるっぽい。
+   名前 購入先     Let&rsquo;s split switchtop, MEHKEE   Iris keebio   Nyquist keebio   Helix 遊舎工房   Levinson keebio    けっこうあるっぽい。
 Iris は Ergodox に似てて親指用のキーが独立してあるので作ってみることにする。
 ↑のサイトで購入できるのはPCB(基板)とプレート・ケースだけなので作る場合はキースイッチやキーキャップも別途購入する必要がある。
 キースイッチは Cherry MX 互換のスイッチならよくて、AliExpress とかで買うのがよさそう。
