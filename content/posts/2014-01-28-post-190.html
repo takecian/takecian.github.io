@@ -1,0 +1,19 @@
+---
+layout: post
+title: Unicorn 上で動かす Rails で New Relic を使う
+date: 2014-01-28 19:01:10.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>設定が簡単すぎて愕然するというパフォーマンス解析ツール「<a href="http://newrelic.com/" title="http://newrelic.com/" target="_blank">New Relic</a>」ですが Unicorn を使う場合はただ Gemfile に追加するだけではダメみたいです。</p>
+<p>https://docs.newrelic.com/docs/ruby/no-data-with-unicorn</p>
+<p>config/unicorn.rb に</p>
+<p>[code lang="ruby"]<br />
+preload_app true<br />
+[/code]</p>
+<p>を追加する必要があります。</p>
+<p>Heroku から AWS に移行したあとに New Relic が動かなくてぶつかった問題でした。</p>

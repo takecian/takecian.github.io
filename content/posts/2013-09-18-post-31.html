@@ -1,0 +1,48 @@
+---
+layout: post
+title: "アニメーションライブラリ isotope.js"
+date: 2013-09-18 01:53:49.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>最近テラスハウスにはまっていて、特にBGMが素敵。</p>
+<p>そこでテラスハウスの BGM を簡単に聴けるような<a href="http://terracehousebgm.herokuapp.com/">プレーヤー</a>を<br />
+作っているんだけど、ビデオの一覧をどうやって表示するか悩み中。</p>
+<p>職場でそんな話をしたら「isotopeってのを使ってる人がいたよ」という話を聞いた。</p>
+<p><a href="http://isotope.metafizzy.co/index.html">isotope</a>。</p>
+<p>div タグの下に element というclass属性の要素を作って、<br />
+＃コード中では AngularJSを使用。</p>
+<p>[code lang="html"]<br />
+&lt;div id=&quot;container&quot; class=&quot;isotope&quot;&gt;<br />
+	&lt;div ng-repeat=&quot;video in videos&quot; class=&quot;element isotope-item {{video.date}}&quot; date=&quot;{{video.date}}&quot; count=&quot;{{video.count}}&quot; ng-click=&quot;select($event)&quot; &gt;<br />
+		&lt;p&gt;放送日時: {{video.date}}&lt;/p&gt;<br />
+		&lt;img src=&quot;{{video.thumbnail}}&quot; vid=&quot;{{video.vid}}&quot; class=&quot;videoimg&quot; index=&quot;{{video.index}}&quot; /&gt;<br />
+		&lt;p&gt;{{video.artist}} 再生回数: {{video.count}}&lt;/p&gt;<br />
+		&lt;p&gt;「{{video.title}}」&lt;/p&gt;<br />
+	&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+[/code]</p>
+<p>js で element class属性に対して isotope メソッドを実行。<br />
+getSortData にはソートしたいフィールドを返すようにしておく。</p>
+<p>[code lang="js"]<br />
+var $container = $('#container');</p>
+<p>$container.isotope({<br />
+	itemSelector: '.element',<br />
+	getSortData: {<br />
+		date: function($elem) {<br />
+			var date = $elem.attr('date');<br />
+			return date;<br />
+		},<br />
+		count: function($elem) {<br />
+			var count = parseInt($elem.attr('count'), 10);<br />
+			return count;<br />
+		}<br />
+	}<br />
+});</p>
+<p>[/code]</p>
+<p>これだけでソートできたり、フィルタしたりもできるようになる。</p>
+<p>だけど要素が100個を超えたりするともっさりしているような。使い方が悪いんだろうか。</p>

@@ -1,0 +1,48 @@
+---
+layout: post
+title: Mac OS Mavericks で bcrypt-ruby がインストールできない場合の対処
+date: 2013-11-04 18:42:22.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>Rails を勉強中に、壁にぶつかった。<br />
+has_secure_password を使う際に必要な bcrypt-ruby がインストールできない。</p>
+<p>ググってみたら、gcc-42 が見つからないって話はよく見つかるんだけど、<br />
+それとは違ってこんなエラーが出る。</p>
+<p>[bash]<br />
+Building native extensions.  This could take a while...<br />
+ERROR:  Error installing bcrypt-ruby:<br />
+	ERROR: Failed to build gem native extension.</p>
+<p>    /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb<br />
+creating Makefile</p>
+<p>make<br />
+compiling bcrypt_ext.c<br />
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,<br />
+                 from bcrypt_ext.c:1:<br />
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:51:21: error: string.h: No such file or directory<br />
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:61:21: error: stdint.h: No such file or directory<br />
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:64:23: error: inttypes.h: No such file or directory<br />
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:68:19: error: stdio.h: No such file or directory<br />
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:70,<br />
+                 from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,<br />
+                 from bcrypt_ext.c:1:<br />
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/defines.h:29:21: error: stdlib.h: No such file or directory<br />
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:194,<br />
+                 from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,<br />
+                 from bcrypt_ext.c:1:<br />
+[/bash]</p>
+<p>Command Line Developer Tools が必要だそうで、</p>
+<p>[bash]<br />
+xcode-select --install<br />
+[/bash]</p>
+<p>を実行するとインストールできるようになる。</p>
+<p>参考：<br />
+<a href="http://stackoverflow.com/questions/19580685/installing-rails-on-mavericks" title="install-rails" target="_blank">installing-rails-on-mavericks - Stackoverflow</a></p>
+<p>ちなみに gcc-42 が見つからない場合の対応策はこちら。</p>
+<p>[bash]<br />
+sudo ln -s /usr/local/bin/gcc-4.2 /usr/bin/gcc-4.2<br />
+[/bash]</p>

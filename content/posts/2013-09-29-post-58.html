@@ -1,0 +1,30 @@
+---
+layout: post
+title: Codeship を使って Bitbucket へ Push と同時にHerokuへデプロイする
+date: 2013-09-29 21:47:08.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>今 Rails を使って個人プロジェクトの開発を進めていて、<br />
+テストはRSpec、<br />
+コードの管理は bitbucket、<br />
+サーバは Heroku、</p>
+<p>と、なんとなく固まってきたんだけど、<br />
+pushするときに bitbucket と Heroku に両方デプロイするのがめんどい。</p>
+<p>それでなんかないかなーと探してたら、ちょうどよさそうなものを見つけた。</p>
+<p>Codeship<br />
+https://www.codeship.io</p>
+<p>一言で言うと たぶん jenkins みたいなもの。</p>
+<p>このブログの画像を参考に、bitbucket(Githubとかも)のリポジトリとHerokuのアプリと関連付けを行えば、<br />
+http://blog.codeship.io/2013/09/26/how-to-deploy-a-ruby-on-rails-app-from-github-to-heroku.html</p>
+<p>Push するのをトリガーに、<br />
+リポジトリを Clone してきて、Heroku に Push してくれる。<br />
+設定すればテストを走らせることもできらしい。</p>
+<p>job(っていう言い方が正しいのか分からないけど)の最後の結果を↓のように画像で表示してくれて、</p>
+<p><img src="assets/status" alt="" /></p>
+<p>最後に実行した job が成功したか分かるようにもなってる。</p>
+<p>便利すぎワロタ。</p>

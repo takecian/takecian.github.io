@@ -1,0 +1,85 @@
+---
+layout: post
+title: Rails で Model に 多対多の関連をもたせる
+date: 2013-12-23 19:45:33.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>WEBサービスによくある「お気に入り機能」を作ってみる。</p>
+<p>ユーザー(お気に入りにする側)対商品(お気に入りにされる側)という<br />
+Model 同士に多対多の関連を持たせる、という話。</p>
+<p>これも１対多の関連の時と同じように belongs_to と has_many メソッドを使う。<br />
+子から親に参照をしたい場合に belongs_to を使って、<br />
+親から子を参照したい場合に has_many を使う。</p>
+<p>今回は関連を持たせるためのテーブルを別で用意して、<br />
+has_many の方には through をつけて、この関連テーブル(Favoriteテーブル)を指定する。</p>
+<p>[code lang="ruby"]<br />
+class Item &lt; ActiveRecord::Base<br />
+  has_many :favorites, dependent: :destroy<br />
+  has_many :users, through: :favorites<br />
+end</p>
+<p>class User &lt; ActiveRecord::Base<br />
+  has_many :favorites, dependent: :destroy<br />
+  has_many :items, through: :favorites<br />
+end</p>
+<p>class Favorite &lt; ActiveRecord::Base<br />
+  belongs_to :item<br />
+  belongs_to :user<br />
+  validates :user_id, presence: true<br />
+  validates :item_id, presence: true<br />
+end<br />
+[/code]</p>
+<p>読み出すときは、</p>
+<p>[code lang="ruby"]<br />
+  - item.users.each do |user|<br />
+    = link_to(user) do<br />
+      = cl_image_tag(user.image, :width =&gt; 250, :height =&gt; 250, :radius =&gt; 20, :fetch_format =&gt; :png, :q =&gt; 100, :effect =&gt; :shadow, :alt =&gt; user.name)<br />
+      %h3= user.name<br />
+[/code]</p>
+<p>とか</p>
+<p>[code lang="ruby"]<br />
+- user.items.each do |item|<br />
+  .thumbnail.item<br />
+    = link_to(item) do<br />
+      = cl_image_tag(item.thumbnail.path, :width =&gt; 250, :height =&gt; 250, :radius =&gt; 20, :fetch_format =&gt; :png, :q =&gt; 100, :effect =&gt; :shadow, :alt =&gt; item.name)<br />
+      .caption<br />
+        %h3= item.name<br />
+        %span.wrap= item.copy<br />
+[/code]</p>
+<p>とする。</p>
+<p>今回から erb から haml を使うようにしました。<br />
+＃erb から haml への乗り換えは erb2haml という gem を使うのが便利。</p>
+<p>参考：<br />
+<a href="http://qiita.com/m_doi/items/1f01fd2b1a52c2c43f1f" target="_blank">Rails の ERB を Haml に変換する[Qiita]</a></p>
+<p>お気に入りの情報を設定する時は、controller 上で関連を作るようにしておいて、</p>
+<p>[code lang="ruby"]<br />
+class FavoritesController &lt; ApplicationController<br />
+  ...<br />
+  def create<br />
+    puts item_params[:item_id]<br />
+    @item = Item.find(item_params[:item_id])<br />
+    @user = current_user<br />
+    current_user.favorite!(@item)<br />
+    respond_to do |format|<br />
+      format.html { redirect_to current_user }<br />
+      format.js<br />
+    end<br />
+  end<br />
+  ...<br />
+end</p>
+<p>class User &lt; ActiveRecord::Base<br />
+  def favorite!(item)<br />
+    favorites.create(item_id: item.id)<br />
+  end<br />
+end</p>
+<p>[/code]</p>
+<p>view からは非同期で呼ぶよう(form に "remote: true"をつける)にする。</p>
+<p>[code lang="ruby"]<br />
+= form_for(current_user.favorites.build(item_id: item.id), remote: true) do |f|<br />
+  %div= f.hidden_field :item_id<br />
+  = f.submit &quot;食べたい&quot;, class: &quot;btn btn-large btn-primary&quot;<br />
+[/code]</p>

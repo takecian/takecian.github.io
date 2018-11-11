@@ -1,0 +1,28 @@
+---
+layout: post
+title: Nginx(ELB) + Unicorn で Rails で OAuth 認証をするときのコールバックURL
+date: 2013-12-30 06:58:25.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _thumbnail_id: '176'
+  _syntaxhighlighter_encoded: '1'
+author:
+  login: t-fujiki
+  email: takecian@gmail.com
+  display_name: t-fujiki
+  first_name: ''
+  last_name: ''
+---
+<p>Railsアプリ(Unicorn) の前段に Nginx を置くのが主流になりつつあるみたいですが何も指定しなかったら Unicorn で待ち受けてるホスト名で OAuth provider 側にコールバックURLを渡してしまうので Facebook など provider 側に「登録したCallback URL(domain)と違うよ」エラーが返ってきます。</p>
+<p>＃Nginx を使っていないくても ELB を使うようになったら同じ問題にぶつかると思う。</p>
+<p>その場合は、config/initialize の devise.rb か omniauth.rb で、</p>
+<p>[code lang="ruby"]<br />
+    OmniAuth.config.full_host = 'http://hostname'<br />
+[/code]</p>
+<p>を指定しておきます。コールバックURLはローカル環境や staging/production 環境で異なると思うので initializer の中で書いておくのがよさそうです。</p>

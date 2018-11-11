@@ -1,0 +1,18 @@
+---
+layout: post
+title: Heroku で rake assets:precompile 時に環境変数を参照できるようにする
+date: 2013-12-29 01:25:31.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>タイトルの通り。何もしないと Heroku では rake assets:precomplie 時には環境変数が参照できない。</p>
+<p>Rails アプリのルートディレクトリ上で、</p>
+<p>[code lang="ruby"]<br />
+heroku labs:enable user-env-compile -a myapp<br />
+[/code]</p>
+<p>参考：<br />
+<a href="https://devcenter.heroku.com/articles/labs-user-env-compile" title="https://devcenter.heroku.com/articles/labs-user-env-compile">https://devcenter.heroku.com/articles/labs-user-env-compile</a></p>

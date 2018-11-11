@@ -1,0 +1,25 @@
+baseURL = "https://takecian.github.io/"
+languageCode = "ja-jp"
+title = "takecian"
+theme = "hyde-hyde"
+
+[[menu.main]]
+    name = "Posts"
+    identifier = "posts"
+    url = "/posts/"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    identifier = "work"
+    url = "/work/work"
+    weight = 2
+[[menu.main]]
+    name = "Note"
+    identifier = "note"
+    url = "/note/ideanote"
+    weight = 4
+
+[params.social]
+	twitter = "takecian"
+	facebook = "takecian"
+	github = "takecian"

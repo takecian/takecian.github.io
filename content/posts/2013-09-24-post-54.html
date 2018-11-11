@@ -1,0 +1,29 @@
+---
+layout: post
+title: Heroku 上に Rails をデプロイするときにハマったこと - SQLite編
+date: 2013-09-24 00:57:29.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>Rails ではデフォルトでは SQLite が使用されますが、<br />
+Heroku では SQLite がサポートされていないので<br />
+他のデータベースを使用する必要があります。</p>
+<p><a href="https://devcenter.heroku.com/articles/sqlite3">https://devcenter.heroku.com/articles/sqlite3</a></p>
+<p>ここで代用が簡単なのが、 PostgreSQLらしい。</p>
+<p>Gemfile で Production 環境用に gem 'pg' を追加。</p>
+<p>Rails が入っているディレクトリ上で、</p>
+<p>heroku addons:add heroku-postgresql</p>
+<p>を実行して、PostgreSQLのアドオンを追加。</p>
+<p>ただ、それだけだとデプロイ時に、</p>
+<p>Invalid DATABASE_URL</p>
+<p>って怒られる。</p>
+<p>DATABASE_URL という環境変数に<br />
+PostgreSQLのURLを指定してやる必要があるらしい。</p>
+<p>heroku config</p>
+<p>を実行すると出てくる DBのURLを</p>
+<p>heroku config:add DATABASE_URL=DBのURL</p>
+<p>としてあげればOK。</p>

@@ -1,0 +1,80 @@
+---
+layout: post
+title: Heroku から AWS に移行する(Nginx + Unicorn で Rails アプリ開発)
+date: 2013-12-30 04:39:49.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>年末休みになって少し時間ができたので今作ってるアプリ(<a href="http://snandy.me/">Snandy</a>) の Heroku から AWS に移行作業を進めてる。</p>
+<p>移行する理由としては Native に依存しているとその gem が Heroku 上だと使えなかったり、<br />
+＃調べた限り。recommendify という gem を使おうと思ったらエラーが出て怒られた</p>
+<p>Heroku がいろんなところをよろしくやってくれるのでスキルアップのためにはもっと下のレイヤーも触らないといかんなと思ったから。</p>
+<p>それで今日からAWS(EC2 + RDS)に環境作業を始めたんだけど、今時手作業で環境構築するのは時代遅れもいいところ、ということなので chef を使うことにした。</p>
+<p>設定を Ruby でかけるのがすごくいい感じ。Rails でアプリを作ってたことでスッと頭に入ってくるようになった(気がする)。</p>
+<p>EC2上では Nginx と unicorn を使って Rails を動かして、DB は RDS。なので chef で Nginx と MySQL、rvm をインストールする。</p>
+<p>MySQL と rvm は opscode や github からもってきた cookbook を使用。</p>
+<p>Berkfile はこんな感じ。<br />
+[code lang="ruby"]<br />
+site : opscode</p>
+<p>metadata<br />
+cookbook 'mysql'<br />
+cookbook 'rvm', github: 'fnichol/chef-rvm'<br />
+[/code]</p>
+<p>Nginx の recipe は</p>
+<p>[code lang="ruby"]<br />
+package &quot;nginx&quot; do<br />
+  action :install<br />
+end</p>
+<p>service &quot;nginx&quot; do<br />
+  supports status: true, restart: true, reload: true<br />
+  action [:enable, :start]<br />
+end</p>
+<p>template &quot;nginx.conf&quot; do<br />
+  path &quot;/etc/nginx/nginx.conf&quot;<br />
+  source &quot;nginx.conf.erb&quot;<br />
+  owner &quot;root&quot;<br />
+  group &quot;root&quot;<br />
+  mode 0644</p>
+<p>  notifies :reload, &quot;service[nginx]&quot;<br />
+end<br />
+[/code]</p>
+<p>中身は完全に naoya さんの「入門ChefSolo」と同じ。</p>
+<p>conf の方が自分用に変わっていて、</p>
+<p>[code lang="javascript"]<br />
+user nginx;<br />
+worker_processes 1;<br />
+error_log /var/log/nginx/error.log;<br />
+pid /var/run/nginx.pid;</p>
+<p>events {<br />
+    worker_connections 1024;<br />
+}</p>
+<p>http {<br />
+    upstream snandy.me {<br />
+       server unix:/var/www/snandy/tmp/unicorn.sock;<br />
+    }</p>
+<p>    server {<br />
+        listen &lt;%= node[&quot;nginx&quot;][&quot;port&quot;] %&gt; default_server;<br />
+        server_name _;<br />
+        root /var/www/snandy/public;<br />
+        location / {<br />
+            proxy_pass 'http://snandy_upstream';<br />
+        }<br />
+    }<br />
+}<br />
+[/code]</p>
+<p>これで Unix のソケットを unicorn 側(unicorn.rb)にも設定する。</p>
+<p>[code lang="ruby"]<br />
+APP_PATH = &quot;/var/www/snandy&quot;<br />
+working_directory APP_PATH</p>
+<p>stderr_path APP_PATH + &quot;/log/unicorn.stderr.log&quot;<br />
+stdout_path APP_PATH + &quot;/log/unicorn.stderr.log&quot;<br />
+pid APP_PATH + &quot;/tmp/unicorn.pid&quot;<br />
+listen APP_PATH + &quot;/tmp/unicorn.sock&quot;<br />
+[/code]</p>
+<p>これで移行自体はなんとかできた。</p>
+<p>あとは Rails アプリのデプロイも Capistrano でできるようにならねば。</p>
+<p>それにしても Heroku でやってたら Nginx なにそれ、unicorn なにそれ、Capistrano なにそれ、という感じでここまできてた。知らないところでいろいろやってくれてたんですな。AWS に知らないところでいろいろやってもらえるのは変わらないんだろうけど。</p>

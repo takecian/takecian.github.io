@@ -1,0 +1,77 @@
+---
+layout: post
+title: jquery で Parallax を実現するプラグイン jQuery-Parallax を使う
+date: 2014-02-09 16:17:42.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _syntaxhighlighter_encoded: '1'
+  _thumbnail_id: '204'
+  _oembed_4202e926f6dfb0fb98a7ad180f418190: "{{unknown}}"
+  _oembed_6a99397d51378c3265cacbca8445f35c: "{{unknown}}"
+  _oembed_438aecb99780a2ecab6e3fc8e292a081: "{{unknown}}"
+author:
+  login: t-fujiki
+  email: takecian@gmail.com
+  display_name: t-fujiki
+  first_name: ''
+  last_name: ''
+---
+<p>去年からオサレ()なサイトやアプリで使われ始めたパララックス。トップページに入れてみました。スマホだとうまく動かないけどPCのブラウザだとそれっぽくなります。</p>
+<p>パララックスを簡単に実現できますなものはたくさんあるらしいですが、とりあえず jqueryプラグインを選んでみました。<br />
+https://github.com/IanLunn/jQuery-Parallax</p>
+<p>使い方は、並べたい画面を div タグで記述。</p>
+<p>[code lang="ruby"]<br />
+#first<br />
+  .story<br />
+    .float-right<br />
+      .social.col-md-12<br />
+        .twitter<br />
+          %a.twitter-share-button{&quot;data-lang&quot; =&gt; &quot;ja&quot;, &quot;data-text&quot; =&gt; &quot;マンガ発売日情報サイト「Shelfy」をシェアしました！&quot;, &quot;data-hashtags&quot; =&gt; &quot;Shelfy&quot;, :href =&gt; &quot;https://twitter.com/share&quot;} ツイート<br />
+        .facebook<br />
+          .fb-like{&quot;data-href&quot; =&gt; &quot;http://shelfy.me#{request.fullpath}&quot;, &quot;data-layout&quot; =&gt; &quot;button_count&quot;, &quot;data-send&quot; =&gt; &quot;false&quot;, &quot;data-show-faces&quot; =&gt; &quot;false&quot;}<br />
+    .float-left<br />
+      %h2 説明文<br />
+#second<br />
+  .story<br />
+    .float-right<br />
+      %h2 説明文<br />
+#third<br />
+  .story<br />
+    .float-right<br />
+      %h2 説明文<br />
+[/code]</p>
+<p>div タグのレイアウト（サイズ）を css に記述。</p>
+<p>[code lang="ruby"]</p>
+<p>#first{<br />
+  background:url(para1.jpg) 50% 0 no-repeat fixed;<br />
+  background-size: cover;<br />
+  color: white;<br />
+  height: 1200px;<br />
+  margin: 0 auto;<br />
+  padding: 0;<br />
+  .story .float-left, .story .float-right{<br />
+    padding: 50px 0 0 0;<br />
+    position: relative;<br />
+    width: 500px;<br />
+  }<br />
+}</p>
+<p>[/code]</p>
+<p>js 側に↓みたいなコードを用意。</p>
+<p>[code lang="ruby"]<br />
+$(document).ready(function(){<br />
+    $('#nav').localScroll(800);<br />
+    $('#first').parallax(&quot;50%&quot;, 0.1);<br />
+    $('#second').parallax(&quot;50%&quot;, 0.1);<br />
+    $('#third').parallax(&quot;50%&quot;, 0.3);<br />
+})</p>
+<p>[/code]</p>
+<p>でできあがり。</p>
+<p>http://shelfy.me/ の（ログインしていない状態）トップページに組み込んでいます。</p>
+<p>ただスマホや iPad で見た場合にうまくパララックス効果が出ていない・・orz<br />
+この辺は要調査かな。</p>

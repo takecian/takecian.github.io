@@ -1,0 +1,52 @@
+---
+layout: post
+title: Rails で Model に 1 対多の関連をもたせる
+date: 2013-12-01 22:55:58.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>最近進捗がなかった Rails ネタ。というか<a href="http://snandy.me/" title="Snandy" target="_blank">今作ってるやつ</a>。</p>
+<p>ググるとよく出てくる Model に１対多の関連を持たせる、という話。</p>
+<p>belongs_to と has_many メソッドを使う。<br />
+子から親に参照をしたい場合に belongs_to を使って、<br />
+親から子を参照したい場合に has_many を使えばよくて、必ず両方つけないといけないわけではないらしい。</p>
+<p>今回は互いに参照したい(Company の下に Item を複数関連付ける)、このような Model クラスを定義する。</p>
+<p>[code lang="ruby"]<br />
+class Company &lt; ActiveRecord::Base<br />
+	has_many :items, :dependent =&gt; :destroy<br />
+end</p>
+<p>class Item &lt; ActiveRecord::Base<br />
+	belongs_to :company<br />
+end<br />
+[/code]</p>
+<p>読み出すときは、</p>
+<p>[code lang="ruby"]<br />
+&lt;h1&gt;&lt;%= link_to @company.name + 'のお菓子', @company.url%&gt;&lt;/h1&gt;</p>
+<p>&lt;div id=&quot;container&quot;  class=&quot;row-fluid&quot;&gt;<br />
+	&lt;% @company.items.each do |item| %&gt;<br />
+	&lt;div class=&quot;thumbnail item&quot;&gt;<br />
+	&lt;% end %&gt;<br />
+&lt;/div&gt;<br />
+[/code]</p>
+<p>とか</p>
+<p>[code lang="ruby"]<br />
+&lt;%= link_to @item.company.name, @item.company %&gt;<br />
+[/code]</p>
+<p>とする。</p>
+<p>っていうModel定義や読み出し方はよく記事になってたんだけど、データの生成の仕方についてはあまり情報が見つからなかった。</p>
+<p>自分の場合は、親のModelを生成する時は通常の(関連を持たない)Modelを生成するのと同じように生成して、子のModelを生成する時に親から関連付けて生成するようにした。</p>
+<p>[code lang="ruby"]<br />
+  def create<br />
+    ....<br />
+    @company = Company.find(item_params[:company_id])<br />
+    @item = @company.items.build(item_params)<br />
+    ...<br />
+    @item.save<br />
+    ...<br />
+  end<br />
+[/code]</p>
+<p>あと、一度作った Model にカラム追加する時は rake db:migrate するだけじゃなくて、strong parameters で許可するパラメータも増やすのを忘れないようにしたい。これで30分くらい悩んだorz </p>

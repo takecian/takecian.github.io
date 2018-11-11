@@ -1,0 +1,29 @@
+---
+layout: post
+title: Rails で Cloudinary へアップロードした画像を変換する
+date: 2013-10-12 23:29:11.000000000 +09:00
+categories:
+- web
+tags: []
+status: publish
+type: post
+published: true
+---
+<p>WEB サービス用のストレージと言えば S3 が頭に浮かぶけど、</p>
+<p><a href="http://cloudinary.com/" title="Cloudinary" target="_blank">Cloudinary</a> というサービスが便利、という記事を読んだ。</p>
+<p>＃アップロードの方法自体は CarrierWave というものを使えば簡単なので割愛。</p>
+<p>アップロードした画像は URL を変えることでエフェクトを加えるなど加工することができるらしい。</p>
+<p>例えばアップロードした画像に以下のようなパラメータを与えると、</p>
+<p>&lt;%= link_to cl_image_tag(item.thumbnail.img, :width =&gt; 300, :height =&gt; 300, :alt =&gt; item.name), item %&gt;</p>
+<p>＃item.thumbnail.img はアップロードした画像の情報。CarrierWave でアップロードした時に取り込まれる。<br />
+生成されるのは↓のURL。</p>
+<p>http://res.cloudinary.com/hcfuhpwst/image/upload/v1381573720/vp37invkz2ckhfs8t5rw.jpg</p>
+<p>そして画像がこちら。</p>
+<p><img alt="http://res.cloudinary.com/hcfuhpwst/image/upload/v1381573720/vp37invkz2ckhfs8t5rw.jpg " src="assets/vp37invkz2ckhfs8t5rw.jpg " /></p>
+<p>対して、radius のパラメータを加えた場合、</p>
+<p>&lt;%= link_to cl_image_tag(item.thumbnail.img, :width =&gt; 300, :height =&gt; 300, :radius =&gt; 20, :alt =&gt; item.name, :q =&gt; 100), item %&gt;</p>
+<p>生成されるURLが↓で、</p>
+<p>http://res.cloudinary.com/hcfuhpwst/image/upload/r_20/v1381573720/vp37invkz2ckhfs8t5rw.jpg</p>
+<p>加工された画像がこちら。</p>
+<p><img alt="http://res.cloudinary.com/hcfuhpwst/image/upload/r_20/v1381573720/vp37invkz2ckhfs8t5rw.jpg" src="assets/vp37invkz2ckhfs8t5rw.jpg" /></p>
+<p>加工を加えると画質が落ちるようなので、 :q => 100 というパラメータも渡して画質を保つようにする。</p>
