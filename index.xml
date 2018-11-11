@@ -6,10 +6,27 @@
     <description>Recent content on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 11 Nov 2018 01:05:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 11 Nov 2018 10:48:32 +0900</lastBuildDate>
     
 	<atom:link href="https://takecian.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo from Jekyll</title>
+      <link>https://takecian.github.io/posts/2018-11-11_hugo/</link>
+      <pubDate>Sun, 11 Nov 2018 10:48:32 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2018-11-11_hugo/</guid>
+      <description>ここのページを作るのに Jekyll を使ってたんだけどなんとなく他のものを使ってみたくて Hugo に替えてみた。
+他にも静的サイトジェネレータ？はたくさんあるみたい。
+StaticGen というところにまとめてあった。
+どっちも Markdown で書くので移行はファイルをコピーするだけ。
+Hugo はテーマを簡単に変えることができるみたいで楽しそう。
+テーマはここ にたくさんある。
+導入手順のコマンドがだいたい git clone ~ /themes/XXX になってるけど submodule で入れないと管理する時に困る。
+hyde-hyde っていうテーマを使ってみた。変えるかもしれない。
+git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde  </description>
+    </item>
     
     <item>
       <title>Work</title>

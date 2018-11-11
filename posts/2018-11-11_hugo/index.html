@@ -17,18 +17,34 @@
     
     
 
-<title>Iris keyboard build-log • takecian</title>
+<title>Hugo from Jekyll • takecian</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Iris keyboard build-log"/>
-<meta name="twitter:description" content="takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions."/>
+<meta name="twitter:title" content="Hugo from Jekyll"/>
+<meta name="twitter:description" content="ここのページを作るのに Jekyll を使ってたんだけどなんとなく他のものを使ってみたくて Hugo に替えてみた。
+他にも静的サイトジェネレータ？はたくさんあるみたい。
+StaticGen というところにまとめてあった。
+どっちも Markdown で書くので移行はファイルをコピーするだけ。
+Hugo はテーマを簡単に変えることができるみたいで楽しそう。
+テーマはここ にたくさんある。
+導入手順のコマンドがだいたい git clone ~ /themes/XXX になってるけど submodule で入れないと管理する時に困る。
+hyde-hyde っていうテーマを使ってみた。変えるかもしれない。
+git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde  "/>
 
-<meta property="og:title" content="Iris keyboard build-log" />
-<meta property="og:description" content="takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions." />
+<meta property="og:title" content="Hugo from Jekyll" />
+<meta property="og:description" content="ここのページを作るのに Jekyll を使ってたんだけどなんとなく他のものを使ってみたくて Hugo に替えてみた。
+他にも静的サイトジェネレータ？はたくさんあるみたい。
+StaticGen というところにまとめてあった。
+どっちも Markdown で書くので移行はファイルをコピーするだけ。
+Hugo はテーマを簡単に変えることができるみたいで楽しそう。
+テーマはここ にたくさんある。
+導入手順のコマンドがだいたい git clone ~ /themes/XXX になってるけど submodule で入れないと管理する時に困る。
+hyde-hyde っていうテーマを使ってみた。変えるかもしれない。
+git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://takecian.github.io/posts/2018-05-30-build-log/" /><meta property="article:published_time" content="2018-05-30T23:49:30&#43;09:00"/>
-<meta property="article:modified_time" content="2018-05-30T23:49:30&#43;09:00"/>
+<meta property="og:url" content="https://takecian.github.io/posts/2018-11-11_hugo/" /><meta property="article:published_time" content="2018-11-11T10:48:32&#43;09:00"/>
+<meta property="article:modified_time" content="2018-11-11T10:48:32&#43;09:00"/>
 
 
     
@@ -146,13 +162,13 @@
             
     <article>
   <header>
-    <h1>Iris keyboard build-log</h1>
+    <h1>Hugo from Jekyll</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> May 30, 2018
+      <i class="fas fa-calendar-alt"></i> Nov 11, 2018
     
     
     
@@ -167,32 +183,23 @@
   
   
   <div class="post">
-    <pre><code>takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude                                                         [master]
-QMK Firmware 0.6.41
-WARNING:
- Some git sub-modules are out of date or modified, please consider runnning:
- make git-submodule
- You can ignore this warning if you are not compiling any ChibiOS keyboards,
- or if you have modified the ChibiOS libraries yourself.
+    <p>ここのページを作るのに <a href="https://jekyllrb.com/">Jekyll</a> を使ってたんだけどなんとなく他のものを使ってみたくて <a href="https://gohugo.io/">Hugo</a> に替えてみた。</p>
 
-Making iris/rev2 with keymap default and target avrdude
+<p>他にも静的サイトジェネレータ？はたくさんあるみたい。</p>
 
-avr-gcc (GCC) 7.3.0
-Copyright (C) 2017 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+<p><a href="https://www.staticgen.com/">StaticGen</a> というところにまとめてあった。</p>
 
-Size before:
-   text	   data	    bss	    dec	    hex	filename
-      0	  25578	      0	  25578	   63ea	./.build/iris_rev2_default.hex
+<p>どっちも Markdown で書くので移行はファイルをコピーするだけ。</p>
 
-Compiling: ./tmk_core/common/command.c                                                              [OK]
-Linking: .build/iris_rev2_default.elf                                                               [OK]
-Creating load file for flashing: .build/iris_rev2_default.hex                                       [OK]
-Checking file size of iris_rev2_default.hex                                                         [OK]
- * File size is fine - 25578/28672
-Copying iris_rev2_default.hex to qmk_firmware folder                                                [OK]
-Detecting USB port, reset your controller now
+<p>Hugo はテーマを簡単に変えることができるみたいで楽しそう。</p>
+
+<p>テーマは<a href="https://themes.gohugo.io/">ここ</a> にたくさんある。</p>
+
+<p>導入手順のコマンドがだいたい <code>git clone ~ /themes/XXX</code> になってるけど submodule で入れないと管理する時に困る。</p>
+
+<p>hyde-hyde っていうテーマを使ってみた。変えるかもしれない。</p>
+
+<pre><code>git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde
 </code></pre>
 
   </div>
@@ -200,16 +207,11 @@ Detecting USB port, reset your controller now
 
 <div class="navigation navigation-single">
     
-    <a href="/posts/2018-05-27-own-keyboard/" class="navigation-prev">
+    <a href="/posts/2018-05-30-build-log/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">自作キーボード準備</span>
+      <span class="navigation-tittle">Iris keyboard build-log</span>
     </a>
     
-    
-    <a href="/posts/2018-11-11_hugo/" class="navigation-next">
-      <span class="navigation-tittle">Hugo from Jekyll</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
     
 </div>
 
