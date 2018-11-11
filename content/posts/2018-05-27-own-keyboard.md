@@ -8,12 +8,13 @@ date: 2018-05-27T23:49:30+09:00
 
 今やりたいのは自作キーボード。
 
-２年くらい前に [Ergodox EZ を買った](./2016/06/07/ergodox.html)んだけど、最近は他にもいろんな分割キーボードがあるらしい。
+２年くらい前に [Ergodox EZ を買った]({{< ref "2016-06-07-ergodox.md" >}})んだけど、最近は他にもいろんな分割キーボードがあるらしい。
 
 調べた範囲でまとめてみた。
 
 
 |名前|購入先|
+|:--|:--|
 |Let's split|[switchtop](http://www.switchtop.com/), [MEHKEE](https://mehkee.com/collections/featured-home-page/products/lets-split-pcb?variant=44914069775)|
 |Iris|[keebio](https://keeb.io/)|
 |Nyquist|[keebio](https://keeb.io/)|
