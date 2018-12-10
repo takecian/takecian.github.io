@@ -6,10 +6,26 @@
     <description>Recent content in Posts on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 11 Nov 2018 23:00:54 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Dec 2018 00:09:31 +0900</lastBuildDate>
     
 	<atom:link href="https://takecian.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>新しいことを試す</title>
+      <link>https://takecian.github.io/posts/2018-12-11_qiita/</link>
+      <pubDate>Tue, 11 Dec 2018 00:09:31 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2018-12-11_qiita/</guid>
+      <description>新しいことを試そうと思う。
+Xcode playground に恋した。
+Playground driven development という記事を読んだ。
+React や Flutter なんかだとできる live reload(hot reload) のようなことは native の iOS アプリ開発ではできてなかったんだけど、Playground を使って似たようなことができるようになってきています。それで実際試してみてかなり使い勝手が良いなと思ってきたり記事を書いてみたんだけど全然いいねがつかない。
+記事はこれ。
+あまり使っている人を聞かないから新しい発見だと思ったんだけど。
+iOSアプリ開発を初めてだいたい４年ぐらい。なんとなく分かってきた感じではあるけど、でもどんどん新しいことが出てきているので立ち止まらずに色んなことを試して行かないと。
+ちなみにこの記事の1部は音声入力で書いています。アルファベットをきれいに変換できないけど手が空いた状態で文章を書けるというのはすごい便利。音声入力は mac だとファンクションキーを２回押下で起動できます、精度はイマイチな気もするけどもうちょっと試してみようと思う。</description>
+    </item>
     
     <item>
       <title>MindMap を作るのに MindNode を使ってみる</title>
