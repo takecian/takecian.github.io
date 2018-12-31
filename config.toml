@@ -16,9 +16,13 @@ theme = "hyde-hyde"
 [[menu.main]]
     name = "Note"
     identifier = "note"
-    url = "/note/ideanote"
+    url = "/note/"
+    weight = 3
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/about"
     weight = 4
-
 [params.social]
 	twitter = "takecian"
 	facebook = "takecian"
