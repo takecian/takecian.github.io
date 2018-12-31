@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://takecian.github.io/about/about/</loc>
+    <lastmod>2019-01-01T01:12:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/posts/2019-01-01_diary/</loc>
+    <lastmod>2019-01-01T00:54:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/posts/2018-12-30_diary/</loc>
+    <lastmod>2018-12-30T00:22:17+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://takecian.github.io/posts/2018-12-11_qiita/</loc>
     <lastmod>2018-12-11T00:09:31+09:00</lastmod>
   </url>
@@ -253,6 +268,12 @@
   </url>
   
   <url>
+    <loc>https://takecian.github.io/about/</loc>
+    <lastmod>2019-01-01T01:12:56+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://takecian.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -300,7 +321,7 @@
   
   <url>
     <loc>https://takecian.github.io/posts/</loc>
-    <lastmod>2018-12-11T00:09:31+09:00</lastmod>
+    <lastmod>2019-01-01T00:54:48+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -311,6 +332,10 @@
   <url>
     <loc>https://takecian.github.io/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/note/meeting/</loc>
   </url>
   
   <url>
@@ -327,7 +352,7 @@
   
   <url>
     <loc>https://takecian.github.io/</loc>
-    <lastmod>2018-12-11T00:09:31+09:00</lastmod>
+    <lastmod>2019-01-01T01:12:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   

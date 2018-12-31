@@ -6,10 +6,58 @@
     <description>Recent content on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 11 Dec 2018 00:09:31 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 01:12:56 +0900</lastBuildDate>
     
 	<atom:link href="https://takecian.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://takecian.github.io/about/about/</link>
+      <pubDate>Tue, 01 Jan 2019 01:12:56 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/about/about/</guid>
+      <description> takecian Software engineer, Tokyo
+Link  Facebook Twitter Linkedin Github AtCoder  </description>
+    </item>
+    
+    <item>
+      <title>2019年</title>
+      <link>https://takecian.github.io/posts/2019-01-01_diary/</link>
+      <pubDate>Tue, 01 Jan 2019 00:54:48 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2019-01-01_diary/</guid>
+      <description>2019年が始まりました。
+部署移動して1年が経って、子どもが産まれて３ヶ月が経って、少し落ち着いてきた感じがある年越し。いや３ヶ月ってまだまだ大変なんだけど。
+2019年は35歳になる歳で、30代の折り返し地点。
+今の会社に転職したのが32歳、新卒で入った会社と比べるとキャリアに対するサポートが薄い感じがある。
+新卒で入った会社ではよく上長(上司)から、
+「５年後どうなっていたいですか？誰みたいになりたいですか？」
+ということをよく聞かれた。
+将来どうなりたいかを常に考えなさいって意味なんだと思うけど、これを聞かれることをか今思うとすごくよかった。
+今の会社に入って2年半くらい経つけど、キャリアについての話をされた記憶がない。自分の事は自分で考えるというスタンスと言えばそれまでだけど、意識しないと目の前の仕事を片付けるだけで日々が過ぎていってしまう。もちろん目の前の仕事をすることは大事なんだけど、長い目で見て自分のためになることかどうかも考えないといけないなとふと思った。
+特に「将来この人のようになりたい」といったロールモデルが見つからない職場であれば環境を変えることを考えてもいいかもしれない。
+最近ふと思うのは職場のエンジニアは優秀だと思うけど、その能力がプロダクト開発に十分活きているかというと判断が難しいと思うことがある。いいエンジンを積んでいても進行方向が違っていたら目的地にたどり着けないのと同じ感じ。
+やはり1エンジニアというよりもう少し広範囲を見るポジションをやりたいと感じることも多くなってきた。</description>
+    </item>
+    
+    <item>
+      <title>気になっていること</title>
+      <link>https://takecian.github.io/posts/2018-12-30_diary/</link>
+      <pubDate>Sun, 30 Dec 2018 00:22:17 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2018-12-30_diary/</guid>
+      <description>今気になっている技術 技術的なところでいうと先月書いた Playground driven development いいなという気持ちは変わっておらず、追加で英語のべんきょうもかねて Functional Swift Conferenceの動画を見てた。
+まだ全部見てないけど特にいいなと思ったのが Compositional UI Styling というトーク。デザインの設定を細切れにした関数を結合することで行うようにしようという試み。
+結構簡潔にできそうで少し試してみた。
+1つ2つのUIに適応するだけだとあまりメリットなさそうだけど、例えば色の設定とか複数のUIに適応したいものを関するとして作っておいて、その関数を使って求める適応するとメンテナンスがしやすくているさそう例えばこんな感じ。
+let style = styleViewBackgroundColor(.red) &amp;lt;&amp;gt; styleViewBorder(color: .blue, width: 10)  このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この style は (UIView) -&amp;gt; Void型で、つまり関数なので、UIに適応することができる。
+let button = UIButton() let label = UILabel() style(button) style(label)  コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。
+このような関数をたくさん作ったものをライブラリとしてまとめてみた。(ComposableStyling)[https://github.com/takecian/ComposableStyling]。 スターはまだない（誰かつけて欲しい）
+後は Flutter も 1.0 になったし年に一つの言語に触れなさいという話もあるので Dart を触ってみようか。
+＃去年は Python を勉強してた。 * https://atcoder.jp/users/takecian * https://projecteuler.net/progress=takecian
+競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。</description>
+    </item>
     
     <item>
       <title>新しいことを試す</title>
@@ -945,6 +993,15 @@ http://t-fjk.hatenablog.com/
       <description>Support page for iOS app &#39;Smart QR Code reader&#39;.
 ＃Under development.
  test  </description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://takecian.github.io/note/meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://takecian.github.io/note/meeting/</guid>
+      <description> Template  Goal of this meeting Agenda When we can finish meeting Action Item  </description>
     </item>
     
   </channel>
