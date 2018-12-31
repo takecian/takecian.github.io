@@ -1,6 +1,6 @@
 ---
 layout: page
-title: プロダクト開発で気をつけること
+title: "プロダクト開発で気をつけること"
 onmenu: true
 permalink: /ideanote/
 ---
