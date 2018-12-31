@@ -1,8 +1,6 @@
 ---
 layout: page
 title: "プロダクト開発で気をつけること"
-onmenu: true
-permalink: /ideanote/
 ---
 
 # 作り始める前に確認する
