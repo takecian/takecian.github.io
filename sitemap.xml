@@ -295,10 +295,6 @@
   </url>
   
   <url>
-    <loc>https://takecian.github.io/note/ideanote/</loc>
-  </url>
-  
-  <url>
     <loc>https://takecian.github.io/categories/ios/</loc>
     <lastmod>2014-07-04T07:29:24+09:00</lastmod>
     <priority>0</priority>
@@ -354,6 +350,10 @@
     <loc>https://takecian.github.io/</loc>
     <lastmod>2019-01-01T01:12:56+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/note/ideanote/</loc>
   </url>
   
 </urlset>
