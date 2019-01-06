@@ -963,6 +963,15 @@ http://t-fjk.hatenablog.com/
     </item>
     
     <item>
+      <title>Meeting template</title>
+      <link>https://takecian.github.io/note/meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://takecian.github.io/note/meeting/</guid>
+      <description> Meeting template  Goal of this meeting(事前に準備)  ミーティングの目的を事前に共有する  Agenda(事前に準備)  目的を達成するために話し合う議題  When we can finish meeting(事前に準備)  何ができればミーティングを終了できるかを明らかにする  Action Item  ミーティングで明らかになった Action Item を書き出す   </description>
+    </item>
+    
+    <item>
       <title>NgsFan</title>
       <link>https://takecian.github.io/dev/2017-02-15-ngs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -970,6 +979,21 @@ http://t-fjk.hatenablog.com/
       <guid>https://takecian.github.io/dev/2017-02-15-ngs/</guid>
       <description>Support page for iOS app &#39;乃木坂ファン&#39;/&#39;欅坂ファン&#39;.
 ＃Under development.</description>
+    </item>
+    
+    <item>
+      <title>Scrum の時間配分</title>
+      <link>https://takecian.github.io/note/scrum_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://takecian.github.io/note/scrum_calendar/</guid>
+      <description>1week sprint の例 Sprint planning 1(What) - 1 Hour この Sprint で何を成し遂げたいかを計画する。
+Sprint planning 2(How) - 1 Hour  この Sprint で成し遂げたいことをどうやって成し遂げるか計画する。
+Sprint review - 1 Hour Sprint で実現したものを確認して、プロダクトの方向性について議論する。
+できたものの善し悪しを話す場ではないので注意。
+Sprint retrospective - 1 Hour Sprint で起きた出来事を振り返って次Sprintをより良いものにするには何をすれば良いか決める。
+Backlog refinement - 1 Hour Backlog の優先度の見直し、大きい User Story の分割を行う。 かける時間は sprint の期間の5%以内に収めるのが目安。
+Daily scrum - 15min 前回の Daily scrum の時点から、 * やったこと * やること * 困っていること を共有する。長くても15分以内で終わらせる。</description>
     </item>
     
     <item>
@@ -981,15 +1005,6 @@ http://t-fjk.hatenablog.com/
       <description>Support page for iOS app &#39;Smart QR Code reader&#39;.
 ＃Under development.
  test  </description>
-    </item>
-    
-    <item>
-      <title>Template</title>
-      <link>https://takecian.github.io/note/meeting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://takecian.github.io/note/meeting/</guid>
-      <description> Meeting template  Goal of this meeting(事前に準備)  ミーティングの目的を事前に共有する  Agenda(事前に準備)  ミーティングで話し合う議題  When we can finish meeting(事前に準備)  何ができればミーティングを修了できるかを明らかにする  Action Item  ミーティングで明らかになった Action Item を書き出す   </description>
     </item>
     
     <item>

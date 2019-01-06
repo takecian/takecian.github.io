@@ -301,6 +301,10 @@
   </url>
   
   <url>
+    <loc>https://takecian.github.io/note/meeting/</loc>
+  </url>
+  
+  <url>
     <loc>https://takecian.github.io/categories/misc/</loc>
     <lastmod>2014-10-04T21:00:52+09:00</lastmod>
     <priority>0</priority>
@@ -322,16 +326,16 @@
   </url>
   
   <url>
+    <loc>https://takecian.github.io/note/scrum_calendar/</loc>
+  </url>
+  
+  <url>
     <loc>https://takecian.github.io/dev/2016-06-24-title-qr/</loc>
   </url>
   
   <url>
     <loc>https://takecian.github.io/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://takecian.github.io/note/meeting/</loc>
   </url>
   
   <url>
