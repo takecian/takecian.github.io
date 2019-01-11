@@ -14,3 +14,4 @@ Software engineer, Tokyo
 * [Linkedin](https://www.linkedin.com/in/takeshi-fujiki-a9295929/)
 * [Github](https://github.com/takecian)
 * [AtCoder](https://atcoder.jp/users/takecian)
+* [LeetCode](https://leetcode.com/takecian/)
