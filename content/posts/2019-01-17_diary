@@ -1,0 +1,23 @@
+---
+title: "Docker を使って qmk_firmware を焼く"
+date: 2019-01-17T14:22:31+09:00
+draft: false
+---
+
+ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
+
+firmware のビルドに docker が使えることに気づいたので下記コマンドを実行して自分のキーマップの firmware をビルドする。
+
+```
+util/docker_build.sh ergodox_ez:takecian
+```
+
+そうするとバイナリができるので（util/docker_build.sh keyboard:keymap）、teensy アプリをダウンロードしてくる。
+
+https://www.pjrc.com/teensy/loader_mac.html
+
+バイナリを指定した後に ergodox ez のリセットボタンを押す。
+
+これで更新完了。チャタリングがなくなった気がする。
+
+家にある ergodox ez も更新しよう。
