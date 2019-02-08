@@ -23,7 +23,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://takecian.github.io/" />
-<meta property="og:updated_time" content="2019-01-01T01:12:56&#43;09:00"/>
+<meta property="og:updated_time" content="2019-01-17T14:22:31&#43;09:00"/>
 
 
     
@@ -154,6 +154,26 @@
   <div class="post-list">
     
     
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/2019-01-17_diary/">Docker を使って qmk_firmware を焼く</a>
+          
+        </span>
+        <span class="item__date">
+          Jan 17, 2019
+        </span>
+        
+        ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
+firmware のビルドに docker が使えることに気づいたので下記コマンドを実行して自分のキーマップの firmware をビルドする。
+util/docker_build.sh ergodox_ez:takecian  そうするとバイナリができるので（ergodox_ez_takecian.hex）、teensy アプリをダウンロードしてくる。
+https://www.pjrc.com/teensy/loader_mac.html
+バイナリを指定した後に ergodox ez のリセットボタンを押す。
+これで更新完了。チャタリングがなくなった気がする。
+家にある ergodox ez も更新しよう。
+        
+        
+        </div>
+     
       <div class="post-list__item">
         <span class="item__title--big">
           <a href="/posts/2019-01-01_diary/">2019年</a>
