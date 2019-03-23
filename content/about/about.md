@@ -9,6 +9,7 @@ draft: false
 Software engineer, Tokyo
 
 {{< figure src="/images/seal-csm.png" title="" class="center" width="200" >}}
+{{< figure src="/images/seal-less.png" title="" class="center" width="200" >}}
 
 ## Link
 * [Facebook](https://www.facebook.com/takecian)
