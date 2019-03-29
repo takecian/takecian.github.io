@@ -6,10 +6,21 @@
     <description>Recent content in Works on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 11 Nov 2018 01:05:35 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2019 12:14:11 +0900</lastBuildDate>
     
 	<atom:link href="https://takecian.github.io/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cospa Privacy policy</title>
+      <link>https://takecian.github.io/work/cospa_privacypolicy/</link>
+      <pubDate>Fri, 29 Mar 2019 12:14:11 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/work/cospa_privacypolicy/</guid>
+      <description>Privacy Policy Takeshi Fujiki built the Cospa app as a Free app. This SERVICE is provided by Takeshi Fujiki at no cost and is intended for use as is.
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.</description>
+    </item>
     
     <item>
       <title>Work</title>
