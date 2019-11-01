@@ -7,3 +7,15 @@ git co feature
 git sui
 git submodule add https://github.com/takecian/takecian.github.io.git public
 ```
+
+## Create new entry
+
+```
+hugo new content/posts/XXX.md
+```
+
+## Deploy
+
+```
+./deply.sh
+```
