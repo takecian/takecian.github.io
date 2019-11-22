@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "hyde-hyde.css",
-	"sourceRoot": "/Users/takecian/Development/Blog/takecian",
+	"sourceRoot": "/Users/JP21265/Development/Misc/takecian.github.io",
 	"sources": [
 		"themes/hyde-hyde/assets/scss/hyde-hyde.scss",
 		"themes/hyde-hyde/assets/scss/hyde-hyde/_variables.scss",
