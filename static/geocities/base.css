@@ -1,0 +1,162 @@
+@charset "Shift_JIS";
+
+/* 全体構造
+----------------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background: #e5e5dd url(../images/back.jpg) repeat-y;
+}
+#wrapper {
+  width: 777px;
+}
+
+/* ヘッダ
+----------------------------------------------------- */
+#header {
+  width: 777px;
+  height: 80px;
+  color: #333333;
+  background: url(../images/header.jpg) no-repeat;
+}
+h1 {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 31px;
+}
+
+/* グローバル・ナビゲーション
+----------------------------------------------------- */
+#header ul {
+  margin: 0;
+  list-style: none;
+}
+#header li {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 32px;
+  height: 34px;
+  text-indent: -9999px;
+}
+#header li#top      { left: 526px; width: 31px; }
+#header li#about    { left: 558px; width: 43px; }
+#header li#clients  { left: 602px; width: 46px; }
+#header li#services { left: 649px; width: 60px; }
+#header li#faq      { left: 710px; width: 30px; }
+#header li a {
+  text-decoration: none;		/* ■Firefox等で線が表示されないようにする */
+  display: block;
+  height: 34px;
+}
+#header li#top a:hover {
+  background: url(../images/gnavi.jpg) 0 0;
+}
+#header li#about a:hover {
+  background: url(../images/gnavi.jpg) -32px 0;
+}
+#header li#clients a:hover {
+  background: url(../images/gnavi.jpg) -76px 0;
+}
+#header li#services a:hover {
+  background: url(../images/gnavi.jpg) -123px 0;
+}
+#header li#faq a:hover {
+  background: url(../images/gnavi.jpg) -184px 0;
+}
+
+/* 大きな画像
+----------------------------------------------------- */
+#cover {
+  margin: 0 0 0 10px;
+}
+#cover img {
+  vertical-align: bottom;
+}
+/* メイン・コンテンツ
+----------------------------------------------------- */
+#content {
+  margin: 14px 0 0 10px;
+  width: 777px;			/* ■IE6バグ回避に必要。無いと下に隙間ができる */
+}
+#content div {
+  float: left;
+  width: 248px;
+}
+#content h2 {
+  margin: 0;
+  padding: 0;
+  height: 71px;
+}
+#content a, #content img {		/* ■画像周りの余白を消す */
+  display: block;
+}
+#content a {
+  width: 248px;
+  height: 71px;
+}
+#new h2 {
+  background: url(../images/h2back1.jpg) 0 22px no-repeat;
+}
+#feature01 h2 {
+  background: url(../images/h2back2.jpg) 0 22px no-repeat;
+}
+#feature02 h2 {
+  background: url(../images/h2back3.jpg) 0 22px no-repeat;
+}
+#content p {
+  margin: 0 0 20px;
+  width: 236px;
+  font-size: x-small;
+  line-height: 1.4;
+}
+
+/* フッタ
+----------------------------------------------------- */
+#footer {
+  clear: both;
+  margin: 0 0 0 10px;
+  border-top: 1px solid #cbcbcb;
+  position: relative;
+  width: 732px;
+}
+#footer ul {
+  margin: 0;
+  list-style: none;
+}
+#footer li {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 8px;
+  height: 19px;
+  text-indent: -9999px;
+}
+#footer li a {
+  text-decoration: none;		/* ■Firefox等で線が表示されないようにする */
+  display: block;
+  height: 19px;
+}
+#footer li#info    {
+  left: 677px;
+  width: 55px;
+  background: url(../images/info.gif) no-repeat;
+}
+#footer li#sitemap {
+  left: 604px;
+  width: 73px;
+  background: url(../images/sitemap.gif) no-repeat;
+}
+#footer li#privacy {
+  left: 532px;
+  width: 73px;
+  background: url(../images/privacy.gif) no-repeat;
+}
+#footer p {
+  margin-top: 10px;
+  font-size: x-small;
+  color: #666666;
+  background: transparent;
+}
