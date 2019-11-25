@@ -4,6 +4,6 @@ hugo
 cd public
 git add .
 git commit -m "Update"
-git push origin master
+git push -f origin master
 cd ../
 
