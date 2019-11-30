@@ -6,10 +6,37 @@
     <description>Recent content in Posts on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 08 Jul 2019 13:16:07 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 18:04:49 +0900</lastBuildDate>
     
 	<atom:link href="https://takecian.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>年内に読みたい</title>
+      <link>https://takecian.github.io/posts/2019-11-25_diary/</link>
+      <pubDate>Mon, 25 Nov 2019 18:04:49 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2019-11-25_diary/</guid>
+      <description>買ったけど読んでない本がけっこう溜まってる。
+電子本だと視界に入ることがまずないので一度記憶から消えると読むことなく時間が過ぎていく。
+ちょっと空き時間があってもスマホでネット見たりマンガ読んだりして時間が過ぎていく。
+ ハーバード流マネジメント講座 ピクサー流想像する力 WORK RULES!(一度読んだけど忘れた) How Google works(一度読んだけど忘れた) THE MODEL 統計学が最強の学問である 人生がときめく片付けの魔法(一度読んだけど忘れた)  買って読んだけど忘れてる本とかもある。
+電車の中でゲームやるのやめるところから始めてみよう。</description>
+    </item>
+    
+    <item>
+      <title>Google の中途採用を受けている途中の話</title>
+      <link>https://takecian.github.io/posts/2019-11-20_diary/</link>
+      <pubDate>Wed, 20 Nov 2019 00:30:33 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2019-11-20_diary/</guid>
+      <description>Google の iOS エンジニアのポジションに応募してみた。まだ結果は出てないけどこれまでにやったことをまとめてみた。
+面接で出た問題の話とかどんなこと聞かれたかとかは書いてない。
+TL; DR  Google の中途採用を受けた 受けるまでに準備したことをまとめた まだ結果は出ていない  背景  阪大 修士(情報科学) → Sony → LINE 言語  仕事  Windows(C++, C#) 5年 Server(Java, Ruby) 2年 iOS(Swift) 5年  競プロ  Python   英語話者との仕事経験あり  TOEIC は6年くらい前に受けたのが確か800くらい   採用プロセスに進むまで 今年の４月にリクルーターから Linkedin でメッセージがきた。 ちょうど「こうしてGoogleに入社した」系のブログが Twitter 界隈を賑わしていた時期。
+「でも入れないし…」というコメントが多いので、次は誰かに「私はこうやってGoogleに入った」というエントリーを書いて1000ブクマ目指してほしい。 https://t.co/vnULx3ZqZV
+&amp;mdash; Ryoichi Imaizumi | 今泉竜一 (@r_ima) March 24, 2019  はてなブログに投稿しました #はてなブログ @chokudai 氏のツイートを2つも貼った
+こうしてGoogleに入社した(kumagi編) - Software Transactional Memohttps://t.</description>
+    </item>
     
     <item>
       <title>AtCoder を始めた</title>
