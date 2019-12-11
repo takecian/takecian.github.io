@@ -11,7 +11,13 @@ git submodule add https://github.com/takecian/takecian.github.io.git public
 ## Create new entry
 
 ```
-hugo new content/posts/XXX.md
+hugo new posts/2019-MM-DD_diary.md
+```
+
+## Preview
+
+```
+hugo sever
 ```
 
 ## Deploy
