@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on takecian</title>
@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://takecian.github.io/note/meeting/</guid>
-      <description> Meeting template  Goal of this meeting(事前に準備)  ミーティングの目的を事前に共有する  Agenda(事前に準備)  目的を達成するために話し合う議題  When we can finish meeting(事前に準備)  何ができればミーティングを終了できるかを明らかにする  Action Item  ミーティングで明らかになった Action Item を書き出す   </description>
+      <description>Meeting template  Goal of this meeting(事前に準備)  ミーティングの目的を事前に共有する   Agenda(事前に準備)  目的を達成するために話し合う議題   When we can finish meeting(事前に準備)  何ができればミーティングを終了できるかを明らかにする   Action Item  ミーティングで明らかになった Action Item を書き出す    </description>
     </item>
     
     <item>
@@ -31,7 +31,8 @@ Sprint review - 1 Hour Sprint で実現したものを確認して、プロダ�
 できたものの善し悪しを話す場ではないので注意。
 Sprint retrospective - 1 Hour Sprint で起きた出来事を振り返って次Sprintをより良いものにするには何をすれば良いか決める。
 Backlog refinement - 1 Hour Backlog の優先度の見直し、大きい User Story の分割を行う。 かける時間は sprint の期間の5%以内に収めるのが目安。
-Daily scrum - 15min 前回の Daily scrum の時点から、 * やったこと * やること * 困っていること を共有する。長くても15分以内で終わらせる。</description>
+Daily scrum - 15min 前回の Daily scrum の時点から、
+ やったこと やること 困っていること を共有する。長くても15分以内で終わらせる。  </description>
     </item>
     
     <item>
@@ -40,7 +41,7 @@ Daily scrum - 15min 前回の Daily scrum の時点から、 * やったこと 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://takecian.github.io/note/ideanote/</guid>
-      <description> 作り始める前に確認する  製品によってどんな問題を解決するのか 誰のためのどんな問題を解決するのか 市場の大きさは？ 製品化を成功を評価する方法はあるか 競合はあるか 勝てる要素はあるか なぜ今やるのか どうやって製品を市場に出すか 成功のために必要な要素は 以上を前提を踏まえた上でやるべきかどうか  作り始めてから気をつけること  この製品はターゲット顧客の心に届いているか 全力を尽くして使いやすいものにしただろうか リリースする時点の競争で競合に勝てるか どう差別化できているか説明できるか 実際に動いているか 製品に欠けているものはないだろうか 製品の強みが顧客の大切なことと一致しているか お金を払う価値が有るか チームメンバーも製品の強みを理解しているか  </description>
+      <description>作り始める前に確認する  製品によってどんな問題を解決するのか 誰のためのどんな問題を解決するのか 市場の大きさは？ 製品化を成功を評価する方法はあるか 競合はあるか 勝てる要素はあるか なぜ今やるのか どうやって製品を市場に出すか 成功のために必要な要素は 以上を前提を踏まえた上でやるべきかどうか  作り始めてから気をつけること  この製品はターゲット顧客の心に届いているか 全力を尽くして使いやすいものにしただろうか リリースする時点の競争で競合に勝てるか どう差別化できているか説明できるか 実際に動いているか 製品に欠けているものはないだろうか 製品の強みが顧客の大切なことと一致しているか お金を払う価値が有るか チームメンバーも製品の強みを理解しているか  </description>
     </item>
     
   </channel>

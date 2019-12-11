@@ -11,7 +11,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.51" />
+<meta name="generator" content="Hugo 0.61.0" />
 
     
     
@@ -26,27 +26,28 @@
 まだ全部見てないけど特にいいなと思ったのが Compositional UI Styling というトーク。デザインの設定を細切れにした関数を結合することで行うようにしようという試み。
 結構簡潔にできそうで少し試してみた。
 1つ2つのUIに適応するだけだとあまりメリットなさそうだけど、例えば色の設定とか複数のUIに適応したいものを関するとして作っておいて、その関数を使って求める適応するとメンテナンスがしやすくているさそう例えばこんな感じ。
-let style = styleViewBackgroundColor(.red) &lt;&gt; styleViewBorder(color: .blue, width: 10)  このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この style は (UIView) -&gt; Void型で、つまり関数なので、UIに適応することができる。
-let button = UIButton() let label = UILabel() style(button) style(label)  コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。
+let style = styleViewBackgroundColor(.red) &lt;&gt; styleViewBorder(color: .blue, width: 10) このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この style は (UIView) -&gt; Void型で、つまり関数なので、UIに適応することができる。
+let button = UIButton() let label = UILabel() style(button) style(label) コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。
 このような関数をたくさん作ったものをライブラリとしてまとめてみた。(ComposableStyling)[https://github.com/takecian/ComposableStyling]。 スターはまだない（誰かつけて欲しい）
 後は Flutter も 1.0 になったし年に一つの言語に触れなさいという話もあるので Dart を触ってみようか。
-＃去年は Python を勉強してた。 * https://atcoder.jp/users/takecian * https://projecteuler.net/progress=takecian
-競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。"/>
+＃去年は Python を勉強してた。
+ https://atcoder.jp/users/takecian https://projecteuler.net/progress=takecian  競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。"/>
 
 <meta property="og:title" content="気になっていること" />
 <meta property="og:description" content="今気になっている技術 技術的なところでいうと先月書いた Playground driven development いいなという気持ちは変わっておらず、追加で英語のべんきょうもかねて Functional Swift Conferenceの動画を見てた。
 まだ全部見てないけど特にいいなと思ったのが Compositional UI Styling というトーク。デザインの設定を細切れにした関数を結合することで行うようにしようという試み。
 結構簡潔にできそうで少し試してみた。
 1つ2つのUIに適応するだけだとあまりメリットなさそうだけど、例えば色の設定とか複数のUIに適応したいものを関するとして作っておいて、その関数を使って求める適応するとメンテナンスがしやすくているさそう例えばこんな感じ。
-let style = styleViewBackgroundColor(.red) &lt;&gt; styleViewBorder(color: .blue, width: 10)  このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この style は (UIView) -&gt; Void型で、つまり関数なので、UIに適応することができる。
-let button = UIButton() let label = UILabel() style(button) style(label)  コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。
+let style = styleViewBackgroundColor(.red) &lt;&gt; styleViewBorder(color: .blue, width: 10) このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この style は (UIView) -&gt; Void型で、つまり関数なので、UIに適応することができる。
+let button = UIButton() let label = UILabel() style(button) style(label) コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。
 このような関数をたくさん作ったものをライブラリとしてまとめてみた。(ComposableStyling)[https://github.com/takecian/ComposableStyling]。 スターはまだない（誰かつけて欲しい）
 後は Flutter も 1.0 になったし年に一つの言語に触れなさいという話もあるので Dart を触ってみようか。
-＃去年は Python を勉強してた。 * https://atcoder.jp/users/takecian * https://projecteuler.net/progress=takecian
-競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。" />
+＃去年は Python を勉強してた。
+ https://atcoder.jp/users/takecian https://projecteuler.net/progress=takecian  競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://takecian.github.io/posts/2018-12-30_diary/" /><meta property="article:published_time" content="2018-12-30T00:22:17&#43;09:00"/>
-<meta property="article:modified_time" content="2018-12-30T00:22:17&#43;09:00"/>
+<meta property="og:url" content="https://takecian.github.io/posts/2018-12-30_diary/" />
+<meta property="article:published_time" content="2018-12-30T00:22:17+09:00" />
+<meta property="article:modified_time" content="2018-12-30T00:22:17+09:00" />
 
 
     
@@ -56,7 +57,7 @@ let button = UIButton() let label = UILabel() style(button) style(label)  コー
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.6bea8c8c898a9d74cce65ed54b2902da39cca1e3e60eb2897caddc2e3f2f6d47.css" integrity="sha256-a&#43;qMjImKnXTM5l7VSykC2jnMoePmDrKJfK3cLj8vbUc=">
+<link rel="stylesheet" href="/scss/hyde-hyde.92c66d107d7b219f0792cfd67223179af884b03f386ac46894f9f735932bbca3.css" integrity="sha256-ksZtEH17IZ8Hks/WciMXmviEsD84asRolPn3NZMrvKM=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -72,7 +73,6 @@ let button = UIButton() let label = UILabel() style(button) style(label)  コー
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
     
-
 </head>
 
 
@@ -84,6 +84,7 @@ let button = UIButton() let label = UILabel() style(button) style(label)  コー
       <span class="site__title">
         <a href="https://takecian.github.io/">takecian</a>
       </span>
+      
       
       <p class="site__description">
         
@@ -129,7 +130,6 @@ let button = UIButton() let label = UILabel() style(button) style(label)  コー
 				</li>
 			 
 		
-		</li>
 	</ul>
 </div>
 
@@ -154,23 +154,22 @@ let button = UIButton() let label = UILabel() style(button) style(label)  コー
 	
 	
 	
+	
+	
 </section>
 
       </div>
     </div>
-    <div class="copyright">
-  &copy; 2019 .
-  <a href="https://creativecommons.org/licenses/by-sa/4.0">Some Rights Reserved</a>.
-  Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
-  
-</div>
+    
+
 
   </div>
 </div>
 
         <div class="content container">
             
-    <article>
+    
+<article>
   <header>
     <h1>気になっていること</h1>
     
@@ -193,42 +192,28 @@ let button = UIButton() let label = UILabel() style(button) style(label)  コー
   
   
   <div class="post">
-    
-
-<h2 id="今気になっている技術">今気になっている技術</h2>
-
+    <h2 id="heading">今気になっている技術</h2>
 <p>技術的なところでいうと先月書いた Playground driven development いいなという気持ちは変わっておらず、追加で英語のべんきょうもかねて <a href="http://2018.funswiftconf.com/">Functional Swift Conference</a>の動画を見てた。</p>
-
 <p>まだ全部見てないけど特にいいなと思ったのが <a href="https://youtu.be/XJreRR0cC3E">Compositional UI Styling</a> というトーク。デザインの設定を細切れにした関数を結合することで行うようにしようという試み。</p>
-
 <p>結構簡潔にできそうで少し試してみた。</p>
-
 <p>1つ2つのUIに適応するだけだとあまりメリットなさそうだけど、例えば色の設定とか複数のUIに適応したいものを関するとして作っておいて、その関数を使って求める適応するとメンテナンスがしやすくているさそう例えばこんな感じ。</p>
-
-<pre><code class="language-Swift">let style = styleViewBackgroundColor(.red) &lt;&gt;
-            styleViewBorder(color: .blue, width: 10)
-</code></pre>
-
-<p>このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この <code>style</code> は <code>(UIView) -&gt; Void</code>型で、つまり関数なので、UIに適応することができる。</p>
-
-<pre><code class="language-Swift">let button = UIButton()
-let label = UILabel()
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Swift" data-lang="Swift"><span style="color:#66d9ef">let</span> style = styleViewBackgroundColor(.red) <span style="color:#f92672">&lt;&gt;</span>
+            styleViewBorder(color: .blue, width: <span style="color:#ae81ff">10</span>)
+</code></pre></div><p>このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この <code>style</code> は <code>(UIView) -&gt; Void</code>型で、つまり関数なので、UIに適応することができる。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Swift" data-lang="Swift"><span style="color:#66d9ef">let</span> button = UIButton()
+<span style="color:#66d9ef">let</span> label = UILabel()
 
 style(button)
 style(label)
-</code></pre>
-
-<p>コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。</p>
-
-<p>このような関数をたくさん作ったものをライブラリとしてまとめてみた。(ComposableStyling)[<a href="https://github.com/takecian/ComposableStyling]。">https://github.com/takecian/ComposableStyling]。</a>
+</code></pre></div><p>コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。</p>
+<p>このような関数をたくさん作ったものをライブラリとしてまとめてみた。(ComposableStyling)[<a href="https://github.com/takecian/ComposableStyling">https://github.com/takecian/ComposableStyling</a>]。
 スターはまだない（誰かつけて欲しい）</p>
-
 <p>後は Flutter も 1.0 になったし年に一つの言語に触れなさいという話もあるので Dart を触ってみようか。</p>
-
-<p>＃去年は Python を勉強してた。
-* <a href="https://atcoder.jp/users/takecian">https://atcoder.jp/users/takecian</a>
-* <a href="https://projecteuler.net/progress=takecian">https://projecteuler.net/progress=takecian</a></p>
-
+<p>＃去年は Python を勉強してた。</p>
+<ul>
+<li><a href="https://atcoder.jp/users/takecian">https://atcoder.jp/users/takecian</a></li>
+<li><a href="https://projecteuler.net/progress=takecian">https://projecteuler.net/progress=takecian</a></li>
+</ul>
 <p>競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。</p>
 
   </div>
@@ -262,10 +247,8 @@ style(label)
         </div>
         
     
-<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"
-  integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy"
-  crossorigin="anonymous">
-</script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 
 
     

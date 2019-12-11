@@ -8,7 +8,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.51" />
+<meta name="generator" content="Hugo 0.61.0" />
 
     
 
@@ -23,7 +23,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://takecian.github.io/" />
-<meta property="og:updated_time" content="2018-05-27T23:49:30&#43;09:00"/>
+<meta property="og:updated_time" content="2019-12-11T13:32:37+09:00" />
 
 
     
@@ -33,7 +33,7 @@
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.6bea8c8c898a9d74cce65ed54b2902da39cca1e3e60eb2897caddc2e3f2f6d47.css" integrity="sha256-a&#43;qMjImKnXTM5l7VSykC2jnMoePmDrKJfK3cLj8vbUc=">
+<link rel="stylesheet" href="/scss/hyde-hyde.92c66d107d7b219f0792cfd67223179af884b03f386ac46894f9f735932bbca3.css" integrity="sha256-ksZtEH17IZ8Hks/WciMXmviEsD84asRolPn3NZMrvKM=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -48,11 +48,7 @@
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
-    
-
-<link href="https://takecian.github.io/index.xml" rel="alternate" type="application/rss+xml" title="takecian" />
-<link href="https://takecian.github.io/index.xml" rel="feed" type="application/rss+xml" title="takecian" />
-
+    <link rel="alternate" type="application/rss+xml" href="https://takecian.github.io/index.xml" title="takecian" />
 
 </head>
 
@@ -65,6 +61,7 @@
       <span class="site__title">
         <a href="https://takecian.github.io/">takecian</a>
       </span>
+      
       
       <p class="site__description">
         
@@ -110,7 +107,6 @@
 				</li>
 			 
 		
-		</li>
 	</ul>
 </div>
 
@@ -135,16 +131,14 @@
 	
 	
 	
+	
+	
 </section>
 
       </div>
     </div>
-    <div class="copyright">
-  &copy; 2019 .
-  <a href="https://creativecommons.org/licenses/by-sa/4.0">Some Rights Reserved</a>.
-  Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
-  
-</div>
+    
+
 
   </div>
 </div>
@@ -154,37 +148,67 @@
   <div class="post-list">
     
     
+      
+        
+      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/2018-05-27-own-keyboard/">自作キーボード準備</a>
-          
+          <a href="/posts/2018-05-30-build-log/" >Iris keyboard build-log</a>
+        </span>
+        <span class="item__date">
+          May 30, 2018
+        </span>
+        <span >
+        
+        Irisを作ったんだけど firmware を焼くのに手順を忘れるのでここのメモしておく。
+takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/2018-05-30-build-log/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/2018-05-27-own-keyboard/" >自作キーボード準備</a>
         </span>
         <span class="item__date">
           May 27, 2018
         </span>
+        <span >
         
         少し前までレザークラフトにはまってたんだけど次は電子工作に興味がうつってきた。
 今やりたいのは自作キーボード。
 ２年くらい前に Ergodox EZ を買ったんだけど、最近は他にもいろんな分割キーボードがあるらしい。
 調べた範囲でまとめてみた。
-   名前 購入先     Let&rsquo;s split switchtop, MEHKEE   Iris keebio   Nyquist keebio   Helix 遊舎工房   Levinson keebio    けっこうあるっぽい。
+   名前 購入先     Let's split switchtop, MEHKEE   Iris keebio   Nyquist keebio   Helix 遊舎工房   Levinson keebio    けっこうあるっぽい。
 Iris は Ergodox に似てて親指用のキーが独立してあるので作ってみることにする。
 ↑のサイトで購入できるのはPCB(基板)とプレート・ケースだけなので作る場合はキースイッチやキーキャップも別途購入する必要がある。
 キースイッチは Cherry MX 互換のスイッチならよくて、AliExpress とかで買うのがよさそう。
 キーキャップは pimpmykeboard とかあるけど送料がけっこうかかるので Cherry MX 互換ということで Majestouch の交換用キーキャップを流用するのも選択肢な気がする。
 とはいえ部品の大部分は海外から購入なので注文から数週間かかるのでのんびり揃えるのがよさそう。
         
+        </span>
         
         </div>
+        
      
+      
+        
+      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/2018-03-24-jobhunt/">レジュメとかいうやつ</a>
-          
+          <a href="/posts/2018-03-24-jobhunt/" >レジュメとかいうやつ</a>
         </span>
         <span class="item__date">
           Mar 24, 2018
         </span>
+        <span >
         
         今の会社に入ったのは１年半前くらい。
 そういえば年に一度は転職を視野に入れて活動した方がいいというのをその前の会社の人が言ってた。
@@ -196,19 +220,24 @@ https://www.careercup.com/resume
  面接官はどうせちゃんと読まない(読む時間ない)からA4一枚くらいの内容に絞れ 自分が達成したことを書け 短く書け(1-2行くらい)  とか。
 内容を考えるのもそうだけどそもそも英語で書くのむずい。
         
+        </span>
         
         </div>
+        
      
+      
+        
+      
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/2016-06-07-ergodox/">Ergodox EZを買った</a>
-          
+          <a href="/posts/2016-06-07-ergodox/" >Ergodox EZを買った</a>
         </span>
         <span class="item__date">
           Jun 07, 2016
         </span>
+        <span >
         
-        Ergodox EZ を買った。
+        Ergodox EZを買った。
  Ergodox   買ったのは無刻印の黒のキーボードなんだけど追加でキーキャップをpimpmykeyboardで注文。
  Ergodox   キーキャップのことをもう少し詳しくメモしておくと、
  アルファベット刻印有りのキーキャップは DSA 無刻印のキーキャップは DCS  で、キーキャップの形状が違う。DCS の中でも Row0, Row1, Row2.. でさらに形状が違います。
@@ -220,8 +249,10 @@ Ergodox のどの位置のキーがどの形状(Row0 とか Row1 とか)かっ�
 https://input.club/forums/topic/placing-dcs-keycaps-on-my-ergodox-infinity
 色はこちらが参考になります。https://deskthority.net/wiki/Signature_Plastics_PBT_colours
         
+        </span>
         
         </div>
+        
      
   </div>
   
@@ -273,10 +304,7 @@ https://input.club/forums/topic/placing-dcs-keycaps-on-my-ergodox-infinity
         </div>
         
   
-  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"
-  integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy"
-  crossorigin="anonymous">
-</script>
+  <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
 
 
     </body>

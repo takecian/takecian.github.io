@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on takecian</title>
@@ -6,10 +6,32 @@
     <description>Recent content in Posts on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 25 Nov 2019 18:04:49 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 13:32:37 +0900</lastBuildDate>
     
 	<atom:link href="https://takecian.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>kaggle を始めた</title>
+      <link>https://takecian.github.io/posts/2019-12-11_diary/</link>
+      <pubDate>Wed, 11 Dec 2019 13:32:37 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2019-12-11_diary/</guid>
+      <description>AtCoderをやってたんだけど子どもの寝る時間が20時過ぎることがあったり（それまで晩ご飯食べられない）でコンテストに出るのが大変な時期になってる。
+そこでリアルタイムにコンテストに出るのは当分諦めて後から問題だけやってみることにした。
+他に時間の縛りが緩くてできるものないかなということで kaggle をやってみることにした。
+Kaggleで勝つデータ分析の技術っていう本を買って読み進めてるところ。
+kaggle はデータ分析のテクニックとそれを使って学習したモデルを使って、未知のデータの予想精度を競うものらしい。
+チュートリアル問題として「タイタニックの生存者予測っていうお題がある。
+データとして名前、性別、年齢、どこから乗ったか、何人で乗ったか、などの属性と「その人が生存したかどうか」が与えられる。 与えられたデータを使って学習した後に、別のデータを与えられて、「そのデータの人が生存したかどうか」を予想する。
+昔 「Chainer で競馬予想をしてみる」でこれと同じようなこと（もっと高度だけど）をやるっぽい。
+結構面白そう、と思って本を読みながら勉強してるんだけど、
+ データ解析のための知識(カテゴリ変数をどう扱うか、とか) データ解析のための技術(pandas とかグラフにする方法とか) 機械学習ライブラリの使い方（deep learning に限らず）  そもそも機械学習ライブラリのアルゴリズムの理解も    とか分からないことが大量に出てきた（競プロだと pandas とか使わないし仕事だとちょっとしたスクリプトくらいしか Python で書かない）
+というわけで追加で前処理大全 も買ってみた。
+ちなみに kaggle も AtCoder みたいにランクがある。 https://www.kaggle.com/progression Novice -&amp;gt; Contributer -&amp;gt; Expert -&amp;gt; Master -&amp;gt; GrandMaster の順。
+初期設定とか一通りやると Contributer になれて、今ここ。
+まず Expert を目指してみようと思う。</description>
+    </item>
     
     <item>
       <title>年内に読みたい</title>
@@ -32,10 +54,9 @@
       <guid>https://takecian.github.io/posts/2019-11-20_diary/</guid>
       <description>Google の iOS エンジニアのポジションに応募してみた。まだ結果は出てないけどこれまでにやったことをまとめてみた。
 面接で出た問題の話とかどんなこと聞かれたかとかは書いてない。
-TL; DR  Google の中途採用を受けた 受けるまでに準備したことをまとめた まだ結果は出ていない  背景  阪大 修士(情報科学) → Sony → LINE 言語  仕事  Windows(C++, C#) 5年 Server(Java, Ruby) 2年 iOS(Swift) 5年  競プロ  Python   英語話者との仕事経験あり  TOEIC は6年くらい前に受けたのが確か800くらい   採用プロセスに進むまで 今年の４月にリクルーターから Linkedin でメッセージがきた。 ちょうど「こうしてGoogleに入社した」系のブログが Twitter 界隈を賑わしていた時期。
+TL; DR  Google の中途採用を受けた 受けるまでに準備したことをまとめた まだ結果は出ていない  背景  阪大 修士(情報科学) → Sony → LINE 言語  仕事  Windows(C++, C#) 5年 Server(Java, Ruby) 2年 iOS(Swift) 5年   競プロ  Python     英語話者との仕事経験あり  TOEIC は6年くらい前に受けたのが確か800くらい    採用プロセスに進むまで 今年の４月にリクルーターから Linkedin でメッセージがきた。 ちょうど「こうしてGoogleに入社した」系のブログが Twitter 界隈を賑わしていた時期。
 「でも入れないし…」というコメントが多いので、次は誰かに「私はこうやってGoogleに入った」というエントリーを書いて1000ブクマ目指してほしい。 https://t.co/vnULx3ZqZV
-&amp;mdash; Ryoichi Imaizumi | 今泉竜一 (@r_ima) March 24, 2019  はてなブログに投稿しました #はてなブログ @chokudai 氏のツイートを2つも貼った
-こうしてGoogleに入社した(kumagi編) - Software Transactional Memohttps://t.</description>
+&amp;mdash; Ryoichi Imaizumi | 今泉竜一 (@r_ima) March 24, 2019  はてなブログに投稿しました #はてなブログ @chokudai 氏のツイートを2つも貼った</description>
     </item>
     
     <item>
@@ -48,7 +69,7 @@ TL; DR  Google の中途採用を受けた 受けるまでに準備したこと�
 先月に水色になったと思ったら緑に落ちたり、を２回くらい繰り返したけど最近落ち着いてきた。
 
 AtCoder社長のブログ に
-水色 (Bランク R1200~1599　上位15%) 水色はかなり優秀です。普通に企業とかで超優秀って言ってるプログラマが居た時に、半分くらいはこのランクになると思います。数学が得意なタイプだと、この一つの上の青色に行きますが。 半数以上のIT企業において、アルゴリズム能力についてはカンストと言えるでしょう。特にアルゴリズム的な能力を必要としない会社であれば、ここから上はレートを上げても実務に役立つ部分はほとんどありません。  と、書いてあったので水色にはなりたいなと思ってたので嬉しい。思ったより時間がかかった（5月くらいにはなれるだろうと勝手に思ってた）
+水色 (Bランク R1200~1599　上位15%) 水色はかなり優秀です。普通に企業とかで超優秀って言ってるプログラマが居た時に、半分くらいはこのランクになると思います。数学が得意なタイプだと、この一つの上の青色に行きますが。 半数以上のIT企業において、アルゴリズム能力についてはカンストと言えるでしょう。特にアルゴリズム的な能力を必要としない会社であれば、ここから上はレートを上げても実務に役立つ部分はほとんどありません。 と、書いてあったので水色にはなりたいなと思ってたので嬉しい。思ったより時間がかかった（5月くらいにはなれるだろうと勝手に思ってた）
 コーディング面接の対策のために始めたんだけど年内に青色くらいまでは行きたいなーと思ってるあたり沼にハマりつつある。</description>
     </item>
     
@@ -60,7 +81,7 @@ AtCoder社長のブログ に
       <guid>https://takecian.github.io/posts/2019-01-17_diary/</guid>
       <description>ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
 firmware のビルドに docker が使えることに気づいたので下記コマンドを実行して自分のキーマップの firmware をビルドする。
-util/docker_build.sh ergodox_ez:takecian  そうするとバイナリができるので（ergodox_ez_takecian.hex）、teensy アプリをダウンロードしてくる。
+util/docker_build.sh ergodox_ez:takecian そうするとバイナリができるので（ergodox_ez_takecian.hex）、teensy アプリをダウンロードしてくる。
 https://www.pjrc.com/teensy/loader_mac.html
 バイナリを指定した後に ergodox ez のリセットボタンを押す。
 これで更新完了。チャタリングがなくなった気がする。
@@ -98,12 +119,12 @@ https://www.pjrc.com/teensy/loader_mac.html
 まだ全部見てないけど特にいいなと思ったのが Compositional UI Styling というトーク。デザインの設定を細切れにした関数を結合することで行うようにしようという試み。
 結構簡潔にできそうで少し試してみた。
 1つ2つのUIに適応するだけだとあまりメリットなさそうだけど、例えば色の設定とか複数のUIに適応したいものを関するとして作っておいて、その関数を使って求める適応するとメンテナンスがしやすくているさそう例えばこんな感じ。
-let style = styleViewBackgroundColor(.red) &amp;lt;&amp;gt; styleViewBorder(color: .blue, width: 10)  このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この style は (UIView) -&amp;gt; Void型で、つまり関数なので、UIに適応することができる。
-let button = UIButton() let label = UILabel() style(button) style(label)  コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。
+let style = styleViewBackgroundColor(.red) &amp;lt;&amp;gt; styleViewBorder(color: .blue, width: 10) このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この style は (UIView) -&amp;gt; Void型で、つまり関数なので、UIに適応することができる。
+let button = UIButton() let label = UILabel() style(button) style(label) コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。
 このような関数をたくさん作ったものをライブラリとしてまとめてみた。(ComposableStyling)[https://github.com/takecian/ComposableStyling]。 スターはまだない（誰かつけて欲しい）
 後は Flutter も 1.0 になったし年に一つの言語に触れなさいという話もあるので Dart を触ってみようか。
-＃去年は Python を勉強してた。 * https://atcoder.jp/users/takecian * https://projecteuler.net/progress=takecian
-競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。</description>
+＃去年は Python を勉強してた。
+ https://atcoder.jp/users/takecian https://projecteuler.net/progress=takecian  競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。</description>
     </item>
     
     <item>
@@ -156,7 +177,7 @@ Hugo はテーマを簡単に変えることができるみたいで楽しそう
 テーマはここ にたくさんある。
 導入手順のコマンドがだいたい git clone ~ /themes/XXX になってるけど submodule で入れないと管理する時に困る。
 hyde-hyde っていうテーマを使ってみた。変えるかもしれない。
-git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde  </description>
+git submodule add https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde </description>
     </item>
     
     <item>
@@ -179,7 +200,7 @@ takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:
 今やりたいのは自作キーボード。
 ２年くらい前に Ergodox EZ を買ったんだけど、最近は他にもいろんな分割キーボードがあるらしい。
 調べた範囲でまとめてみた。
-   名前 購入先     Let&amp;rsquo;s split switchtop, MEHKEE   Iris keebio   Nyquist keebio   Helix 遊舎工房   Levinson keebio    けっこうあるっぽい。
+   名前 購入先     Let&#39;s split switchtop, MEHKEE   Iris keebio   Nyquist keebio   Helix 遊舎工房   Levinson keebio    けっこうあるっぽい。
 Iris は Ergodox に似てて親指用のキーが独立してあるので作ってみることにする。
 ↑のサイトで購入できるのはPCB(基板)とプレート・ケースだけなので作る場合はキースイッチやキーキャップも別途購入する必要がある。
 キースイッチは Cherry MX 互換のスイッチならよくて、AliExpress とかで買うのがよさそう。
@@ -210,7 +231,7 @@ https://www.careercup.com/resume
       <pubDate>Tue, 07 Jun 2016 23:49:30 +0900</pubDate>
       
       <guid>https://takecian.github.io/posts/2016-06-07-ergodox/</guid>
-      <description>Ergodox EZ を買った。
+      <description>Ergodox EZを買った。
  Ergodox   買ったのは無刻印の黒のキーボードなんだけど追加でキーキャップをpimpmykeyboardで注文。
  Ergodox   キーキャップのことをもう少し詳しくメモしておくと、
  アルファベット刻印有りのキーキャップは DSA 無刻印のキーキャップは DCS  で、キーキャップの形状が違う。DCS の中でも Row0, Row1, Row2.. でさらに形状が違います。
