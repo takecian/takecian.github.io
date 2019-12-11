@@ -18,3 +18,4 @@ Software engineer, Tokyo
 * [Github](https://github.com/takecian)
 * [AtCoder](https://atcoder.jp/users/takecian)
 * [LeetCode](https://leetcode.com/takecian/)
+* [kaggle](https://www.kaggle.com/takecian)
