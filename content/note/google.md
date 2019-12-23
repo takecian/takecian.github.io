@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Google について"
+draft: false
+---
+
 # Google 
 
 ## How Google Works
