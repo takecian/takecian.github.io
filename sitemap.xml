@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://takecian.github.io/posts/2019-12-11_diary/</loc>
-    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://takecian.github.io/posts/</loc>
-    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-14T00:21:38+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://takecian.github.io/</loc>
+    <lastmod>2019-12-14T00:21:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/posts/2019-12-13_diary/</loc>
+    <lastmod>2019-12-14T00:21:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/posts/2019-12-11_diary/</loc>
     <lastmod>2019-12-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -354,6 +359,10 @@
   
   <url>
     <loc>https://takecian.github.io/dev/2017-01-30-cospa/</loc>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/note/google/</loc>
   </url>
   
   <url>

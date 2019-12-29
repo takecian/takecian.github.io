@@ -6,10 +6,26 @@
     <description>Recent content on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2019 00:21:38 +0900</lastBuildDate>
     
 	<atom:link href="https://takecian.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>人間は歯が命</title>
+      <link>https://takecian.github.io/posts/2019-12-13_diary/</link>
+      <pubDate>Sat, 14 Dec 2019 00:21:38 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2019-12-13_diary/</guid>
+      <description>芸能人に限らず、という話。
+余ってたポイント使わないとと思ってジェットウォッシャー買った。
+「口からザリガニの臭いした」とかいうマーケティングされてるけど自分の口にはザリガニ住んでなかったよかった。https://t.co/xK6Q0Fhq8b pic.twitter.com/pOR63cu9tV
+&amp;mdash; takecian (@takecian) December 13, 2019  ジェットウォッシャーを買った。効果があるかは分からないけど効いてる気はする。
+他にも Philips の電動歯ブラシとフロスを使って歯のケアをやってるけどもっと小さい時からやっとけばよかったと思う。
+歯の矯正とかも今になってやっとけばよかったなとか思ったり。
+調べたら大人になってからも矯正はできるらしいのでもしかしたらやるかもしれない。
+子どもには小さい頃からフロスとか定期健診とか受けさせよう。</description>
+    </item>
     
     <item>
       <title>kaggle を始めた</title>
@@ -1057,6 +1073,21 @@ http://t-fjk.hatenablog.com/
       
       <guid>https://takecian.github.io/dev/2017-01-30-cospa/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Google について</title>
+      <link>https://takecian.github.io/note/google/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://takecian.github.io/note/google/</guid>
+      <description>Google How Google Works 文化   従来型のガチガチな計画は意味がない（予定より早めにリリースすることなんてある？）
+ 現場のエンジニアに裁量を与えよう    カバの言う事は聞くな（カバ＝一番偉い人）
+ 意思決定の質と蓬春の水準は無関係 意義を唱える義務・・ある考え方に問題があると思ったら懸念を表明する義務    7 のルール
+ マネージャーは最低７人の直属の部下を持つ事  フラットな組織になりやすい マイクロマネジメントになりにくい（物理的に見る時間が足りなくなる）      独立採算制にしない
+ 自分たちの事業のことを優先して考えるようになるから    一番影響力の大きな人を中心に会社を作る
+ マネージャーは肩書きが作る、リーダーは周りの人間が作る    死ぬほど働いているのに楽しくないと言う場合、何か間違っている
+  戦略 人材 意思決定 コミュニケーション イノベーション WORK Rules!  Team Geek 天才プログラマの神話 素晴らしいチーム文化 船にはキャプテンが必要 有害な人に対処する 組織的操作の技法 ユーザーも人間 </description>
     </item>
     
     <item>
