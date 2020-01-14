@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on takecian</title>
+    <link>https://takecian.github.io/about/</link>
+    <description>Recent content in Abouts on takecian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 01 Jan 2019 01:12:56 +0900</lastBuildDate>
+    
+	<atom:link href="https://takecian.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://takecian.github.io/about/about/</link>
+      <pubDate>Tue, 01 Jan 2019 01:12:56 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/about/about/</guid>
+      <description>takecian Software engineer, Tokyo
+  Link  Facebook Twitter Linkedin Github AtCoder LeetCode kaggle  </description>
+    </item>
+    
+  </channel>
+</rss>
