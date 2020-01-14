@@ -6,10 +6,30 @@
     <description>Recent content in Posts on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 31 Dec 2019 23:53:28 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 00:46:59 +0900</lastBuildDate>
     
 	<atom:link href="https://takecian.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020年頑張ること</title>
+      <link>https://takecian.github.io/posts/2020-01-15/</link>
+      <pubDate>Wed, 15 Jan 2020 00:46:59 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2020-01-15/</guid>
+      <description>エンディングノート 5年くらい前に買ってたエンディングノートの更新をした。
+※エンディングノート：自分が病気をしたり死んだりした時に家族が困りそうな情報をまとめておくノート。
+別に遺言を残してるわけじゃなくて「使ってる証券会社、銀行はここ」とか普段奥さんに言ってないことをメモして残してる。 もう売ってしまったので消したけど他にも暗号通貨とか持ってたらどこの取引所とかウォレットに入れてあるか、の情報を書いてたり。
+こういう自分の死が関係しそうなものは敬遠しがちだけど元気なうちから手に付けておくといざという時困らなくていいなと思う。
+2020年頑張ることリスト これまで作ってなかったけどせっかくなので作ってみる。基本的には trello で管理してるけど、今年主に頑張るのはこの辺り。
+1. 英語 仕事で使うことになるのでこれは頑張らないといけない。死活問題。 少なくとも今月来月は平日は毎日レアジョブをやる。
+2. iOS 開発(SwiftUI, Swift, Objective-C) SwiftUI の勉強はもちろん Objective-C あたりの勉強もちゃんとやる。 この辺りはノートとボールペン使って手を動かしながら勉強しようと思う。
+手を動かすと五感への刺激？が違うらしく記憶の定着がいい説があるとかないとか。
+3. 統計学の勉強 ここは趣味の範囲になるけど統計よくわかってないコンプレックスがあるのでそろそろ払拭したい。
+まずはここを頑張る＝他のことはやらない、で一年過ごしたいと思う。
+もし仕事が順調で余裕ができれば 機械学習の勉強＆kaggle を頑張れたらいいな、くらい。
+まずは３月からの仕事で結果出さないと。</description>
+    </item>
     
     <item>
       <title>2019年 振り返り</title>
@@ -35,7 +55,7 @@
       <description>Google の SWE(iOS エンジニア)のポジションに応募してオファーをもらった。 こんなにストレスのかかる日々は久しぶりだった（転職活動ってこんな大変だっけ、と思った）のであとで振り返るためにも文章に残しておくことにした。
 これから受ける人の参考になればいいなと思う。 もちろん面接で出た問題の話とかどんなこと聞かれたかとかは書いてない。
 TL; DR  Google の中途採用を受けてオファーをもらった 受けるまでに5ヶ月準備したことをまとめた 面接を受けてからオファーまで３ヶ月ちょっとかかった  誰？ こんなスペックのエンジニア(@takecian)。
- 阪大 修士(情報科学) → Sony → LINE 言語  仕事  Windows(C++, C#) 5年 Server(Java, Ruby) 2年 iOS(Swift) 5年   競プロ  Python     英語話者との仕事経験あり  TOEIC は6年くらい前に受けたのが確か800くらい    採用プロセスに進むまで 2019年の４月にリクルーターから Linkedin でメッセージがきた。 ちょうど「こうしてGoogleに入社した」系のブログが Twitter 界隈を賑わしていた時期。
+ 阪大 修士(情報科学) → Sony → LINE 言語  仕事  Windows(C++, C#) 5年 Server(Java, Ruby) 2年 iOS(Swift) 5年   競プロ  Python(AtCoder 水色)     英語話者との仕事経験あり  TOEIC は6年くらい前に受けたのが確か800くらい    採用プロセスに進むまで 2019年の４月にリクルーターから Linkedin でメッセージがきた。 ちょうど「こうしてGoogleに入社した」系のブログが Twitter 界隈を賑わしていた時期。
 「でも入れないし…」というコメントが多いので、次は誰かに「私はこうやってGoogleに入った」というエントリーを書いて1000ブクマ目指してほしい。 https://t.co/vnULx3ZqZV
 &amp;mdash; Ryoichi Imaizumi | 今泉竜一 (@r_ima) March 24, 2019  はてなブログに投稿しました #はてなブログ @chokudai 氏のツイートを2つも貼った</description>
     </item>
