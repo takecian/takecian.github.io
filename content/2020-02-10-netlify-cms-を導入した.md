@@ -2,8 +2,6 @@
 layout: blog
 title: Netlify CMS を導入した
 date: 2020-02-10T15:23:12.649Z
-thumbnail: /images/seal-csm.png
-rating: 0
 ---
 ブラウザ上でブログを書くために `Netlify CMS` を導入してみた。
 
