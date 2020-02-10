@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://takecian.github.io/2020-02-10-netlify-cms-%E3%82%92%E5%B0%8E%E5%85%A5%E3%81%97%E3%81%9F/</loc>
+    <loc>https://takecian.github.io/posts/2020-02-10-netlify-cms-%E3%82%92%E5%B0%8E%E5%85%A5%E3%81%97%E3%81%9F/</loc>
+    <lastmod>2020-02-10T15:23:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/posts/</loc>
     <lastmod>2020-02-10T15:23:12+00:00</lastmod>
   </url>
   
@@ -14,11 +19,6 @@
   
   <url>
     <loc>https://takecian.github.io/posts/2020-01-15/</loc>
-    <lastmod>2020-01-15T00:46:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://takecian.github.io/posts/</loc>
     <lastmod>2020-01-15T00:46:59+09:00</lastmod>
   </url>
   

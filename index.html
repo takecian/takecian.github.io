@@ -154,6 +154,27 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/posts/2020-02-10-netlify-cms-%E3%82%92%E5%B0%8E%E5%85%A5%E3%81%97%E3%81%9F/" >Netlify CMS を導入した</a>
+        </span>
+        <span class="item__date">
+          Feb 10, 2020
+        </span>
+        <span >
+        
+        ブラウザ上でブログを書くために Netlify CMS を導入してみた。
+やり方はこちら。
+https://www.netlifycms.org/docs/add-to-your-site/#configuration
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/posts/2020-01-15/" >2020年頑張ること</a>
         </span>
         <span class="item__date">
@@ -385,34 +406,6 @@ https://www.pjrc.com/teensy/loader_mac.html
 特に「将来この人のようになりたい」といったロールモデルが見つからない職場であれば環境を変えることを考えてもいいかもしれない。
 最近ふと思うのは職場のエンジニアは優秀だと思うけど、その能力がプロダクト開発に十分活きているかというと判断が難しいと思うことがある。いいエンジンを積んでいても進行方向が違っていたら目的地にたどり着けないのと同じ感じ。
 やはりもう少し広範囲を見るポジションをやりたいと感じることも多くなってきた。
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/2018-12-30_diary/" >気になっていること</a>
-        </span>
-        <span class="item__date">
-          Dec 30, 2018
-        </span>
-        <span >
-        
-        今気になっている技術 技術的なところでいうと先月書いた Playground driven development いいなという気持ちは変わっておらず、追加で英語のべんきょうもかねて Functional Swift Conferenceの動画を見てた。
-まだ全部見てないけど特にいいなと思ったのが Compositional UI Styling というトーク。デザインの設定を細切れにした関数を結合することで行うようにしようという試み。
-結構簡潔にできそうで少し試してみた。
-1つ2つのUIに適応するだけだとあまりメリットなさそうだけど、例えば色の設定とか複数のUIに適応したいものを関するとして作っておいて、その関数を使って求める適応するとメンテナンスがしやすくているさそう例えばこんな感じ。
-let style = styleViewBackgroundColor(.red) &lt;&gt; styleViewBorder(color: .blue, width: 10) このコードは背景を赤色にしてボーダーを青色、太さ10に設定する関数を作っています。この style は (UIView) -&gt; Void型で、つまり関数なので、UIに適応することができる。
-let button = UIButton() let label = UILabel() style(button) style(label) コードはボタンとラベルに背景色とボーダーの設定をしています。コードでデザインの定義ができるとメンテナンスがしやすい気がします。それに関数型プログラミングって感じある。状態を持たずにシンプルな関数を合成してやりたいことをやっていくってパズル要素もあって楽しい。
-このような関数をたくさん作ったものをライブラリとしてまとめてみた。(ComposableStyling)[https://github.com/takecian/ComposableStyling]。 スターはまだない（誰かつけて欲しい）
-後は Flutter も 1.0 になったし年に一つの言語に触れなさいという話もあるので Dart を触ってみようか。
-＃去年は Python を勉強してた。
- https://atcoder.jp/users/takecian https://projecteuler.net/progress=takecian  競プロも最近止まってるからまた少しずつ再開しよう。育児が始まると AtCoder みたいな固定時間でやるのは難しそうだけど問題解くくらいはできるかな。
         
         </span>
         
