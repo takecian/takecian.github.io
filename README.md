@@ -1,5 +1,7 @@
 # takecian.github.io
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff05e623-294b-4242-b75b-3ea035e55420/deploy-status)](https://app.netlify.com/sites/sharp-turing-842fc1/deploys)
+
 ## Setup
 ```
 git clone
