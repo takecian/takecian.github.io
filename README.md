@@ -13,7 +13,7 @@ git submodule add https://github.com/takecian/takecian.github.io.git public
 ## Create new entry
 
 ```
-hugo new posts/2019-MM-DD_diary.md
+hugo new posts/2020-MM-DD_diary.md
 ```
 
 ## Preview
