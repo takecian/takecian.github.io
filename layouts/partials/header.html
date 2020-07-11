@@ -1,5 +1,6 @@
 <head>
     <link href="https://gmpg.org/xfn/11" rel="profile">
+    {{ template "_internal/google_analytics.html" . }}
     {{ partial "header/meta.html" . }}
     {{ partial "header/styles.html" . }}
     {{ `<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -10,7 +11,6 @@
     {{ "<!-- Icons -->" | safeHTML }}
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
-    {{ template "_internal/google_analytics.html" . }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {{ partial "header/feeds.html" . }}
 </head>
