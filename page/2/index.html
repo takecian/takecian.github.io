@@ -23,7 +23,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://takecian.github.io/" />
-<meta property="og:updated_time" content="2020-03-29T16:02:43+09:00" />
+<meta property="og:updated_time" content="2020-07-11T16:02:43+09:00" />
 
 
     
@@ -48,6 +48,7 @@
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
+    
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <link rel="alternate" type="application/rss+xml" href="https://takecian.github.io/index.xml" title="takecian" />
 
@@ -149,6 +150,31 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/2019-01-17_diary/" >Docker を使って qmk_firmware を焼く</a>
+        </span>
+        <span class="item__date">
+          Jan 17, 2019
+        </span>
+        <span >
+        
+        ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
+firmware のビルドに docker が使えることに気づいたので下記コマンドを実行して自分のキーマップの firmware をビルドする。
+util/docker_build.sh ergodox_ez:takecian そうするとバイナリができるので（ergodox_ez_takecian.hex）、teensy アプリをダウンロードしてくる。
+https://www.pjrc.com/teensy/loader_mac.html
+バイナリを指定した後に ergodox ez のリセットボタンを押す。
+これで更新完了。チャタリングがなくなった気がする。
+家にある ergodox ez も更新しよう。
+        
+        </span>
+        
+        </div>
+        
+     
       
         
       
