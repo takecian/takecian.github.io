@@ -3,6 +3,8 @@ languageCode = "ja-jp"
 title = "takecian"
 theme = "hyde-hyde"
 
+googleAnalytics = "UA-32176657-40"
+
 [[menu.main]]
     name = "Posts"
     identifier = "posts"
