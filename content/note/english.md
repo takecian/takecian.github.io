@@ -1,4 +1,8 @@
-# 英語フレーズ集
+---
+layout: page
+title: "英語フレーズ集"
+draft: false
+---
 
 # ビデオ会議編
 
