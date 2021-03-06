@@ -11,21 +11,6 @@
     
     
     <item>
-      <title></title>
-      <link>https://takecian.github.io/note/english/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://takecian.github.io/note/english/</guid>
-      <description>英語フレーズ集 ビデオ会議編 会議が始まる前  We see some people joining, let’s wait another minute. Let’s give folks another minute.  会議の時間ちょうどに全員集まることはあまりない（時間になるとちらほら接続してくるはず）ので、「みんな揃うまでちょっと待ちましょう」的なことを言うときに使います。
-会議を始める   Let&amp;rsquo;s kick off the meeting
-  Let&amp;rsquo;s get started. 会議の参加者が揃ったら会議を始めましょう。
-  Let me present my screen. スライドなど画面共有する時に言います。
-  Can you hear me properly?
-  Can you see my screen? 画面共有した時に画面がちゃんと見えてるか、声がちゃんと聞こえてるか確認する時に使います。
-  Your voice got cut off now. Could you say that again? 相手の声が途切れててよく分からなかった時に。</description>
-    </item>
-    
-    <item>
       <title>Google について</title>
       <link>https://takecian.github.io/note/google/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,6 +57,21 @@ Daily scrum - 15min 前回の Daily scrum の時点から、
       
       <guid>https://takecian.github.io/note/ideanote/</guid>
       <description>作り始める前に確認する  製品によってどんな問題を解決するのか 誰のためのどんな問題を解決するのか 市場の大きさは？ 製品化を成功を評価する方法はあるか 競合はあるか 勝てる要素はあるか なぜ今やるのか どうやって製品を市場に出すか 成功のために必要な要素は 以上を前提を踏まえた上でやるべきかどうか  作り始めてから気をつけること  この製品はターゲット顧客の心に届いているか 全力を尽くして使いやすいものにしただろうか リリースする時点の競争で競合に勝てるか どう差別化できているか説明できるか 実際に動いているか 製品に欠けているものはないだろうか 製品の強みが顧客の大切なことと一致しているか お金を払う価値が有るか チームメンバーも製品の強みを理解しているか  </description>
+    </item>
+    
+    <item>
+      <title>英語フレーズ集</title>
+      <link>https://takecian.github.io/note/english/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://takecian.github.io/note/english/</guid>
+      <description>ビデオ会議編 会議が始まる前  We see some people joining, let’s wait another minute. Let’s give folks another minute.  会議の時間ちょうどに全員集まることはあまりない（時間になるとちらほら接続してくるはず）ので、「みんな揃うまでちょっと待ちましょう」的なことを言うときに使います。
+会議を始める   Let&amp;rsquo;s kick off the meeting
+  Let&amp;rsquo;s get started. 会議の参加者が揃ったら会議を始めましょう。
+  Let me present my screen. スライドなど画面共有する時に言います。
+  Can you hear me properly?
+  Can you see my screen? 画面共有した時に画面がちゃんと見えてるか、声がちゃんと聞こえてるか確認する時に使います。
+  Your voice got cut off now. Could you say that again? 相手の声が途切れててよく分からなかった時に。</description>
     </item>
     
   </channel>

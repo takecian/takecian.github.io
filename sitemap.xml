@@ -403,10 +403,6 @@
   </url>
   
   <url>
-    <loc>https://takecian.github.io/note/english/</loc>
-  </url>
-  
-  <url>
     <loc>https://takecian.github.io/dev/2017-01-30-cospa/</loc>
   </url>
   
@@ -440,6 +436,10 @@
   
   <url>
     <loc>https://takecian.github.io/note/ideanote/</loc>
+  </url>
+  
+  <url>
+    <loc>https://takecian.github.io/note/english/</loc>
   </url>
   
 </urlset>
