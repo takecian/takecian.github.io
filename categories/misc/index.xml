@@ -6,11 +6,7 @@
     <description>Recent content in misc on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 04 Oct 2014 21:00:52 +0900</lastBuildDate>
-    
-	<atom:link href="https://takecian.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 04 Oct 2014 21:00:52 +0900</lastBuildDate><atom:link href="https://takecian.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wordpress から github page へ</title>
       <link>https://takecian.github.io/posts/2014-10-04-post-261/</link>

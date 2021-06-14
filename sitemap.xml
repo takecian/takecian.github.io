@@ -1,445 +1,265 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://takecian.github.io/posts/</loc>
     <lastmod>2021-03-03T23:21:10+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/</loc>
     <lastmod>2021-03-03T23:21:10+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2021-03-03_diary/</loc>
     <lastmod>2021-03-03T23:21:10+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2020-12-31_diary/</loc>
     <lastmod>2020-12-31T22:00:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2020-09-12_diary/</loc>
     <lastmod>2020-09-12T16:00:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2020-07-12_diary/</loc>
     <lastmod>2020-07-12T16:02:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2020-03-29_diary/</loc>
     <lastmod>2020-03-29T16:02:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2020-02-10-netlify-cms-%E3%82%92%E5%B0%8E%E5%85%A5%E3%81%97%E3%81%9F/</loc>
     <lastmod>2020-02-10T15:23:12+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2020-01-15/</loc>
     <lastmod>2020-01-15T00:46:59+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2019-12-31_diary/</loc>
     <lastmod>2019-12-31T23:53:28+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2019-12-17_diary/</loc>
     <lastmod>2019-12-29T00:31:23+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2019-12-13_diary/</loc>
     <lastmod>2019-12-14T00:21:38+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2019-12-11_diary/</loc>
     <lastmod>2019-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2019-11-25_diary/</loc>
     <lastmod>2019-11-25T18:04:49+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2019-07-08_diary/</loc>
     <lastmod>2019-07-08T13:16:07+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/work/npbsns_privacypolicy/</loc>
     <lastmod>2019-03-29T12:14:11+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/work/checklista_privacypolicy/</loc>
     <lastmod>2019-03-29T12:14:11+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/work/cospa_privacypolicy/</loc>
     <lastmod>2019-03-29T12:14:11+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/work/</loc>
     <lastmod>2019-03-29T12:14:11+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2019-01-17_diary/</loc>
     <lastmod>2019-01-17T14:22:31+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/about/about/</loc>
     <lastmod>2019-01-01T01:12:56+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/about/</loc>
     <lastmod>2019-01-01T01:12:56+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2019-01-01_diary/</loc>
     <lastmod>2019-01-01T00:54:48+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2018-12-30_diary/</loc>
     <lastmod>2018-12-30T00:22:17+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2018-12-11_qiita/</loc>
     <lastmod>2018-12-11T00:09:31+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2018-11-11_mindnode/</loc>
     <lastmod>2018-11-11T23:00:54+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2018-11-11_hugo/</loc>
     <lastmod>2018-11-11T10:48:32+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/work/work/</loc>
     <lastmod>2018-11-11T01:05:35+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2018-05-30-build-log/</loc>
     <lastmod>2018-05-30T23:49:30+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2018-05-27-own-keyboard/</loc>
     <lastmod>2018-05-27T23:49:30+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2018-03-24-jobhunt/</loc>
     <lastmod>2018-03-24T23:49:30+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/android-privacy-policy/</loc>
     <lastmod>2017-02-01T20:40:59+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/</loc>
     <lastmod>2017-02-01T20:40:59+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2016-06-07-ergodox/</loc>
     <lastmod>2016-06-07T23:49:30+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-05-12-checklista/</loc>
     <lastmod>2016-05-12T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-05-15-delayedcamera/</loc>
     <lastmod>2014-11-22T22:03:06+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/categories/</loc>
     <lastmod>2014-10-04T21:00:52+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/categories/misc/</loc>
     <lastmod>2014-10-04T21:00:52+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-10-04-post-261/</loc>
     <lastmod>2014-10-04T21:00:52+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-07-10-post-260/</loc>
     <lastmod>2014-07-10T16:44:52+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/categories/ios/</loc>
     <lastmod>2014-07-04T07:29:24+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-07-04-post-263/</loc>
     <lastmod>2014-07-04T07:29:24+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-carp/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-dena/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-dragons/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-fighters/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-giants/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-softbank/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-lions/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-marines/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-orix/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-rakuten/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-swallows/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-04-18-tigers/</loc>
     <lastmod>2014-06-01T15:07:13+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-05-06-post-244/</loc>
     <lastmod>2014-05-06T22:47:06+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-03-24-post-227/</loc>
     <lastmod>2014-03-24T11:32:57+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/categories/conf/</loc>
     <lastmod>2014-02-13T15:14:04+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-02-13-post-213/</loc>
     <lastmod>2014-02-13T15:14:04+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-02-12-masuidrive-pakue/</loc>
     <lastmod>2014-02-12T00:36:49+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-02-09-post-199/</loc>
     <lastmod>2014-02-09T16:17:42+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/categories/web/</loc>
     <lastmod>2014-02-09T16:17:42+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-01-28-post-190/</loc>
     <lastmod>2014-01-28T19:01:10+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2014-01-28-post-187/</loc>
     <lastmod>2014-01-28T01:17:06+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-12-30-post-175/</loc>
     <lastmod>2013-12-30T06:58:25+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-12-30-post-163/</loc>
     <lastmod>2013-12-30T04:39:49+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-12-29-post-157/</loc>
     <lastmod>2013-12-29T01:25:31+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-12-23-post-151/</loc>
     <lastmod>2013-12-23T19:45:33+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-12-08-post-144/</loc>
     <lastmod>2013-12-08T23:12:39+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-12-01-post-135/</loc>
     <lastmod>2013-12-01T22:55:58+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-11-30-post-119/</loc>
     <lastmod>2013-11-30T22:02:37+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-11-24_dont_do/</loc>
     <lastmod>2013-11-24T22:49:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-11-07_zero_rails/</loc>
     <lastmod>2013-11-07T21:14:01+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-11-04-post-104/</loc>
     <lastmod>2013-11-04T18:42:22+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-10-26-post-87/</loc>
     <lastmod>2013-10-26T15:16:50+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-10-12-post-67/</loc>
     <lastmod>2013-10-12T23:29:11+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-09-29-post-58/</loc>
     <lastmod>2013-09-29T21:47:08+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-09-24-post-54/</loc>
     <lastmod>2013-09-24T00:57:29+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-09-23-post-45/</loc>
     <lastmod>2013-09-23T21:28:48+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-09-18-post-31/</loc>
     <lastmod>2013-09-18T01:53:49+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/posts/2013-09-15-post-19/</loc>
     <lastmod>2013-09-15T22:07:47+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2017-01-30-cospa/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/note/google/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/note/meeting/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2017-02-15-ngs/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/note/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/note/scrum_calendar/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/dev/2016-06-24-title-qr/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/note/ideanote/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://takecian.github.io/note/english/</loc>
   </url>
-  
 </urlset>

@@ -1,37 +1,44 @@
 <!DOCTYPE html>
-<html lang="ja-jp">
-    
-    
-
-
-    <head>
-    <link href="https://gmpg.org/xfn/11" rel="profile">
-    
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-32176657-40', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!-- Enable responsiveness on mobile devices -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.74.3" />
-
-    
-    
-    
-
-<title>kaggle を始めた • takecian</title>
-
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>kaggle を始めた - takecian</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="kaggle を始めた">
+<meta itemprop="description" content="AtCoderをやってたんだけど子どもの寝る時間が20時過ぎることがあったり（それまで晩ご飯食べられない）でコンテストに出るのが大変な時期になってる。
+そこでリアルタイムにコンテストに出るのは当分諦めて後から問題だけやってみることにした。
+他に時間の縛りが緩くてできるものないかなということで kaggle をやってみることにした。
+Kaggleで勝つデータ分析の技術っていう本を買って読み進めてるところ。
+kaggle はデータ分析のテクニックとそれを使って学習したモデルを使って、未知のデータの予想精度を競うものらしい。
+チュートリアル問題として「タイタニックの生存者予測っていうお題がある。
+データとして名前、性別、年齢、どこから乗ったか、何人で乗ったか、などの属性と「その人が生存したかどうか」が与えられる。 与えられたデータを使って学習した後に、別のデータを与えられて、「そのデータの人が生存したかどうか」を予想する。
+昔やった「Chainer で競馬予想をしてみる」と同じようなこと（もっと高度だけど）をやるっぽい。
+結構面白そう、と思って本を読みながら勉強してるんだけど、
+ データ解析のための知識(カテゴリ変数をどう扱うか、とか) データ解析のための技術(pandas とかグラフにする方法とか) 機械学習ライブラリの使い方（deep learning に限らず）  そもそも機械学習ライブラリのアルゴリズムの理解も    とか分からないことが大量に出てきた（競プロだと pandas とか使わないし仕事だとちょっとしたスクリプトくらいしか Python で書かない）
+というわけで追加で前処理大全 も買ってみた。
+ちなみに kaggle も AtCoder みたいにランクがある。 https://www.kaggle.com/progression Novice -&gt; Contributer -&gt; Expert -&gt; Master -&gt; GrandMaster の順。
+初期設定とか一通りやると Contributer になれて、今ここ。
+まず Expert を目指してみようと思う。"><meta itemprop="datePublished" content="2019-12-11T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-12-11T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="50">
+<meta itemprop="keywords" content="" /><meta property="og:title" content="kaggle を始めた" />
+<meta property="og:description" content="AtCoderをやってたんだけど子どもの寝る時間が20時過ぎることがあったり（それまで晩ご飯食べられない）でコンテストに出るのが大変な時期になってる。
+そこでリアルタイムにコンテストに出るのは当分諦めて後から問題だけやってみることにした。
+他に時間の縛りが緩くてできるものないかなということで kaggle をやってみることにした。
+Kaggleで勝つデータ分析の技術っていう本を買って読み進めてるところ。
+kaggle はデータ分析のテクニックとそれを使って学習したモデルを使って、未知のデータの予想精度を競うものらしい。
+チュートリアル問題として「タイタニックの生存者予測っていうお題がある。
+データとして名前、性別、年齢、どこから乗ったか、何人で乗ったか、などの属性と「その人が生存したかどうか」が与えられる。 与えられたデータを使って学習した後に、別のデータを与えられて、「そのデータの人が生存したかどうか」を予想する。
+昔やった「Chainer で競馬予想をしてみる」と同じようなこと（もっと高度だけど）をやるっぽい。
+結構面白そう、と思って本を読みながら勉強してるんだけど、
+ データ解析のための知識(カテゴリ変数をどう扱うか、とか) データ解析のための技術(pandas とかグラフにする方法とか) 機械学習ライブラリの使い方（deep learning に限らず）  そもそも機械学習ライブラリのアルゴリズムの理解も    とか分からないことが大量に出てきた（競プロだと pandas とか使わないし仕事だとちょっとしたスクリプトくらいしか Python で書かない）
+というわけで追加で前処理大全 も買ってみた。
+ちなみに kaggle も AtCoder みたいにランクがある。 https://www.kaggle.com/progression Novice -&gt; Contributer -&gt; Expert -&gt; Master -&gt; GrandMaster の順。
+初期設定とか一通りやると Contributer になれて、今ここ。
+まず Expert を目指してみようと思う。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://takecian.github.io/posts/2019-12-11_diary/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-12-11T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2019-12-11T00:00:00&#43;00:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="kaggle を始めた"/>
@@ -49,182 +56,73 @@ kaggle はデータ分析のテクニックとそれを使って学習したモ�
 ちなみに kaggle も AtCoder みたいにランクがある。 https://www.kaggle.com/progression Novice -&gt; Contributer -&gt; Expert -&gt; Master -&gt; GrandMaster の順。
 初期設定とか一通りやると Contributer になれて、今ここ。
 まず Expert を目指してみようと思う。"/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/main.css" />
 
-<meta property="og:title" content="kaggle を始めた" />
-<meta property="og:description" content="AtCoderをやってたんだけど子どもの寝る時間が20時過ぎることがあったり（それまで晩ご飯食べられない）でコンテストに出るのが大変な時期になってる。
-そこでリアルタイムにコンテストに出るのは当分諦めて後から問題だけやってみることにした。
-他に時間の縛りが緩くてできるものないかなということで kaggle をやってみることにした。
-Kaggleで勝つデータ分析の技術っていう本を買って読み進めてるところ。
-kaggle はデータ分析のテクニックとそれを使って学習したモデルを使って、未知のデータの予想精度を競うものらしい。
-チュートリアル問題として「タイタニックの生存者予測っていうお題がある。
-データとして名前、性別、年齢、どこから乗ったか、何人で乗ったか、などの属性と「その人が生存したかどうか」が与えられる。 与えられたデータを使って学習した後に、別のデータを与えられて、「そのデータの人が生存したかどうか」を予想する。
-昔やった「Chainer で競馬予想をしてみる」と同じようなこと（もっと高度だけど）をやるっぽい。
-結構面白そう、と思って本を読みながら勉強してるんだけど、
- データ解析のための知識(カテゴリ変数をどう扱うか、とか) データ解析のための技術(pandas とかグラフにする方法とか) 機械学習ライブラリの使い方（deep learning に限らず）  そもそも機械学習ライブラリのアルゴリズムの理解も    とか分からないことが大量に出てきた（競プロだと pandas とか使わないし仕事だとちょっとしたスクリプトくらいしか Python で書かない）
-というわけで追加で前処理大全 も買ってみた。
-ちなみに kaggle も AtCoder みたいにランクがある。 https://www.kaggle.com/progression Novice -&gt; Contributer -&gt; Expert -&gt; Master -&gt; GrandMaster の順。
-初期設定とか一通りやると Contributer になれて、今ここ。
-まず Expert を目指してみようと思う。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://takecian.github.io/posts/2019-12-11_diary/" />
-<meta property="article:published_time" content="2019-12-11T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-12-11T00:00:00+00:00" />
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://takecian.github.io/css/dark.css" />
 
-
-    
-
-
-
-
-
-
-<link rel="stylesheet" href="/scss/hyde-hyde.2a4efc4f64c248ba18cdb1d87c43f507bb199168ed12db87e0a8d34b554f6713.css" integrity="sha256-Kk78T2TCSLoYzbHYfEP1B7sZkWjtEtuH4KjTS1VPZxM=">
-
-
-<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
-
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="/favicon.png">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="https://takecian.github.io/js/main.js"></script>
 </head>
 
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://takecian.github.io/">
+				<img src="https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg" alt="takecian" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="https://takecian.github.io/">takecian</a></h1>
+	<div class="site-description"><p>Crisp, minimal personal <a href="https://github.com/knadh/hugo-ink">blog theme for Hugo</a></p><nav class="nav social">
+			<ul class="flat"><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
 
-    <body class=" ">
-    
-<div class="sidebar">
-  <div class="container ">
-    <div class="sidebar-about">
-      <span class="site__title">
-        <a href="https://takecian.github.io/">
-        
-          takecian
-        
-        </a>
-      </span>
-      
-      
-      <p class="site__description">
-        
-      </p>
-    </div>
-    <div class="collapsible-menu">
-      <input type="checkbox" id="menuToggle">
-      <label for="menuToggle">takecian</label>
-      <div class="menu-content">
-        <div>
-	<ul class="sidebar-nav">
-		 
-		 
-			 
-				<li>
-					<a href="/posts/">
-						<span>Posts</span>
-					</a>
-				</li>
-			 
-		 
-			 
-				<li>
-					<a href="/work/work">
-						<span>Work</span>
-					</a>
-				</li>
-			 
-		 
-			 
-				<li>
-					<a href="/note/">
-						<span>Note</span>
-					</a>
-				</li>
-			 
-		 
-			 
-				<li>
-					<a href="/about/about">
-						<span>About</span>
-					</a>
-				</li>
-			 
-		
-	</ul>
-</div>
-
-        <section class="social">
-	
-	<a href="https://twitter.com/takecian" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
-	
-	
-	
-	<a href="https://facebook.com/takecian" rel="me"><i class="fab fa-facebook-f"></i></a>
-	
-	
-	<a href="https://github.com/takecian" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-</section>
-
-      </div>
-    </div>
-    
-
-
-  </div>
-</div>
-
-        <div class="content container">
-            
-    
-<article>
-  <header>
-    <h1>kaggle を始めた</h1>
-    
-    
-<div class="post__meta">
-    
-    
-      <i class="fas fa-calendar-alt"></i> Dec 11, 2019
-    
-    
-    
-    
-    
-    <br/>
-    <i class="fas fa-clock"></i> 1 min read
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/posts/">Posts</a>
+			</li>
+			
+			<li>
+				<a href="/work/work">Work</a>
+			</li>
+			
+			<li>
+				<a href="/note/">Note</a>
+			</li>
+			
+			<li>
+				<a href="/about/about">About</a>
+			</li>
+			
+		</ul>
+	</nav>
 </div>
 
 
-  </header>
-  
-  
-  <div class="post">
-    <p><a href="/posts/2019-07-08_diary/">AtCoder</a>をやってたんだけど子どもの寝る時間が20時過ぎることがあったり（それまで晩ご飯食べられない）でコンテストに出るのが大変な時期になってる。</p>
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">11</span>
+							<span class="rest">Dec 2019</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">kaggle を始めた</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p><a href="/posts/2019-07-08_diary/">AtCoder</a>をやってたんだけど子どもの寝る時間が20時過ぎることがあったり（それまで晩ご飯食べられない）でコンテストに出るのが大変な時期になってる。</p>
 <p>そこでリアルタイムにコンテストに出るのは当分諦めて後から問題だけやってみることにした。</p>
 <p>他に時間の縛りが緩くてできるものないかなということで <a href="https://www.kaggle.com/takecian/">kaggle</a> をやってみることにした。</p>
 <p><a href="https://gihyo.jp/book/2019/978-4-297-10843-4">Kaggleで勝つデータ分析の技術</a>っていう本を買って読み進めてるところ。</p>
@@ -250,40 +148,21 @@ Novice -&gt; Contributer -&gt; Expert -&gt; Master -&gt; GrandMaster の順。</
 <p>初期設定とか一通りやると Contributer になれて、今ここ。</p>
 <p>まず Expert を目指してみようと思う。</p>
 
-  </div>
-  
+			</div>
 
-<div class="navigation navigation-single">
-    
-    <a href="/posts/2019-11-25_diary/" class="navigation-prev">
-      <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">年内に読みたい</span>
-    </a>
-    
-    
-    <a href="/posts/2019-12-13_diary/" class="navigation-next">
-      <span class="navigation-tittle">人間は歯が命</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
-    
+			<div class="tags">
+				
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2021  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
 </div>
 
 
-  
-
-  
-    
-
-
-</article>
-
-
-        </div>
-        
-    
-
-  
-  
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -294,16 +173,6 @@ if (!doNotTrack) {
 }
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-
-
-<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
-
-
-
-
-    
-
-
-
-    </body>
+<script>feather.replace()</script>
+</body>
 </html>
