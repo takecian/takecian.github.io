@@ -19,7 +19,7 @@ hugo new posts/2021-MM-DD_diary.md
 ## Preview
 
 ```
-hugo sever
+hugo server -D
 ```
 
 ## Deploy
