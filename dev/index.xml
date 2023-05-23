@@ -6,14 +6,14 @@
     <description>Recent content in Devs on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 01 Feb 2017 20:40:59 +0900</lastBuildDate><atom:link href="https://takecian.github.io/dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2023 20:40:59 +0900</lastBuildDate><atom:link href="https://takecian.github.io/dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Android application privacy policy</title>
-      <link>https://takecian.github.io/dev/android-privacy-policy/</link>
-      <pubDate>Wed, 01 Feb 2017 20:40:59 +0900</pubDate>
+      <title>iOS application privacy policy</title>
+      <link>https://takecian.github.io/dev/ios-privacy-policy/</link>
+      <pubDate>Wed, 01 Feb 2023 20:40:59 +0900</pubDate>
       
-      <guid>https://takecian.github.io/dev/android-privacy-policy/</guid>
-      <description>Android application サービス利用規約＆プライバシーポリシー 本規約は、Takeshi, Fujiki（以下「開発者」とします）とお客様との間でのアプリケーション（コンピューターソフトウェア、マニュアルなどの関連書類及び電子文書並びにそれらのアップデート・アップグレード版を含み、以下「許諾ソフトウェア」とします）およびそれに付帯するオンラインサービス（許諾ソフトウェアと併せて以下「本サービス」とします）の使用に関する条件を定めるものです。許諾ソフトウェアを利用開始される前に、本規約をお読み下さい。お客様による許諾ソフトウェアのダウンロードをもって、本規約にご同意いただいたものとします。
+      <guid>https://takecian.github.io/dev/ios-privacy-policy/</guid>
+      <description>iOS application サービス利用規約＆プライバシーポリシー 本規約は、Takeshi, Fujiki（以下「開発者」とします）とお客様との間でのアプリケーション（コンピューターソフトウェア、マニュアルなどの関連書類及び電子文書並びにそれらのアップデート・アップグレード版を含み、以下「許諾ソフトウェア」とします）およびそれに付帯するオンラインサービス（許諾ソフトウェアと併せて以下「本サービス」とします）の使用に関する条件を定めるものです。許諾ソフトウェアを利用開始される前に、本規約をお読み下さい。お客様による許諾ソフトウェアのダウンロードをもって、本規約にご同意いただいたものとします。
 許諾ソフトウェアの中には、開発者以外のソフトウェアの権利者が定める使用許諾条件（GNU General Public license (GPL)、Lesser/Library General Public License (LGPL)を含みますが、これらに限られるものではありません）を伴うソフトウェア（以下「対象外ソフトウェア」とします）が含まれている場合があります。 対象外ソフトウェアのご使用は、各権利者の定める使用許諾条件に従っていただくものとします。
 第１条（許諾ソフトウェア） 許諾ソフトウェアは、日本国内外の著作権法並びに著作者の権利及びこれに隣接する権利に関する諸条約その他知的財産権に関する法令によって保護されています。許諾ソフトウェアは、本規約の条件に従い開発者からお客様に対して使用許諾されるもので、許諾ソフトウェアの著作権等の知的財産権はお客様に移転いたしません。開発者は、許諾ソフトウェアを、お客様がお持ちの本サービスに対応したデバイス（以下「指定デバイス」とします）上で、私的利用の目的で使用する、非独占的な権利をお客様に許諾します。
 第２条（権利の制限）
@@ -25,10 +25,10 @@
     
     <item>
       <title>Android application privacy policy</title>
-      <link>https://takecian.github.io/dev/ios-privacy-policy/</link>
+      <link>https://takecian.github.io/dev/android-privacy-policy/</link>
       <pubDate>Wed, 01 Feb 2017 20:40:59 +0900</pubDate>
       
-      <guid>https://takecian.github.io/dev/ios-privacy-policy/</guid>
+      <guid>https://takecian.github.io/dev/android-privacy-policy/</guid>
       <description>Android application サービス利用規約＆プライバシーポリシー 本規約は、Takeshi, Fujiki（以下「開発者」とします）とお客様との間でのアプリケーション（コンピューターソフトウェア、マニュアルなどの関連書類及び電子文書並びにそれらのアップデート・アップグレード版を含み、以下「許諾ソフトウェア」とします）およびそれに付帯するオンラインサービス（許諾ソフトウェアと併せて以下「本サービス」とします）の使用に関する条件を定めるものです。許諾ソフトウェアを利用開始される前に、本規約をお読み下さい。お客様による許諾ソフトウェアのダウンロードをもって、本規約にご同意いただいたものとします。
 許諾ソフトウェアの中には、開発者以外のソフトウェアの権利者が定める使用許諾条件（GNU General Public license (GPL)、Lesser/Library General Public License (LGPL)を含みますが、これらに限られるものではありません）を伴うソフトウェア（以下「対象外ソフトウェア」とします）が含まれている場合があります。 対象外ソフトウェアのご使用は、各権利者の定める使用許諾条件に従っていただくものとします。
 第１条（許諾ソフトウェア） 許諾ソフトウェアは、日本国内外の著作権法並びに著作者の権利及びこれに隣接する権利に関する諸条約その他知的財産権に関する法令によって保護されています。許諾ソフトウェアは、本規約の条件に従い開発者からお客様に対して使用許諾されるもので、許諾ソフトウェアの著作権等の知的財産権はお客様に移転いたしません。開発者は、許諾ソフトウェアを、お客様がお持ちの本サービスに対応したデバイス（以下「指定デバイス」とします）上で、私的利用の目的で使用する、非独占的な権利をお客様に許諾します。
