@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Android application privacy policy
-date: 2017-02-01 20:40:59.000000000 +09:00
+title: iOS application privacy policy
+date: 2023-02-01 20:40:59.000000000 +09:00
 status: publish
 type: page
 published: true
-permalink: /androidpp/
+permalink: /iosapp/
 ---
 
-## Android application サービス利用規約＆プライバシーポリシー
+## iOS application サービス利用規約＆プライバシーポリシー
 
 本規約は、Takeshi, Fujiki（以下「開発者」とします）とお客様との間でのアプリケーション（コンピューターソフトウェア、マニュアルなどの関連書類及び電子文書並びにそれらのアップデート・アップグレード版を含み、以下「許諾ソフトウェア」とします）およびそれに付帯するオンラインサービス（許諾ソフトウェアと併せて以下「本サービス」とします）の使用に関する条件を定めるものです。許諾ソフトウェアを利用開始される前に、本規約をお読み下さい。お客様による許諾ソフトウェアのダウンロードをもって、本規約にご同意いただいたものとします。
 
