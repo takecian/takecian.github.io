@@ -30,7 +30,7 @@ googleAnalytics = "UA-32176657-40"
 	subtitle = "Diary"
 
 	# Optional 64x64 avatar image.
-	avatar = "https://pbs.twimg.com/profile_images/1355161753940754432/u-FzGJFv_400x400.jpg"
+	avatar = "https://takecian.github.io/images/avatar.jpg"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
