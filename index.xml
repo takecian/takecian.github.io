@@ -6,7 +6,22 @@
     <description>Recent content on takecian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 09 Jul 2023 21:29:03 +0900</lastBuildDate><atom:link href="https://takecian.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2023 22:06:22 +0900</lastBuildDate><atom:link href="https://takecian.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kinesis Advantage 360 が動かなくなった（けど復活した）</title>
+      <link>https://takecian.github.io/posts/2023-12-10_diary/</link>
+      <pubDate>Sun, 10 Dec 2023 22:06:22 +0900</pubDate>
+      
+      <guid>https://takecian.github.io/posts/2023-12-10_diary/</guid>
+      <description>2022 年に Massdrop で手に入れた Kinesis Advantage 360 が急に動かなくなった。
+ マニュアルを読んでみるとリセットする方法が２つあって、Soft reset(SmartSet + Right Ctrl + Ent)で選択中の Profile のマクロや Key mapping ができる、Hard reset(SmartSet + Hotkey 4 while plugging in keyboard)でマクロと Key mapping を工場出荷状態にリセットできるらしい。
+やってみたけど直らない。Hard reset を試すと LED は点滅したけどキー入力しても全く反応しない。
+公式サイトを確認してみたら「Advantage360 &amp;amp; Advantage2 Keyboards: 3 years from date of purchase」と書いてあって、発売からそもそも３年経ってないので保証期間内かなということで問い合わせてみた。
+そしたらマニュアルには書かれていない Rescue command というのがあるのをサポートで教えてもらった。Hard reset でも直らないとしたら物理的な故障か、キーボードの内蔵されているストレージの異常の可能性があるらしく、この Rescue command というので内蔵ストレージを無視して動作させることができるらしい。
+ということで教えてもらった Rescue command (SmartSet+Ctrl+Space)を押したままキーボードを接続すると・・動いた。内蔵ストレージが何かのタイミングでおかしくなったらしい。サポートからは Rescue command で復活したら内蔵ストレージを再フォーマットしてくれとのことで、下記手順を教えてもらった。
+1. Perform the on-board self-format command by pressing [SmartSet+Ctrl+Shift+R].</description>
+    </item>
+    
     <item>
       <title>家を買うことにした</title>
       <link>https://takecian.github.io/posts/2023-07-09_diary/</link>
