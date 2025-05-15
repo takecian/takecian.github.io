@@ -43,3 +43,5 @@ googleAnalytics = "UA-32176657-40"
     name = "RSS"
     icon = "rss"
     url = "/index.xml"
+
+ignoreErrors = ["error-remote-getjson"]
