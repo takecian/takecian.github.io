@@ -3,38 +3,42 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Docker を使って qmk_firmware を焼く - takecian</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta itemprop="name" content="Docker を使って qmk_firmware を焼く">
-<meta itemprop="description" content="ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
+	
+  <meta itemprop="name" content="Docker を使って qmk_firmware を焼く">
+  <meta itemprop="description" content="ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
 firmware のビルドに docker が使えることに気づいたので下記コマンドを実行して自分のキーマップの firmware をビルドする。
 util/docker_build.sh ergodox_ez:takecian そうするとバイナリができるので（ergodox_ez_takecian.hex）、teensy アプリをダウンロードしてくる。
 https://www.pjrc.com/teensy/loader_mac.html
 バイナリを指定した後に ergodox ez のリセットボタンを押す。
 これで更新完了。チャタリングがなくなった気がする。
-家にある ergodox ez も更新しよう。"><meta itemprop="datePublished" content="2019-01-17T14:22:31&#43;09:00" />
-<meta itemprop="dateModified" content="2019-01-17T14:22:31&#43;09:00" />
-<meta itemprop="wordCount" content="25">
-<meta itemprop="keywords" content="" /><meta property="og:title" content="Docker を使って qmk_firmware を焼く" />
-<meta property="og:description" content="ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
+家にある ergodox ez も更新しよう。">
+  <meta itemprop="datePublished" content="2019-01-17T14:22:31+09:00">
+  <meta itemprop="dateModified" content="2019-01-17T14:22:31+09:00">
+  <meta itemprop="wordCount" content="25"><meta property="og:url" content="https://takecian.github.io/posts/2019-01-17_diary/">
+  <meta property="og:site_name" content="takecian">
+  <meta property="og:title" content="Docker を使って qmk_firmware を焼く">
+  <meta property="og:description" content="ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
 firmware のビルドに docker が使えることに気づいたので下記コマンドを実行して自分のキーマップの firmware をビルドする。
 util/docker_build.sh ergodox_ez:takecian そうするとバイナリができるので（ergodox_ez_takecian.hex）、teensy アプリをダウンロードしてくる。
 https://www.pjrc.com/teensy/loader_mac.html
 バイナリを指定した後に ergodox ez のリセットボタンを押す。
 これで更新完了。チャタリングがなくなった気がする。
-家にある ergodox ez も更新しよう。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://takecian.github.io/posts/2019-01-17_diary/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-01-17T14:22:31&#43;09:00" />
-<meta property="article:modified_time" content="2019-01-17T14:22:31&#43;09:00" />
+家にある ergodox ez も更新しよう。">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-01-17T14:22:31+09:00">
+    <meta property="article:modified_time" content="2019-01-17T14:22:31+09:00">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Docker を使って qmk_firmware を焼く"/>
-<meta name="twitter:description" content="ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Docker を使って qmk_firmware を焼く">
+  <meta name="twitter:description" content="ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。
 firmware のビルドに docker が使えることに気づいたので下記コマンドを実行して自分のキーマップの firmware をビルドする。
 util/docker_build.sh ergodox_ez:takecian そうするとバイナリができるので（ergodox_ez_takecian.hex）、teensy アプリをダウンロードしてくる。
 https://www.pjrc.com/teensy/loader_mac.html
 バイナリを指定した後に ergodox ez のリセットボタンを押す。
 これで更新完了。チャタリングがなくなった気がする。
-家にある ergodox ez も更新しよう。"/>
+家にある ergodox ez も更新しよう。">
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/main.css" />
@@ -103,7 +107,7 @@ https://www.pjrc.com/teensy/loader_mac.html
 			<div class="markdown">
 				<p>ergodox ez を使ってるんだけどなんかチャタリングが気になったので firmware を更新した時の備忘録。</p>
 <p>firmware のビルドに docker が使えることに気づいたので下記コマンドを実行して自分のキーマップの firmware をビルドする。</p>
-<pre><code>util/docker_build.sh ergodox_ez:takecian
+<pre tabindex="0"><code>util/docker_build.sh ergodox_ez:takecian
 </code></pre><p>そうするとバイナリができるので（ergodox_ez_takecian.hex）、teensy アプリをダウンロードしてくる。</p>
 <p><a href="https://www.pjrc.com/teensy/loader_mac.html">https://www.pjrc.com/teensy/loader_mac.html</a></p>
 <p>バイナリを指定した後に ergodox ez のリセットボタンを押す。</p>
@@ -124,17 +128,6 @@ https://www.pjrc.com/teensy/loader_mac.html
 	</nav>
 </div>
 
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-32176657-40', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>feather.replace()</script>
 </body>
 </html>

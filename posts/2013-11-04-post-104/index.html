@@ -2,9 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Mac OS Mavericks で bcrypt-ruby がインストールできない場合の対処 - takecian</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta itemprop="name" content="Mac OS Mavericks で bcrypt-ruby がインストールできない場合の対処">
-<meta itemprop="description" content="Rails を勉強中に、壁にぶつかった。
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>post-104 - takecian</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <meta itemprop="name" content="post-104">
+  <meta itemprop="description" content="Rails を勉強中に、壁にぶつかった。
 has_secure_password を使う際に必要な bcrypt-ruby がインストールできない。
 ググってみたら、gcc-42 が見つからないって話はよく見つかるんだけど、
 それとは違ってこんなエラーが出る。
@@ -12,7 +13,7 @@ has_secure_password を使う際に必要な bcrypt-ruby がインストール�
 Building native extensions. This could take a while...
 ERROR: Error installing bcrypt-ruby:
 ERROR: Failed to build gem native extension.
- /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb
 creating Makefile
 make
 compiling bcrypt_ext.c
@@ -21,11 +22,21 @@ from bcrypt_ext.c:1:
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:51:21: error: string.h: No such file or directory
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:61:21: error: stdint.h: No such file or directory
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:64:23: error: inttypes.h: No such file or directory
-/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:68:19: error: stdio."><meta itemprop="datePublished" content="2013-11-04T18:42:22&#43;09:00" />
-<meta itemprop="dateModified" content="2013-11-04T18:42:22&#43;09:00" />
-<meta itemprop="wordCount" content="126">
-<meta itemprop="keywords" content="" /><meta property="og:title" content="Mac OS Mavericks で bcrypt-ruby がインストールできない場合の対処" />
-<meta property="og:description" content="Rails を勉強中に、壁にぶつかった。
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:68:19: error: stdio.h: No such file or directory
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:70,
+from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+from bcrypt_ext.c:1:
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/defines.h:29:21: error: stdlib.h: No such file or directory
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:194,
+from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+from bcrypt_ext.c:1:
+[/bash]">
+  <meta itemprop="datePublished" content="2013-11-04T00:00:00+09:00">
+  <meta itemprop="dateModified" content="2013-11-04T00:00:00+09:00">
+  <meta itemprop="wordCount" content="126"><meta property="og:url" content="https://takecian.github.io/posts/2013-11-04-post-104/">
+  <meta property="og:site_name" content="takecian">
+  <meta property="og:title" content="post-104">
+  <meta property="og:description" content="Rails を勉強中に、壁にぶつかった。
 has_secure_password を使う際に必要な bcrypt-ruby がインストールできない。
 ググってみたら、gcc-42 が見つからないって話はよく見つかるんだけど、
 それとは違ってこんなエラーが出る。
@@ -33,7 +44,7 @@ has_secure_password を使う際に必要な bcrypt-ruby がインストール�
 Building native extensions. This could take a while...
 ERROR: Error installing bcrypt-ruby:
 ERROR: Failed to build gem native extension.
- /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb
 creating Makefile
 make
 compiling bcrypt_ext.c
@@ -42,15 +53,24 @@ from bcrypt_ext.c:1:
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:51:21: error: string.h: No such file or directory
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:61:21: error: stdint.h: No such file or directory
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:64:23: error: inttypes.h: No such file or directory
-/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:68:19: error: stdio." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://takecian.github.io/posts/2013-11-04-post-104/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2013-11-04T18:42:22&#43;09:00" />
-<meta property="article:modified_time" content="2013-11-04T18:42:22&#43;09:00" />
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:68:19: error: stdio.h: No such file or directory
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:70,
+from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+from bcrypt_ext.c:1:
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/defines.h:29:21: error: stdlib.h: No such file or directory
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:194,
+from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+from bcrypt_ext.c:1:
+[/bash]">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-11-04T00:00:00+09:00">
+    <meta property="article:modified_time" content="2013-11-04T00:00:00+09:00">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Mac OS Mavericks で bcrypt-ruby がインストールできない場合の対処"/>
-<meta name="twitter:description" content="Rails を勉強中に、壁にぶつかった。
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="post-104">
+  <meta name="twitter:description" content="Rails を勉強中に、壁にぶつかった。
 has_secure_password を使う際に必要な bcrypt-ruby がインストールできない。
 ググってみたら、gcc-42 が見つからないって話はよく見つかるんだけど、
 それとは違ってこんなエラーが出る。
@@ -58,7 +78,7 @@ has_secure_password を使う際に必要な bcrypt-ruby がインストール�
 Building native extensions. This could take a while...
 ERROR: Error installing bcrypt-ruby:
 ERROR: Failed to build gem native extension.
- /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb
 creating Makefile
 make
 compiling bcrypt_ext.c
@@ -67,7 +87,15 @@ from bcrypt_ext.c:1:
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:51:21: error: string.h: No such file or directory
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:61:21: error: stdint.h: No such file or directory
 /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:64:23: error: inttypes.h: No such file or directory
-/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:68:19: error: stdio."/>
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:68:19: error: stdio.h: No such file or directory
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:70,
+from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+from bcrypt_ext.c:1:
+/Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/defines.h:29:21: error: stdlib.h: No such file or directory
+In file included from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby/ruby.h:194,
+from /Users/usrename/.rvm/rubies/ruby-2.0.0-p247/include/ruby-2.0.0/ruby.h:33,
+from bcrypt_ext.c:1:
+[/bash]">
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/main.css" />
@@ -129,7 +157,7 @@ from bcrypt_ext.c:1:
 					</div>
 				
 				<div class="matter">
-					<h1 class="title">Mac OS Mavericks で bcrypt-ruby がインストールできない場合の対処</h1>
+					<h1 class="title">post-104</h1>
 				</div>
 			</div>
 					
@@ -186,17 +214,6 @@ sudo ln -s /usr/local/bin/gcc-4.2 /usr/bin/gcc-4.2<br />
 	</nav>
 </div>
 
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-32176657-40', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>feather.replace()</script>
 </body>
 </html>

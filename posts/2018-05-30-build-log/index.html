@@ -3,23 +3,27 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Iris keyboard build-log - takecian</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta itemprop="name" content="Iris keyboard build-log">
-<meta itemprop="description" content="Irisを作ったんだけど firmware を焼くのに手順を忘れるのでここのメモしておく。
-takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions."><meta itemprop="datePublished" content="2018-05-30T23:49:30&#43;09:00" />
-<meta itemprop="dateModified" content="2018-05-30T23:49:30&#43;09:00" />
-<meta itemprop="wordCount" content="147">
-<meta itemprop="keywords" content="" /><meta property="og:title" content="Iris keyboard build-log" />
-<meta property="og:description" content="Irisを作ったんだけど firmware を焼くのに手順を忘れるのでここのメモしておく。
-takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://takecian.github.io/posts/2018-05-30-build-log/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2018-05-30T23:49:30&#43;09:00" />
-<meta property="article:modified_time" content="2018-05-30T23:49:30&#43;09:00" />
+	
+  <meta itemprop="name" content="Iris keyboard build-log">
+  <meta itemprop="description" content="Irisを作ったんだけど firmware を焼くのに手順を忘れるのでここのメモしておく。
+takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. Size before: text	data	bss	dec	hex	filename 0	25578	0	25578	63ea	./.build/iris_rev2_default.hex Compiling: ./tmk_core/common/command.c [OK] Linking: .build/iris_rev2_default.elf [OK] Creating load file for flashing: .build/iris_rev2_default.hex [OK] Checking file size of iris_rev2_default.hex [OK] * File size is fine - 25578/28672 Copying iris_rev2_default.hex to qmk_firmware folder [OK] Detecting USB port, reset your controller now でも結局 Ergodox に戻りつつある・・">
+  <meta itemprop="datePublished" content="2018-05-30T23:49:30+09:00">
+  <meta itemprop="dateModified" content="2018-05-30T23:49:30+09:00">
+  <meta itemprop="wordCount" content="147"><meta property="og:url" content="https://takecian.github.io/posts/2018-05-30-build-log/">
+  <meta property="og:site_name" content="takecian">
+  <meta property="og:title" content="Iris keyboard build-log">
+  <meta property="og:description" content="Irisを作ったんだけど firmware を焼くのに手順を忘れるのでここのメモしておく。
+takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. Size before: text	data	bss	dec	hex	filename 0	25578	0	25578	63ea	./.build/iris_rev2_default.hex Compiling: ./tmk_core/common/command.c [OK] Linking: .build/iris_rev2_default.elf [OK] Creating load file for flashing: .build/iris_rev2_default.hex [OK] Checking file size of iris_rev2_default.hex [OK] * File size is fine - 25578/28672 Copying iris_rev2_default.hex to qmk_firmware folder [OK] Detecting USB port, reset your controller now でも結局 Ergodox に戻りつつある・・">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-05-30T23:49:30+09:00">
+    <meta property="article:modified_time" content="2018-05-30T23:49:30+09:00">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Iris keyboard build-log"/>
-<meta name="twitter:description" content="Irisを作ったんだけど firmware を焼くのに手順を忘れるのでここのメモしておく。
-takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions."/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Iris keyboard build-log">
+  <meta name="twitter:description" content="Irisを作ったんだけど firmware を焼くのに手順を忘れるのでここのメモしておく。
+takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude [master] QMK Firmware 0.6.41 WARNING: Some git sub-modules are out of date or modified, please consider runnning: make git-submodule You can ignore this warning if you are not compiling any ChibiOS keyboards, or if you have modified the ChibiOS libraries yourself. Making iris/rev2 with keymap default and target avrdude avr-gcc (GCC) 7.3.0 Copyright (C) 2017 Free Software Foundation, Inc. This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. Size before: text	data	bss	dec	hex	filename 0	25578	0	25578	63ea	./.build/iris_rev2_default.hex Compiling: ./tmk_core/common/command.c [OK] Linking: .build/iris_rev2_default.elf [OK] Creating load file for flashing: .build/iris_rev2_default.hex [OK] Checking file size of iris_rev2_default.hex [OK] * File size is fine - 25578/28672 Copying iris_rev2_default.hex to qmk_firmware folder [OK] Detecting USB port, reset your controller now でも結局 Ergodox に戻りつつある・・">
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/main.css" />
@@ -87,7 +91,7 @@ takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:
 					
 			<div class="markdown">
 				<p><a href="https://takecian.github.io/posts/2018-05-27-own-keyboard/">Irisを作った</a>んだけど firmware を焼くのに手順を忘れるのでここのメモしておく。</p>
-<pre><code>takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude                                                         [master]
+<pre tabindex="0"><code>takecian-MacBook-Pro:~/Development/Tools/qmk_firmware t-fujiki $ make iris/rev2:default:avrdude                                                         [master]
 QMK Firmware 0.6.41
 WARNING:
  Some git sub-modules are out of date or modified, please consider runnning:
@@ -129,17 +133,6 @@ Detecting USB port, reset your controller now
 	</nav>
 </div>
 
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-32176657-40', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>feather.replace()</script>
 </body>
 </html>

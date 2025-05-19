@@ -4,53 +4,37 @@
     <title>Works on takecian</title>
     <link>https://takecian.github.io/work/</link>
     <description>Recent content in Works on takecian</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 29 Mar 2019 12:14:11 +0900</lastBuildDate><atom:link href="https://takecian.github.io/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Mar 2019 12:14:11 +0900</lastBuildDate>
+    <atom:link href="https://takecian.github.io/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Baseball news Privacy policy</title>
       <link>https://takecian.github.io/work/npbsns_privacypolicy/</link>
       <pubDate>Fri, 29 Mar 2019 12:14:11 +0900</pubDate>
-      
       <guid>https://takecian.github.io/work/npbsns_privacypolicy/</guid>
-      <description>Privacy Policy Takeshi Fujiki built the Baseball news app as a Free app. This SERVICE is provided by Takeshi Fujiki at no cost and is intended for use as is.
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.</description>
+      <description>&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;&#xA;&lt;p&gt;Takeshi Fujiki built the Baseball news app as a Free app. This SERVICE is provided by Takeshi Fujiki at no cost and is intended for use as is.&lt;/p&gt;&#xA;&lt;p&gt;This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.&lt;/p&gt;&#xA;&lt;p&gt;If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Checklista Privacy policy</title>
       <link>https://takecian.github.io/work/checklista_privacypolicy/</link>
       <pubDate>Fri, 29 Mar 2019 12:14:11 +0900</pubDate>
-      
       <guid>https://takecian.github.io/work/checklista_privacypolicy/</guid>
-      <description>Privacy Policy Takeshi Fujiki built the Checklista app as a Free app. This SERVICE is provided by Takeshi Fujiki at no cost and is intended for use as is.
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.</description>
+      <description>&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;&#xA;&lt;p&gt;Takeshi Fujiki built the Checklista app as a Free app. This SERVICE is provided by Takeshi Fujiki at no cost and is intended for use as is.&lt;/p&gt;&#xA;&lt;p&gt;This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.&lt;/p&gt;&#xA;&lt;p&gt;If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cospa Privacy policy</title>
       <link>https://takecian.github.io/work/cospa_privacypolicy/</link>
       <pubDate>Fri, 29 Mar 2019 12:14:11 +0900</pubDate>
-      
       <guid>https://takecian.github.io/work/cospa_privacypolicy/</guid>
-      <description>Privacy Policy Takeshi Fujiki built the Cospa app as a Free app. This SERVICE is provided by Takeshi Fujiki at no cost and is intended for use as is.
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.</description>
+      <description>&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;&#xA;&lt;p&gt;Takeshi Fujiki built the Cospa app as a Free app. This SERVICE is provided by Takeshi Fujiki at no cost and is intended for use as is.&lt;/p&gt;&#xA;&lt;p&gt;This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.&lt;/p&gt;&#xA;&lt;p&gt;If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Work</title>
       <link>https://takecian.github.io/work/work/</link>
-      <pubDate>Sun, 11 Nov 2018 01:05:35 +0900</pubDate>
-      
+      <pubDate>Sun, 01 Jun 2014 15:07:13 +0900</pubDate>
       <guid>https://takecian.github.io/work/work/</guid>
-      <description>作ったものを公開中。
-  Android アプリ
- Google play    iOSアプリ
- App Store    </description>
+      <description>&lt;p&gt;作ったものを公開中。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Android アプリ&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/developer?id=takecian&#34;&gt;Google play&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;iOSアプリ&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/jp/developer/t-fjk/id490334852&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

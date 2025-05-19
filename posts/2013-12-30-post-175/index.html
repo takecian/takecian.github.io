@@ -2,39 +2,43 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Nginx(ELB) &#43; Unicorn で Rails で OAuth 認証をするときのコールバックURL - takecian</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta itemprop="name" content="Nginx(ELB) &#43; Unicorn で Rails で OAuth 認証をするときのコールバックURL">
-<meta itemprop="description" content="Railsアプリ(Unicorn) の前段に Nginx を置くのが主流になりつつあるみたいですが何も指定しなかったら Unicorn で待ち受けてるホスト名で OAuth provider 側にコールバックURLを渡してしまうので Facebook など provider 側に「登録したCallback URL(domain)と違うよ」エラーが返ってきます。
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>post-175 - takecian</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <meta itemprop="name" content="post-175">
+  <meta itemprop="description" content="Railsアプリ(Unicorn) の前段に Nginx を置くのが主流になりつつあるみたいですが何も指定しなかったら Unicorn で待ち受けてるホスト名で OAuth provider 側にコールバックURLを渡してしまうので Facebook など provider 側に「登録したCallback URL(domain)と違うよ」エラーが返ってきます。
 ＃Nginx を使っていないくても ELB を使うようになったら同じ問題にぶつかると思う。
 その場合は、config/initialize の devise.rb か omniauth.rb で、
 [code lang=&#34;ruby&#34;]
 OmniAuth.config.full_host = &#39;http://hostname&#39;
 [/code]
-を指定しておきます。コールバックURLはローカル環境や staging/production 環境で異なると思うので initializer の中で書いておくのがよさそうです。"><meta itemprop="datePublished" content="2013-12-30T06:58:25&#43;09:00" />
-<meta itemprop="dateModified" content="2013-12-30T06:58:25&#43;09:00" />
-<meta itemprop="wordCount" content="35">
-<meta itemprop="keywords" content="" /><meta property="og:title" content="Nginx(ELB) &#43; Unicorn で Rails で OAuth 認証をするときのコールバックURL" />
-<meta property="og:description" content="Railsアプリ(Unicorn) の前段に Nginx を置くのが主流になりつつあるみたいですが何も指定しなかったら Unicorn で待ち受けてるホスト名で OAuth provider 側にコールバックURLを渡してしまうので Facebook など provider 側に「登録したCallback URL(domain)と違うよ」エラーが返ってきます。
+を指定しておきます。コールバックURLはローカル環境や staging/production 環境で異なると思うので initializer の中で書いておくのがよさそうです。">
+  <meta itemprop="datePublished" content="2013-12-30T00:00:00+09:00">
+  <meta itemprop="dateModified" content="2013-12-30T00:00:00+09:00">
+  <meta itemprop="wordCount" content="35"><meta property="og:url" content="https://takecian.github.io/posts/2013-12-30-post-175/">
+  <meta property="og:site_name" content="takecian">
+  <meta property="og:title" content="post-175">
+  <meta property="og:description" content="Railsアプリ(Unicorn) の前段に Nginx を置くのが主流になりつつあるみたいですが何も指定しなかったら Unicorn で待ち受けてるホスト名で OAuth provider 側にコールバックURLを渡してしまうので Facebook など provider 側に「登録したCallback URL(domain)と違うよ」エラーが返ってきます。
 ＃Nginx を使っていないくても ELB を使うようになったら同じ問題にぶつかると思う。
 その場合は、config/initialize の devise.rb か omniauth.rb で、
 [code lang=&#34;ruby&#34;]
 OmniAuth.config.full_host = &#39;http://hostname&#39;
 [/code]
-を指定しておきます。コールバックURLはローカル環境や staging/production 環境で異なると思うので initializer の中で書いておくのがよさそうです。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://takecian.github.io/posts/2013-12-30-post-175/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2013-12-30T06:58:25&#43;09:00" />
-<meta property="article:modified_time" content="2013-12-30T06:58:25&#43;09:00" />
+を指定しておきます。コールバックURLはローカル環境や staging/production 環境で異なると思うので initializer の中で書いておくのがよさそうです。">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-12-30T00:00:00+09:00">
+    <meta property="article:modified_time" content="2013-12-30T00:00:00+09:00">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Nginx(ELB) &#43; Unicorn で Rails で OAuth 認証をするときのコールバックURL"/>
-<meta name="twitter:description" content="Railsアプリ(Unicorn) の前段に Nginx を置くのが主流になりつつあるみたいですが何も指定しなかったら Unicorn で待ち受けてるホスト名で OAuth provider 側にコールバックURLを渡してしまうので Facebook など provider 側に「登録したCallback URL(domain)と違うよ」エラーが返ってきます。
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="post-175">
+  <meta name="twitter:description" content="Railsアプリ(Unicorn) の前段に Nginx を置くのが主流になりつつあるみたいですが何も指定しなかったら Unicorn で待ち受けてるホスト名で OAuth provider 側にコールバックURLを渡してしまうので Facebook など provider 側に「登録したCallback URL(domain)と違うよ」エラーが返ってきます。
 ＃Nginx を使っていないくても ELB を使うようになったら同じ問題にぶつかると思う。
 その場合は、config/initialize の devise.rb か omniauth.rb で、
 [code lang=&#34;ruby&#34;]
 OmniAuth.config.full_host = &#39;http://hostname&#39;
 [/code]
-を指定しておきます。コールバックURLはローカル環境や staging/production 環境で異なると思うので initializer の中で書いておくのがよさそうです。"/>
+を指定しておきます。コールバックURLはローカル環境や staging/production 環境で異なると思うので initializer の中で書いておくのがよさそうです。">
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://takecian.github.io/css/main.css" />
@@ -96,7 +100,7 @@ OmniAuth.config.full_host = &#39;http://hostname&#39;
 					</div>
 				
 				<div class="matter">
-					<h1 class="title">Nginx(ELB) &#43; Unicorn で Rails で OAuth 認証をするときのコールバックURL</h1>
+					<h1 class="title">post-175</h1>
 				</div>
 			</div>
 					
@@ -123,17 +127,6 @@ OmniAuth.config.full_host = &#39;http://hostname&#39;
 	</nav>
 </div>
 
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-32176657-40', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>feather.replace()</script>
 </body>
 </html>

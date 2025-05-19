@@ -1,108 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>conf on takecian</title>
+    <title>Conf on takecian</title>
     <link>https://takecian.github.io/categories/conf/</link>
-    <description>Recent content in conf on takecian</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Conf on takecian</description>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 13 Feb 2014 15:14:04 +0900</lastBuildDate><atom:link href="https://takecian.github.io/categories/conf/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Developers Summit2014 1日目(2/13) 資料まとめ</title>
-      <link>https://takecian.github.io/posts/2014-02-13-post-213/</link>
-      <pubDate>Thu, 13 Feb 2014 15:14:04 +0900</pubDate>
-      
-      <guid>https://takecian.github.io/posts/2014-02-13-post-213/</guid>
-      <description>【13-A-1】クラウドがもたらす破壊と創造 http://www.slideshare.net/kentamagawa/developer-summit-2014
-【13-B-1】サーバプロビジョニングのこれまでとこれから
-https://speakerdeck.com/mizzy/future-of-server-provisioning-at-developers-summit-2014
-【13-B-2】グリーにおけるChef導入事例 ～既存の資産を活かし新しい技術を導入する～
-https://speakerdeck.com/ryotarai/guriniokeruchefdao-ru-shi-li-ji-cun-falsezi-chan-wohuo-kasixin-siiji-shu-wodao-ru-suru
-【13-D-1】JavaからJavaScriptへ！HTML5適用から見えた次世代業務アプリケーション
-http://www.slideshare.net/sagawafumio/web-31152089
-【13-C-1】Cocos2d-x によるスマートフォンアプリ開発のこれまでとこれから
-http://www.slideshare.net/syuhari/dev-sumi
-【13-A-4】新卒エンジニア研修ですべきことできること @ryopeko
-https://speakerdeck.com/ryopeko/devsumi2014-dena-bootcamp2014
-※追記：公式が資料まとめてくれるようです。
-http://codezine.jp/article/detail/7640?utm_source=dlvr.it&amp;utm_medium=facebook</description>
-    </item>
-    
-    <item>
-      <title>HTML5 Conference 2013 に行ってきた</title>
-      <link>https://takecian.github.io/posts/2013-11-30-post-119/</link>
-      <pubDate>Sat, 30 Nov 2013 22:02:37 +0900</pubDate>
-      
-      <guid>https://takecian.github.io/posts/2013-11-30-post-119/</guid>
-      <description>調布のNTT中央研修センタで開催された HTML5 Conference に行ってきました。
-HTML5 Conference
-キーノートは慶応の村井純教授、Google 及川さん・ JOWA 白石さん。
-http://www.youtube.com/watch?v=9HqnXcPjCGg
-村井先生は、政府を含めた国家IT戦略の話や医療の話など。
-「IT戦略の中に“HTML5” や&#34;パーソナルファブリケータ(3Dプリンタを使って個人で製造すること)”などの言葉も組み入れられた」とのことで、今後さらに爆発的に普及していく可能性がある、と。
-また、一度加速すると指数関数的に加速するもので、10年後にできたらいいなと思っているものが7年後にはできるようになると思う、と。
-7年後(2020年東京オリンピック)になにをしたいか考えよう、と話していた。
-------------------------------------------------------------------
-Google 及川さんは技術の深まり、広がりについて。
-Webの世界の進化がにWebの中にとどまらなくなりつつある、と。
-注目の技術トレンドとしては、
-・Web MIDI
-・WebAudio
-・Web RTC
-をあげていた。
-今後の展望としては、機能・使い勝手・開発生産性 を改善させる方向にさらに進んでいく、と。Web Components などは開発生産性をあげていくものになるらしい。
-また、モバイルの普及にも触れていて、
-・販売された端末のうち、70%がスマホ・タブレット
-・全体のWEBアクセスのうち、40％がスマホ・タブレット
-というデータを示し、「(これだけスマホ・タブレットが普及していながら、まだPCからのWEBアクセスが多いということは、WEBはモバイルのために)まだまだやるべきことが残っている」というようなことを言っていた。
-------------------------------------------------------------------
-白石さんは主にコミュニティの広がりについて触れられていた。
-コミュニティ発足当時から、今回のような大きなイベントを開催するようになるまでを解説されていた。
-今回のイベントは最寄りの駅からマイクロバスが手配されていたり、会場でドーナツが配られたり、複数セッションの同時進行など、2000人規模のイベントの進行などを滞りなく(少なくとも自分にはそう思えた)やっているようだった。こんなチームを作り上げるのはそう簡単ではないんだろうと素直にすごいなーと思った。
-------------------------------------------------------------------
-ここからは下は参加したセッションの感想とか資料のリンクとか。
-------------------------------------------------------------------
-「モバイルフロンティア：フロントエンドエンジニアとデザイナーのためのモバイルユーザーエクスペリエンス」
-資料
-同名の書籍の翻訳者のセッション。Amazonへのリンクはこれ。本のエッセンスをかいつまんで紹介してくれていた。
-中でも印象に残ったのが、「コンテンツそのものがインターフェースになる」という話。これは数年前からMicrosoftが言ってる「ユーザーに価値のあるもの(コンテンツ)を全面に」というものに近い気がした。コンテンツを仕切るための線や枠などいらんのですよ、という考え方。
-あと、アニメーションを考える上で基本となる12のルール、というものも紹介されていた。ディズニーで使われているアニメーション技法にそんなものがあるらしい。ググってみると以下のような情報が出てきた、たぶんこういう話。詳しくは書籍を読んだほうがいいと思う。
-http://www.youtube.com/watch?v=xqGL1ZLk3n8#t=38
-引用元：ディズニーのCGアニメーション制作における１２のルール
-------------------------------------------------------------------
-「(白石俊平と) カッコいいやつら 番外編 「スタートアップのススメ」」
-登壇者：adamrocker さん、徳井直生さん、山下大介さん、白石俊平さん
-http://www.youtube.com/watch?v=Oc8Wk7HYn0E&amp;feature=share&amp;t=3h23m34s
-座談会形式でスタートアップの仲間集めや資金集めなど、スタートアップに興味ある人向けに話してくれる会。生々しい数字が出ていて参加してよかったと思った。中でも山下さん(だったと思う)の、
-「売上がないままだと、(中の人は)あと何ヶ月で力尽きるかは分かっているわけです。それが利益が出て、『１ヶ月延びた、２ヶ月延びた』という感じ」
-というようなことを言っていたのが印象に残った。大きな企業の１エンジニアの自分としては、「今うちは赤字だけど、10年先は分からんけど、3年先くらいは今の会社はまだ残ってるよな」という感じで生きていて、そこの感覚がかなり違っている気がした。どっちがいいのかは分からないけど。
-------------------------------------------------------------------
-勉強会に行くと刺激になると同時に、発表している人たちと自分とのレベルの違いに絶望する。この思いを忘れないうちにコードを書かねば。input ばかりで output しないままでいると自分が嫌いな人たちと同じになってしまう。明日は Rails 関連でエントリを書こう。</description>
-    </item>
-    
+    <lastBuildDate>Sat, 26 Oct 2013 15:16:50 +0900</lastBuildDate>
+    <atom:link href="https://takecian.github.io/categories/conf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>楽天テクノロジーカンファレンス2013に行ってきた</title>
       <link>https://takecian.github.io/posts/2013-10-26-post-87/</link>
       <pubDate>Sat, 26 Oct 2013 15:16:50 +0900</pubDate>
-      
       <guid>https://takecian.github.io/posts/2013-10-26-post-87/</guid>
-      <description>楽天テクノロジーカンファレンス2013に行ってきました。
-印象に残ったセッションを自分用メモのつもりで残しておく。
-Elixir Ruby と Erlang に似た関数型言語だとか。
-Speaker は Ruby on rails や Ruby 関連の著書で有名な Dave Thomas。
-
-Aiming the Moving Target(Keynote) Speaker は Matz 。
-
-我々は、
-・自分たちが作っているものを分からない
-・自分が欲しいものを分からない
-それ(無知であること)を認めよう、試行錯誤しよう。
-失敗してもいいから、進み続けようというようなことを言ってたんだけども、
-「競争力に必要なもの以外のすべてをOSSに」
-の言葉が個人的には一番刺さった。
-そうですよね、あるものは使えばいいんですよ。
-というかセッション終わって数時間しかないのに Youtube 上に公開されてるのはすごい。</description>
+      <description>&lt;p&gt;&lt;a title=&#34;Rakuten tech 2013&#34; href=&#34;http://tech.rakuten.co.jp/&#34; target=&#34;_blank&#34;&gt;楽天テクノロジーカンファレンス2013&lt;/a&gt;に行ってきました。&lt;/p&gt;&#xA;&lt;p&gt;印象に残ったセッションを自分用メモのつもりで残しておく。&lt;/p&gt;&#xA;&lt;h2&gt;&lt;a title=&#34;Elixir&#34; href=&#34;http://elixir-lang.org/&#34; target=&#34;_blank&#34;&gt;Elixir&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Ruby と Erlang に似た関数型言語だとか。&lt;/p&gt;&#xA;&lt;p&gt;Speaker は Ruby on rails や Ruby 関連の著書で有名な Dave Thomas。&lt;/p&gt;&#xA;&lt;p&gt;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/1a4-1skImgA&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Aiming the Moving Target(Keynote)&lt;/h2&gt;&#xA;&lt;p&gt;Speaker は Matz 。&lt;/p&gt;&#xA;&lt;p&gt;&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;//www.youtube.com/embed/obiljftVy0g&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&#xA;&lt;p&gt;我々は、&lt;br /&gt;&#xA;・自分たちが作っているものを分からない&lt;br /&gt;&#xA;・自分が欲しいものを分からない&lt;br /&gt;&#xA;それ(無知であること)を認めよう、試行錯誤しよう。&lt;/p&gt;&#xA;&lt;p&gt;失敗してもいいから、進み続けようというようなことを言ってたんだけども、&lt;/p&gt;&#xA;&lt;p&gt;「競争力に必要なもの以外のすべてをOSSに」&lt;/p&gt;&#xA;&lt;p&gt;の言葉が個人的には一番刺さった。&lt;br /&gt;&#xA;そうですよね、あるものは使えばいいんですよ。&lt;/p&gt;&#xA;&lt;p&gt;というかセッション終わって数時間しかないのに Youtube 上に公開されてるのはすごい。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

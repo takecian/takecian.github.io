@@ -1,83 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>misc on takecian</title>
+    <title>Misc on takecian</title>
     <link>https://takecian.github.io/categories/misc/</link>
-    <description>Recent content in misc on takecian</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Misc on takecian</description>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 04 Oct 2014 21:00:52 +0900</lastBuildDate><atom:link href="https://takecian.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Oct 2014 21:00:52 +0900</lastBuildDate>
+    <atom:link href="https://takecian.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wordpress から github page へ</title>
       <link>https://takecian.github.io/posts/2014-10-04-post-261/</link>
       <pubDate>Sat, 04 Oct 2014 21:00:52 +0900</pubDate>
-      
       <guid>https://takecian.github.io/posts/2014-10-04-post-261/</guid>
-      <description>勉強ネタは Qiita に投稿するようになるとこっちに投稿するネタがなくなった。。
-さくらの VPS で wordpress を稼働させてたんですが毎月払うのがもったいなくなってきたので github pages に移行してきました。
-ブログは Wordpress から Jekyll(じゃこる？)に。
-移行ツールもあったので過去のエントリも持ってこれました(画像とかはめんどかったのでおいてきた・・)</description>
+      <description>&lt;p&gt;勉強ネタは Qiita に投稿するようになるとこっちに投稿するネタがなくなった。。&lt;/p&gt;&#xA;&lt;p&gt;さくらの VPS で wordpress を稼働させてたんですが毎月払うのがもったいなくなってきたので github pages に移行してきました。&lt;/p&gt;&#xA;&lt;p&gt;ブログは Wordpress から &lt;a href =&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;(じゃこる？)に。&lt;/p&gt;&#xA;&lt;p&gt;移行ツールもあったので過去のエントリも持ってこれました(画像とかはめんどかったのでおいてきた・・)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Qiita が楽しい</title>
       <link>https://takecian.github.io/posts/2014-07-10-post-260/</link>
       <pubDate>Thu, 10 Jul 2014 16:44:52 +0900</pubDate>
-      
       <guid>https://takecian.github.io/posts/2014-07-10-post-260/</guid>
-      <description>勉強兼ねて さくらの VPS で wordpress をインストールしてブログを書いてたんですが 最近は Qiita に投稿することが増えてきました。
-http://qiita.com/takecian
-kobito っていう Markdown エディタもあるし、 いいねと思った記事は Stock されるし(Contribute という数字に現れる)、 書いていて楽しい。
-ということでこっちのブログに書く頻度が減りそうw</description>
+      <description>&lt;p&gt;勉強兼ねて さくらの VPS で wordpress をインストールしてブログを書いてたんですが 最近は Qiita に投稿することが増えてきました。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://qiita.com/takecian&#34;&gt;http://qiita.com/takecian&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;kobito っていう Markdown エディタもあるし、 いいねと思った記事は Stock されるし(Contribute という数字に現れる)、 書いていて楽しい。&lt;/p&gt;&#xA;&lt;p&gt;ということでこっちのブログに書く頻度が減りそうw&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>TeamGeek - Googleのギークたちはいかにしてチームを作るのか</title>
-      <link>https://takecian.github.io/posts/2014-03-24-post-227/</link>
-      <pubDate>Mon, 24 Mar 2014 11:32:57 +0900</pubDate>
-      
-      <guid>https://takecian.github.io/posts/2014-03-24-post-227/</guid>
-      <description>ちょっと遅くなったけどこの本を読んだ。
-内容としてはチームとしてうまくやっていくために大切なことが書かれています。
- ミッションステートメントを決めよう  チームが同じ方向を向くためには必要なこと。決めたあとはインパクトマッピングなどを用いて具体的な行動に落とし込んでいくのがいいかも。   HRTが大事（&#34;ハート&#34;と読む）。これが欠けてる人がいるとチームは不幸になると思う。  謙虚 (Humility) 尊敬 (Respect) 信頼 (Trust)   サーバントリーダーであれ  マネージャーの仕事はチームが(仕事面でも生活面でも)幸せになることをサポートすること マネージャーやリーダーってのはチームメンバーと比べて偉い人って意味ではないんですよね。ただ役割が異なるだけ。同じ目標に向かって頑張る仲間なわけです。    一人でなんでもやりたいという気持ちはあるけど、できることには限界があることを知ることも大事。
-誰かと一緒に何かをつくるためにはうまくやる方法を知る必要がある。結局はチームメンバを HRT できることができるかどうか、が大事なのではないかと。
-これは自分の意見を出さない、という意味ではなくて議論する時に個人に言及するのでなくアイデアや方法に対して言及する、ということを自分や相手が理解していることが重要。
-チームメンバとは今までもそれなりにうまくやってこれているつもりではあるけど仕事で来月から新しいチームに加わるので、そこでも楽しくやっていけるようにこの本で心に響いたことを意識していこうと思う。</description>
-    </item>
-    
-    <item>
-      <title>Reveal.js で自己紹介スライドを作る</title>
-      <link>https://takecian.github.io/posts/2013-12-08-post-144/</link>
-      <pubDate>Sun, 08 Dec 2013 23:12:39 +0900</pubDate>
-      
-      <guid>https://takecian.github.io/posts/2013-12-08-post-144/</guid>
-      <description>ちょっと自己紹介スライドを作る必要があって
-パワポ以外で作ってみようと思って Reveal.js を使ってみた。
-Reveal.js:プレゼンテーション用の JavaScript のライブラリ。アニメーションがオシャレ。
-といっても Reveal.js を使えるオンラインエディタを使っただけだけど。
-slid.es
-これが無料で使えるとか世の中便利すぎて怖い。</description>
-    </item>
-    
     <item>
       <title>やらないと決める</title>
       <link>https://takecian.github.io/posts/2013-11-24_dont_do/</link>
       <pubDate>Sun, 24 Nov 2013 22:49:43 +0900</pubDate>
-      
       <guid>https://takecian.github.io/posts/2013-11-24_dont_do/</guid>
-      <description>時間が足りない。
-・仕事はしないといけない
-・マンガは読みたい
-・勉強はしたい
-・ゴルフはしたい
-・飲みにも行きたい
-・恋愛もしたい
-時間は有限なので、なにかやらないものを決めないといけないんだけど、
-時間の大部分を占めるのは仕事で、
-これをやらない、と決めると他のものにも支障が出てくるので、
-少し前に尊敬する人から、
-「悩んだら誰にも見られないところで、考えていることを紙に書くといいよ」</description>
+      <description>&lt;p&gt;時間が足りない。&lt;/p&gt;&#xA;&lt;p&gt;・仕事はしないといけない&lt;br /&gt;&#xA;・マンガは読みたい&lt;br /&gt;&#xA;・勉強はしたい&lt;br /&gt;&#xA;・ゴルフはしたい&lt;br /&gt;&#xA;・飲みにも行きたい&lt;br /&gt;&#xA;・恋愛もしたい&lt;/p&gt;&#xA;&lt;p&gt;時間は有限なので、なにかやらないものを決めないといけないんだけど、&lt;br /&gt;&#xA;時間の大部分を占めるのは仕事で、&lt;br /&gt;&#xA;これをやらない、と決めると他のものにも支障が出てくるので、&lt;/p&gt;&#xA;&lt;p&gt;少し前に尊敬する人から、&lt;br /&gt;&#xA;「悩んだら誰にも見られないところで、考えていることを紙に書くといいよ」&lt;/p&gt;&#xA;とアドバイスをもらった。やってみよう。</description>
     </item>
-    
   </channel>
 </rss>
