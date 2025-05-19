@@ -3,7 +3,7 @@ languageCode = "ja-jp"
 title = "takecian"
 theme = "hugo-ink"
 
-googleAnalytics = "UA-32176657-40"
+disqusShortname = ""  # Adding empty Disqus shortname to prevent errors
 
 [[menu.main]]
     name = "Posts"
@@ -45,3 +45,4 @@ googleAnalytics = "UA-32176657-40"
     url = "/index.xml"
 
 ignoreErrors = ["error-remote-getjson"]
+ignoreLogs = ["warning-goldmark-raw-html"]

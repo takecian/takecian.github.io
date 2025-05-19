@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Android application privacy policy
-date: 2017-02-01 20:40:59.000000000 +09:00
+date: 2017-02-01 20:40:59 +0900
 status: publish
 type: page
-published: true
 permalink: /androidpp/
 ---
 

@@ -1,10 +1,9 @@
 ---
 layout: page
 title: iOS application privacy policy
-date: 2023-02-01 20:40:59.000000000 +09:00
+date: 2023-02-01 20:40:59 +0900
 status: publish
 type: page
-published: true
 permalink: /iosapp/
 ---
 
