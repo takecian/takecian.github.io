@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "id": "4575872f-a5f6-45e7-8736-d2771d7b3ef4",
+      "title": "Update README",
+      "description": "",
+      "status": "todo",
+      "createdAt": "2026-02-12T13:52:19.367Z",
+      "branchName": "feature/task-1770904339367"
+    }
+  ]
+}
