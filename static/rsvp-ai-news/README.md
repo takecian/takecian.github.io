@@ -26,8 +26,9 @@ Japanese word boundaries come from `Intl.Segmenter`; a lightweight fallback is
 included. Words are grouped into short chunks, with a maximum of eight base
 characters plus trailing punctuation; unusually long words can be split.
 The highlighted character stays centered. Rate is characters per minute, not
-English WPM. Chunk display time is proportional to grapheme count, with a
-160 ms minimum and additional punctuation pauses (140/300 ms). This is a UI
+English WPM. The speed control spans 200–3000 characters per minute in
+50-character steps, starting at 600. Chunk display time is proportional to
+grapheme count, with a 160 ms minimum and additional punctuation pauses (140/300 ms). This is a UI
 experiment, not a claim of improved reading speed or comprehension. Full text
 and original sources remain available. No autoplay, animation, analytics,
 external libraries, remote fonts, or persistence is used. Reduced-motion
@@ -44,7 +45,9 @@ to update stories; text is rendered with `textContent`.
 
 ## Verification for this change
 
-Node syntax checks and all five logic tests pass. A browser test is supplied,
-but Chromium could not start in the execution environment because OS socket
-creation was restricted. No visual/mobile-browser pass is claimed. Hugo was
-not installed in that environment, so a complete Hugo build was not run.
+Node syntax checks, all seven logic tests, and a complete Hugo build pass.
+The tests cover the speed-control limits and proportional timing changes during
+active and paused playback at 3000 characters per minute. Browser regression
+coverage includes the slider's native upper limit, but Chromium could not start
+in this execution environment because OS socket creation was restricted.
+No visual/mobile-browser pass is claimed.
