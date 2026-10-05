@@ -36,10 +36,38 @@ test('no autoplay; pause/resume preserves remaining time; no duplicate timers',(
  const {els:e,tick,timers}=setup();assert.equal(e.stories.children.length,6);const initial=e.position.textContent;tick(5000);assert.equal(e.position.textContent,initial);e.play.fire('click');assert.equal(timers.size,1);tick(200);e.play.fire('click');assert.equal(timers.size,0);tick(5000);assert.equal(e.position.textContent,initial);e.play.fire('click');tick(2000);assert.notEqual(e.position.textContent,initial);assert.equal(timers.size,1);
 });
 test('live speed, next/previous, restart and article selection reset safely',()=>{
- const {els:e,tick,timers}=setup();const initial=e.position.textContent;e.play.fire('click');e.speed.value='1400';e.speed.fire('input');assert.equal(timers.size,1);tick(1000);e.restart.fire('click');assert.equal(e.position.textContent,initial);assert.equal(timers.size,0);e.next.fire('click');assert(e.position.textContent.startsWith('2 /'));e.previous.fire('click');assert.equal(e.position.textContent,initial);e.article.value='gpt-6-astra';e.article.fire('change');assert(e.topic.textContent.includes('Astra'));assert(e.position.textContent.startsWith('1 /'));
+ const {els:e,tick,timers}=setup();const initial=e.position.textContent;e.play.fire('click');e.speed.value='3000';e.speed.fire('input');assert.equal(timers.size,1);tick(1000);e.restart.fire('click');assert.equal(e.position.textContent,initial);assert.equal(timers.size,0);e.next.fire('click');assert(e.position.textContent.startsWith('2 /'));e.previous.fire('click');assert.equal(e.position.textContent,initial);e.article.value='gpt-6-astra';e.article.fire('change');assert(e.topic.textContent.includes('Astra'));assert(e.position.textContent.startsWith('1 /'));
 });
 test('seek to final chunk, automatic stop, replay, hidden-tab pause, keyboard',()=>{
  const {els:e,tick,timers,listeners,document}=setup();e.seek.value=e.seek.max;e.seek.fire('input');e.play.fire('click');tick(5000);assert.equal(e.state.textContent,'読み終わりました');assert.equal(timers.size,0);e.play.fire('click');assert(e.position.textContent.startsWith('1 /'));document.hidden=true;listeners.visibilitychange();assert.equal(timers.size,0);document.hidden=false;
  const key = (key,code=key,tag='BODY')=>listeners.keydown({key,code,target:{tagName:tag},preventDefault(){}});key(' ','Space');assert.equal(timers.size,1);key(' ','Space');assert.equal(timers.size,0);key('ArrowRight');assert(e.position.textContent.startsWith('2 /'));key('r');assert(e.position.textContent.startsWith('1 /'));key(' ','Space','INPUT');assert.equal(timers.size,0);
 });
 test('fallback works without Intl.Segmenter',()=>{const {els:e,tick}=setup(false);e.play.fire('click');tick(2000);assert(!e.position.textContent.startsWith('1 /'));});
+
+test('speed range retains its minimum, step and default with a 3000 maximum',()=>{
+ const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+ const input=html.match(/<input\b[^>]*id="speed"[^>]*>/)[0];
+ for(const [name,value] of Object.entries({min:'200',max:'3000',step:'50',value:'600'})) assert(input.includes(name+'="'+value+'"'));
+ assert.equal(duration('一二三四五六七八',3000),160);
+ assert.equal(duration('一二三四五六七八九',3000),180);
+ assert.equal(duration('読む',3000),160);
+ assert.equal(duration('読む。',3000),460);
+ assert.equal(duration('読む、',3000),300);
+});
+test('3000 speed updates active and paused playback proportionally without duplicate timers',()=>{
+ for(const paused of [false,true]) {
+  const {els:e,tick,timers}=setup();
+  const chunk=e.before.textContent+e.focus.textContent+e.after.textContent;
+  const initial=e.position.textContent;
+  const half=duration(chunk,600)/2;
+  e.play.fire('click');tick(half);
+  if(paused)e.play.fire('click');
+  e.speed.value='3000';e.speed.fire('input');
+  assert.equal(e['speed-value'].children[0].textContent,'3000 ');
+  assert.equal(timers.size,paused?0:1);
+  if(paused){tick(5000);assert.equal(e.position.textContent,initial);e.play.fire('click');}
+  const remaining=duration(chunk,3000)/2;
+  tick(remaining-1);assert.equal(e.position.textContent,initial);
+  tick(1);assert.notEqual(e.position.textContent,initial);assert.equal(timers.size,1);
+ }
+});
