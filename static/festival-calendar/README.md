@@ -11,7 +11,7 @@ Run `hugo server -D` and open `/festival-calendar/`, or serve `static/` with a
 static HTTP server. Opening `index.html` through `file://` is not supported,
 because the page loads `festivals.json` with `fetch`.
 
-- `node --test tests/festival-calendar.test.cjs tests/rsvp-reader.test.cjs`
+- `node --test tests/festival-calendar*.test.cjs tests/rsvp-reader.test.cjs`
 - `node --check static/festival-calendar/calendar.js`
 - `node --check static/festival-calendar/app.js`
 - `node tests/festival-calendar-browser.cjs` (requires Playwright and Chromium;
@@ -44,6 +44,30 @@ URL filters without generating an entry on every keystroke. Invalid ranges show
 an inline error. Reset, date-only reset, no-results, load error and retry states
 are included. Content is created with `textContent`; only HTTPS source URLs are
 accepted, and new-tab links include `noopener noreferrer`.
+
+## Social sharing
+
+The calendar's `index.html` includes static Open Graph and Twitter large-image
+card tags. Crawlers can read the title, description, canonical production URL,
+Japanese locale and image without running JavaScript. Filtered URLs share the
+same calendar preview and canonical URL; no festival detail pages are created.
+
+`og-image.png` is an original 1200 × 630 image served from this folder. Its
+editable vector source is `assets/og-image.svg`, with no external artwork or
+network assets. To update it, edit the SVG, then render with Inkscape and an
+installed Japanese font such as Noto Sans CJK JP:
+
+```sh
+inkscape static/festival-calendar/assets/og-image.svg \
+  --export-type=png --export-filename=static/festival-calendar/og-image.png \
+  --export-width=1200 --export-height=630
+```
+
+The PNG is committed, so normal builds need no additional image tools. When
+changing the year, update the HTML title/descriptions and image together. After
+`hugo`, run `FESTIVAL_OGP_ROOT=public/festival-calendar node --test
+tests/festival-calendar-ogp.test.cjs` to check the actual published artifacts.
+Social platforms may cache old previews until they re-fetch the URL.
 
 ## Data maintenance
 
