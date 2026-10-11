@@ -25,6 +25,11 @@ disqusShortname = ""  # Adding empty Disqus shortname to prevent errors
     identifier = "about"
     url = "/about/about"
     weight = 4
+[[menu.main]]
+    name = "学園祭"
+    identifier = "festival-calendar"
+    url = "/festival-calendar/"
+    weight = 5
 
 [params]
 	subtitle = "Diary"
