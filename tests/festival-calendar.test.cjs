@@ -10,18 +10,65 @@ const fixture = {id:'test', name:'テスト祭', university:'テスト大学', c
 
 test('dataset has expanded official-sourced coverage across 8 regions', () => {
   assert.equal(core.validateData(data), data);
-  assert(data.festivals.length >= 80);
-  assert(new Set(data.festivals.map(x => x.university)).size >= 60);
-  assert(new Set(data.festivals.map(x => x.prefecture)).size >= 30);
+  assert(data.festivals.length >= 150);
+  assert(new Set(data.festivals.map(x => x.university)).size >= 90);
+  assert(new Set(data.festivals.map(x => x.prefecture)).size >= 43);
   assert.equal(new Set(data.festivals.map(x => x.region)).size, 8);
   assert.equal(core.PREFECTURES.length, 47);
   assert.match(data.scope, /網羅するものではありません/);
+});
+test('named university coverage includes former imperial universities and major private universities', () => {
+  const universities = new Set(data.festivals.map(item => item.university));
+  for (const university of [
+    '北海道大学', '東北大学', '東京大学', '名古屋大学', '京都大学', '大阪大学', '九州大学',
+    '東京科学大学', '一橋大学', '国際基督教大学', '早稲田大学', '慶應義塾大学', '上智大学',
+    '東京理科大学', '明治大学', '青山学院大学', '立教大学', '中央大学', '法政大学',
+    '関西大学', '関西学院大学', '同志社大学', '立命館大学',
+    '國學院大學', '成蹊大学', '武蔵大学', '明治学院大学', '東洋大学',
+    '神戸大学', '横浜国立大学', '横浜市立大学', '東京都立大学', '大阪公立大学',
+    '名古屋市立大学', '名古屋工業大学', '東京学芸大学', '東京農工大学'
+  ]) assert(universities.has(university), `Missing university: ${university}`);
+  assert(core.filterFestivals(data.festivals, {query:'ICU'}).some(item => item.university === '国際基督教大学'));
+  assert(core.filterFestivals(data.festivals, {query:'科学大'}).some(item => item.university === '東京科学大学'));
+});
+test('documented snapshot counts match the actual dataset', () => {
+  const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+  const universities = new Set(data.festivals.map(item => item.university)).size;
+  const prefectures = new Set(data.festivals.map(item => item.prefecture)).size;
+  assert(readme.includes(`contains ${data.festivals.length}\nfestivals from ${universities} universities in ${prefectures} prefectures`));
+});
+test('newly requested university campuses retain their confirmed 2026 dates', () => {
+  const expected = {
+    'science-tokyo-koudaisai-2026': ['2026-10-10', '2026-10-11'],
+    'science-tokyo-ochanomizusai-2026': ['2026-10-17', '2026-10-18'],
+    'icu-fes-2026': ['2026-10-11', '2026-10-12'],
+    'tus-kagurazaka-2026': ['2026-11-20', '2026-11-21'],
+    'tus-noda-2026': ['2026-11-20', '2026-11-21'],
+    'tus-katsushika-2026': ['2026-11-20', '2026-11-21'],
+    'kwansei-shingetsusai-sanda-2026': ['2026-10-24', '2026-10-25'],
+    'kwansei-shingetsusai-uegahara-2026': ['2026-11-07', '2026-11-08'],
+    'kwansei-shingetsusai-seiwa-2026': ['2026-11-14', '2026-11-15']
+  };
+  for (const [id, dates] of Object.entries(expected)) {
+    const item = data.festivals.find(item => item.id === id);
+    assert(item, `Missing campus festival: ${id}`);
+    assert.deepEqual(item.dates, dates, id);
+    for (const day of dates) assert(core.matches(item, {prefecture:item.prefecture, from:day, to:day, query:item.university}), id);
+  }
 });
 test('Hoshi festival retains its verified 2026 dates and source', () => {
   const event = data.festivals.find(item => item.id === 'hoshiyakufes-2026');
   assert.deepEqual(event.dates, ['2026-10-24', '2026-10-25']);
   assert.equal(event.sourceUrl, 'https://www.hoshi.ac.jp/admission/opencampus/');
   for (const day of event.dates) assert(core.filterFestivals(data.festivals, {prefecture:'東京都',from:day,to:day}).some(item => item.id === event.id));
+});
+test('Todai May Festival excludes the officially cancelled day', () => {
+  const event = data.festivals.find(item => item.id === 'utokyo-mayfes-2026');
+  assert.deepEqual(event.dates, ['2026-05-17']);
+  assert(!core.matches(event, {from:'2026-05-16', to:'2026-05-16'}));
+  assert(core.matches(event, {from:'2026-05-17', to:'2026-05-17'}));
+  assert.equal(event.sourceUrl, 'https://www.u-tokyo.ac.jp/focus/ja/articles/z0508_00144.html');
+  assert.match(event.notes, /16日の全企画中止/);
 });
 test('public page has no raw JSON download links and retains the data-backed calendar', () => {
   const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
@@ -35,6 +82,9 @@ test('all records retain official sources and distinct university-campus events'
   for (const item of data.festivals) {
     assert(['大学公式', '実行委員会公式', '大学公式・実行委員会公式'].includes(item.sourceType), item.id);
     assert(item.region && typeof item.region === 'string', item.id);
+    assert.match(item.id, /^[a-z0-9]+(?:-[a-z0-9]+)*-2026$/, item.id);
+    assert.deepEqual(item.dates, [...item.dates].sort(), item.id);
+    assert(item.checkedAt <= data.checkedAt, item.id);
     const identity = [item.university, item.campus, item.startDate, item.endDate].join('|');
     assert(!identities.has(identity), `Duplicate campus festival: ${identity}`);
     identities.add(identity);
@@ -130,6 +180,19 @@ test('app loads records, source links, all prefectures and coverage; no executab
   const all=[];const walk=node=>{all.push(node);node.children.forEach(walk);};e['festival-list'].children.forEach(walk);
   assert(all.filter(x=>x.tagName==='A').every(x=>x.href.startsWith('https:')&&x.rel==='noopener noreferrer'));
   assert(!fs.readFileSync(path.join(root,'app.js'),'utf8').includes('innerHTML'));
+});
+test('every festival renders its own dates and verified official/source URLs', async () => {
+  const {e} = await setup();
+  for (const item of data.festivals) {
+    const card = e['festival-list'].children.find(node => node.dataset.festivalId === item.id);
+    assert(card, item.id);
+    assert.equal(card.children.find(node => node.className === 'festival-date').textContent, core.dateLabel(item), item.id);
+    const links = card.children.find(node => node.className === 'card-links').children;
+    assert.equal(links[0].href, core.safeUrl(item.officialUrl), item.id);
+    assert.equal(links[0].rel, 'noopener noreferrer', item.id);
+    assert.equal(links.length, item.sourceUrl === item.officialUrl ? 1 : 2, item.id);
+    if (links.length === 2) assert.equal(links[1].href, core.safeUrl(item.sourceUrl), item.id);
+  }
 });
 test('every populated prefecture renders its full coverage and each university is searchable',async()=>{
   const {e}=await setup();
