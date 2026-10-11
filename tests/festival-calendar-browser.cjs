@@ -25,6 +25,20 @@ const data = JSON.parse(fs.readFileSync(path.join(source, 'festivals.json'),'utf
     assert.equal(await page.locator('#prefecture option').count(),48);
     assert.equal(await page.locator('a[href=\"festivals.json\"]').count(),0);
     assert.equal(await page.getByText('掲載データ（JSON）', {exact:false}).count(),0);
+    for (const query of ['東京科学大学', 'ICU', '東京理科大学', '関西学院大学']) {
+      await page.locator('#query').fill(query);
+      const expected = core.filterFestivals(data.festivals, {query});
+      assert(expected.length > 0, `Missing university search: ${query}`);
+      assert.equal(await page.locator('.festival-card').count(), expected.length, query);
+      for (const item of expected) {
+        const card = page.locator(`[data-festival-id="${item.id}"]`);
+        assert.equal(await card.locator('.festival-date').textContent(), core.dateLabel(item));
+        assert.equal(await card.locator('.official-link').getAttribute('href'), item.officialUrl);
+        assert.equal(await card.locator('.official-link').getAttribute('rel'), 'noopener noreferrer');
+        if (item.sourceUrl !== item.officialUrl) assert.equal(await card.locator('.source-link').getAttribute('href'), item.sourceUrl);
+      }
+    }
+    await page.locator('#reset').click();
     await page.locator('#prefecture').selectOption('東京都');
     await page.locator('#from').fill('2026-11-01');await page.locator('#to').fill('2026-11-03');await page.locator('#to').blur();
     assert.equal(await page.locator('.festival-card').count(),core.filterFestivals(data.festivals,{prefecture:'東京都',from:'2026-11-01',to:'2026-11-03'}).length);
