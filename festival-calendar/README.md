@@ -47,8 +47,10 @@ accepted, and new-tab links include `noopener noreferrer`.
 
 ## Data maintenance
 
-`festivals.json` is the single source of truth. The initial snapshot contains 35
-festivals in 17 prefectures across eight broad regions, verified on 2026-10-11.
+`festivals.json` is the single source of truth. The current snapshot contains 103
+festivals from 77 universities in 42 prefectures across eight broad regions,
+verified on 2026-10-11. The JSON file is loaded by the app, but the public page
+does not show a raw-data download link.
 It is **not** a complete nationwide directory. Record sources are universities
 or their festival committees, not guessed annual dates. Spring/earlier autumn
 events remain available and display a finished badge. Follow the source links
@@ -59,8 +61,15 @@ Each record includes a unique `id`, `university`, `name`, `campus`, `prefecture`
 `sourceType`, `checkedAt`, and optional `notes`. Add only dates confirmed for the
 stated year. `startDate`/`endDate` must equal the first/last actual date. Keep notes
 short; mention admission limits or separate venue dates when relevant. Update
-both record and dataset check dates after re-verifying. Increment the dataset
-coverage assertions in the tests when adding or removing verified records.
+both record and dataset check dates after re-verifying. Distinct campus
+festivals are separate records; the university count uses unique university
+names. Never include preparation or cleanup dates as festival dates.
+
+The tests enforce a minimum expanded coverage and validate all records, source
+URLs, unique university-campus date ranges, displayed prefecture counts and
+university searches. UI expectations derive from the dataset so new verified
+records do not require changing hard-coded list sizes. Update the snapshot
+counts above when adding or removing records.
 
 This page does not automatically monitor official announcements. Moving to a
 new year requires updating the dataset and the explicit year in the UI and

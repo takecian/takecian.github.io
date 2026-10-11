@@ -65,6 +65,25 @@
       "notes": "2026年の開催は終了しました。"
     },
     {
+      "id": "obirin-ohinasai-2026",
+      "university": "桜美林大学",
+      "name": "第4回桜日向祭",
+      "campus": "東京ひなたやまキャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-04",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04"
+      ],
+      "officialUrl": "https://www.obirin.ac.jp/event/year_2026/lo4e4n000ohinasai26.html",
+      "sourceUrl": "https://www.obirin.ac.jp/event/year_2026/lo4e4n000ohinasai26.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "2026年の開催は終了しました。"
+    },
+    {
       "id": "sagamihara-fes-2026",
       "university": "青山学院大学",
       "name": "第24回相模原祭",
@@ -82,6 +101,181 @@
       "sourceType": "大学公式",
       "checkedAt": "2026-10-11",
       "notes": ""
+    },
+    {
+      "id": "yamagata-azumasai-2026",
+      "university": "山形大学",
+      "name": "第32回吾妻祭",
+      "campus": "米沢キャンパス・米沢女子短期大学",
+      "prefecture": "山形県",
+      "region": "東北",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-12",
+      "dates": [
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "officialUrl": "https://www.yamagata-u.ac.jp/jp/festival/festival2026/",
+      "sourceUrl": "https://www.yamagata-u.ac.jp/jp/festival/festival2026/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10日は米沢女子短期大学、11・12日は山形大学米沢キャンパスで開催。"
+    },
+    {
+      "id": "gunma-guntousai-2026",
+      "university": "群馬大学",
+      "name": "群桐祭",
+      "campus": "桐生キャンパス",
+      "prefecture": "群馬県",
+      "region": "関東",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-11",
+      "dates": [
+        "2026-10-10",
+        "2026-10-11"
+      ],
+      "officialUrl": "https://www.gunma-u.ac.jp/studentlife/stu007/g2033",
+      "sourceUrl": "https://www.gunma-u.ac.jp/studentlife/stu007/g2033",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "toyama-sokisai-2026",
+      "university": "富山大学",
+      "name": "創己祭2026",
+      "campus": "高岡キャンパス",
+      "prefecture": "富山県",
+      "region": "中部",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-11",
+      "dates": [
+        "2026-10-10",
+        "2026-10-11"
+      ],
+      "officialUrl": "https://www.u-toyama.ac.jp/event/141038/",
+      "sourceUrl": "https://www.u-toyama.ac.jp/event/141038/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜16:30。"
+    },
+    {
+      "id": "tottori-fumonsai-2026",
+      "university": "鳥取大学",
+      "name": "第62回風紋祭",
+      "campus": "鳥取キャンパス",
+      "prefecture": "鳥取県",
+      "region": "中国",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-12",
+      "dates": [
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "officialUrl": "https://www.fumonsai.jp/",
+      "sourceUrl": "https://www.tottori-u.ac.jp/news/post-1152.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10・11日は10:00〜18:00、12日は10:00〜16:00。10日の模擬店は11:00開始。"
+    },
+    {
+      "id": "socu-ryuosai-2026",
+      "university": "山陽小野田市立山口東京理科大学",
+      "name": "第31回竜王祭",
+      "campus": "大学構内（山陽小野田市）",
+      "prefecture": "山口県",
+      "region": "中国",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-11",
+      "dates": [
+        "2026-10-10",
+        "2026-10-11"
+      ],
+      "officialUrl": "https://www.socu.ac.jp/news/2026/09/post-944.html",
+      "sourceUrl": "https://www.socu.ac.jp/news/2026/09/post-944.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "駐車台数に限りがあるため公共交通機関などの利用にご協力ください。"
+    },
+    {
+      "id": "aiu-fes-2026",
+      "university": "国際教養大学",
+      "name": "第23回AIU祭",
+      "campus": "雄和キャンパス",
+      "prefecture": "秋田県",
+      "region": "東北",
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-12",
+      "dates": [
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "officialUrl": "https://aiufestival.aiu.ac.jp/2026tilt/%E5%A0%B4%E6%89%80%E3%83%BB%E6%97%A5%E7%A8%8B-2/",
+      "sourceUrl": "https://aiufestival.aiu.ac.jp/2026tilt/%E5%A0%B4%E6%89%80%E3%83%BB%E6%97%A5%E7%A8%8B-2/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "nodai-okhotsk-2026",
+      "university": "東京農業大学",
+      "name": "第38回オホーツク収穫祭",
+      "campus": "北海道オホーツクキャンパス",
+      "prefecture": "北海道",
+      "region": "北海道",
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-12",
+      "dates": [
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "officialUrl": "https://www.okhotsksyukakusai.info/",
+      "sourceUrl": "https://www.nodai.ac.jp/campus/festival/2021/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "",
+      "additionalSources": [
+        "https://www.okhotsksyukakusai.info/"
+      ]
+    },
+    {
+      "id": "shimane-shofusai-2026",
+      "university": "島根大学",
+      "name": "第76回淞風祭",
+      "campus": "松江キャンパス",
+      "prefecture": "島根県",
+      "region": "中国",
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-12",
+      "dates": [
+        "2026-10-11",
+        "2026-10-12"
+      ],
+      "officialUrl": "https://shimane-fes.jp/",
+      "sourceUrl": "https://www.shimane-u.ac.jp/docs/2026100200018/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "11日は9:30〜18:00、12日は9:30〜16:00。一般来場者の学内駐車不可（車いす用駐車場あり）。"
+    },
+    {
+      "id": "nagasaki-katafuchi-2026",
+      "university": "長崎大学",
+      "name": "片淵祭2026",
+      "campus": "片淵キャンパス",
+      "prefecture": "長崎県",
+      "region": "九州・沖縄",
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-11",
+      "dates": [
+        "2026-10-11"
+      ],
+      "officialUrl": "https://www.econ.nagasaki-u.ac.jp/news/4134/",
+      "sourceUrl": "https://www.econ.nagasaki-u.ac.jp/news/4134/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "15:00〜20:00。入場無料。地域の方も参加できます。"
     },
     {
       "id": "shindaisai-2026",
@@ -124,6 +318,101 @@
       "notes": "来場者用駐車場なし。公共交通機関をご利用ください。"
     },
     {
+      "id": "iwate-kozukatasai-2026",
+      "university": "岩手大学",
+      "name": "第77回不来方祭",
+      "campus": "上田キャンパス",
+      "prefecture": "岩手県",
+      "region": "東北",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "dates": [
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "officialUrl": "https://www.iwate-u.ac.jp/info/event/2026/09/008076.html",
+      "sourceUrl": "https://www.iwate-u.ac.jp/info/event/2026/09/008076.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜16:00。公共交通機関をご利用ください。"
+    },
+    {
+      "id": "toyama-iyakufes-2026",
+      "university": "富山大学",
+      "name": "医薬祭2026",
+      "campus": "杉谷キャンパス",
+      "prefecture": "富山県",
+      "region": "中部",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "dates": [
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "officialUrl": "https://www.u-toyama.ac.jp/event/141038/",
+      "sourceUrl": "https://www.u-toyama.ac.jp/event/141038/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "17日は10:00〜18:00、18日は10:00〜17:00。"
+    },
+    {
+      "id": "bunri-bunrisai-2026",
+      "university": "徳島文理大学",
+      "name": "文理祭",
+      "campus": "高松駅キャンパス",
+      "prefecture": "香川県",
+      "region": "四国",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "dates": [
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "officialUrl": "https://www.bunri-u.ac.jp/campus-life/life-support/festival/",
+      "sourceUrl": "https://www.bunri-u.ac.jp/campus-life/life-support/festival/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "kochi-tech-fff-2026",
+      "university": "高知工科大学",
+      "name": "Flying Fish Festival 2026",
+      "campus": "香美キャンパス",
+      "prefecture": "高知県",
+      "region": "四国",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "dates": [
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "officialUrl": "https://www.kochi-tech.ac.jp/event/2026/007115.html",
+      "sourceUrl": "https://www.kochi-tech.ac.jp/event/2026/007115.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "kinjo-fes-2026",
+      "university": "金城大学・金城大学短期大学部",
+      "name": "第50回金城祭",
+      "campus": "笠間キャンパス",
+      "prefecture": "石川県",
+      "region": "中部",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "dates": [
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "officialUrl": "https://www.kinjo.ac.jp/festival/",
+      "sourceUrl": "https://www.kinjo.ac.jp/festival/data/pamphlet.pdf",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜16:00。日程は公式パンフレットの表紙で確認。"
+    },
+    {
       "id": "tohoku-festa-2026",
       "university": "東北大学",
       "name": "第78回東北大学祭",
@@ -160,6 +449,199 @@
       "sourceType": "大学公式",
       "checkedAt": "2026-10-11",
       "notes": "来場者用駐車場なし。公共交通機関をご利用ください。"
+    },
+    {
+      "id": "hoshiyakufes-2026",
+      "university": "星薬科大学",
+      "name": "第54回 星薬祭",
+      "campus": "星薬科大学（品川区荏原）",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://hoshiyakufes.wixsite.com/mysite",
+      "sourceUrl": "https://www.hoshi.ac.jp/admission/opencampus/",
+      "sourceType": "大学公式・実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "両日10:00〜17:00。学園祭は予約不要（ミニガイダンスは事前申込）。駐車場・駐輪場なし。"
+    },
+    {
+      "id": "kanagawa-festa-2026",
+      "university": "神奈川大学",
+      "name": "第28回神大フェスタ",
+      "campus": "横浜キャンパス",
+      "prefecture": "神奈川県",
+      "region": "関東",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://www.kanagawa-u.ac.jp/campuslife/festival/",
+      "sourceUrl": "https://www.kanagawa-u.ac.jp/campuslife/festival/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "spu-seitosai-2026",
+      "university": "埼玉県立大学",
+      "name": "第28回清透祭",
+      "campus": "越谷キャンパス",
+      "prefecture": "埼玉県",
+      "region": "関東",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://www.spu.ac.jp/life/festival/",
+      "sourceUrl": "https://www.spu.ac.jp/life/festival/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "花火のみ荒天時は11月1日に延期予定。大学祭の開催日は10月24・25日。"
+    },
+    {
+      "id": "yamagata-yatsuminesai-2026",
+      "university": "山形大学",
+      "name": "第60回八峰祭",
+      "campus": "小白川キャンパス",
+      "prefecture": "山形県",
+      "region": "東北",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://www.yamagata-u.ac.jp/jp/festival/festival2026/",
+      "sourceUrl": "https://www.yamagata-u.ac.jp/jp/festival/festival2026/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "toyama-tomidaisai-2026",
+      "university": "富山大学",
+      "name": "富大祭2026",
+      "campus": "五福キャンパス",
+      "prefecture": "富山県",
+      "region": "中部",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://www.u-toyama.ac.jp/event/141038/",
+      "sourceUrl": "https://www.u-toyama.ac.jp/event/141038/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "24日は11:00〜18:00、25日は10:00〜17:30。"
+    },
+    {
+      "id": "kanda-hamakaze-2026",
+      "university": "神田外語大学",
+      "name": "第40回浜風祭",
+      "campus": "幕張キャンパス",
+      "prefecture": "千葉県",
+      "region": "関東",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://www.kandagaigo.ac.jp/kuis/main/campuslife/hamasai/",
+      "sourceUrl": "https://www.kandagaigo.ac.jp/kuis/main/campuslife/hamasai/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "24日は10:00〜17:00、25日は10:00〜16:00。"
+    },
+    {
+      "id": "yamanashi-nashiisai-2026",
+      "university": "山梨大学",
+      "name": "梨医祭2026",
+      "campus": "医学部キャンパス",
+      "prefecture": "山梨県",
+      "region": "中部",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://www.nashiisai.jp/",
+      "sourceUrl": "https://www.nashiisai.jp/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜16:30。"
+    },
+    {
+      "id": "saga-fes-2026",
+      "university": "佐賀大学",
+      "name": "第29回佐賀大学祭",
+      "campus": "本庄キャンパス",
+      "prefecture": "佐賀県",
+      "region": "九州・沖縄",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://saga-uni-fes.com/",
+      "sourceUrl": "https://sagadaipress.saga-u.ac.jp/archives/17519/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "",
+      "additionalSources": [
+        "https://saga-uni-fes.com/"
+      ]
+    },
+    {
+      "id": "bunri-yamashirosai-2026",
+      "university": "徳島文理大学",
+      "name": "山城祭",
+      "campus": "徳島キャンパス",
+      "prefecture": "徳島県",
+      "region": "四国",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://www.bunri-u.ac.jp/campus-life/life-support/festival/",
+      "sourceUrl": "https://www.bunri-u.ac.jp/campus-life/life-support/festival/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "ページ冒頭の2026年開催日を採用。下部に前年度の情報が残っています。"
+    },
+    {
+      "id": "shiga-hikone-shidaisai-2026",
+      "university": "滋賀大学",
+      "name": "滋大祭2026（秋の部）",
+      "campus": "彦根キャンパス",
+      "prefecture": "滋賀県",
+      "region": "近畿",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://www.shiga-u.ac.jp/47606/",
+      "sourceUrl": "https://www.shiga-u.ac.jp/47606/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "24日は9:00〜19:00、25日は9:00〜17:00。"
     },
     {
       "id": "chibafes-2026",
@@ -245,6 +727,49 @@
       "notes": "同時開催のキャンパスフェスタ（10月31日〜11月1日）とは日程が異なります。"
     },
     {
+      "id": "nodai-setagaya-2026",
+      "university": "東京農業大学",
+      "name": "創立135年世田谷キャンパス収穫祭",
+      "campus": "世田谷キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://harvest-fes.com/",
+      "sourceUrl": "https://www.nodai.ac.jp/campus/festival/2021/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "準備・体育祭・片付け日は含めていません。",
+      "additionalSources": [
+        "https://harvest-fes.com/"
+      ]
+    },
+    {
+      "id": "gifu-gidaisai-2026",
+      "university": "岐阜大学",
+      "name": "岐大祭",
+      "campus": "柳戸キャンパス",
+      "prefecture": "岐阜県",
+      "region": "中部",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://gidaisai.jp/",
+      "sourceUrl": "https://www.gifu-u.ac.jp/campus_life/extra_curricular/event.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
       "id": "kyudaisai-2026",
       "university": "九州大学",
       "name": "第79回九大祭",
@@ -303,6 +828,384 @@
       "sourceType": "大学公式",
       "checkedAt": "2026-10-11",
       "notes": "来場者用駐車場なし。公共交通機関をご利用ください。"
+    },
+    {
+      "id": "kanagawa-minatomirai-2026",
+      "university": "神奈川大学",
+      "name": "第6回みなとみらい祭",
+      "campus": "みなとみらいキャンパス",
+      "prefecture": "神奈川県",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.kanagawa-u.ac.jp/campuslife/festival/",
+      "sourceUrl": "https://www.kanagawa-u.ac.jp/campuslife/festival/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "cuc-mizuhosai-2026",
+      "university": "千葉商科大学",
+      "name": "第76回瑞穂祭",
+      "campus": "市川キャンパス",
+      "prefecture": "千葉県",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.cuc.ac.jp/campus/mizuho/index.html",
+      "sourceUrl": "https://www.cuc.ac.jp/campus/mizuho/index.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜17:00。車での来場はご遠慮ください。"
+    },
+    {
+      "id": "chuo-hakumonsai-tama-2026",
+      "university": "中央大学",
+      "name": "白門祭（多摩）",
+      "campus": "多摩キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-03",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "officialUrl": "https://www.chuo-u.ac.jp/campuslife/hakumon_fes/",
+      "sourceUrl": "https://www.chuo-u.ac.jp/campuslife/hakumon_fes/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "chuo-rikohakumonsai-2026",
+      "university": "中央大学",
+      "name": "理工白門祭",
+      "campus": "後楽園キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.chuo-u.ac.jp/campuslife/hakumon_fes/",
+      "sourceUrl": "https://www.chuo-u.ac.jp/campuslife/hakumon_fes/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "chuo-itlfest-2026",
+      "university": "中央大学",
+      "name": "iTLFest.",
+      "campus": "市ヶ谷田町キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.chuo-u.ac.jp/campuslife/hakumon_fes/",
+      "sourceUrl": "https://www.chuo-u.ac.jp/campuslife/hakumon_fes/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "chuo-hakumonsai-myogadani-2026",
+      "university": "中央大学",
+      "name": "白門祭（茗荷谷）",
+      "campus": "茗荷谷キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.chuo-u.ac.jp/campuslife/hakumon_fes/",
+      "sourceUrl": "https://www.chuo-u.ac.jp/campuslife/hakumon_fes/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "komazawa-autumn-2026",
+      "university": "駒澤大学",
+      "name": "オータムフェスティバル2026",
+      "campus": "駒沢キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.komazawa-u.ac.jp/event/2026/0904-19179.html",
+      "sourceUrl": "https://www.komazawa-u.ac.jp/event/2026/0904-19179.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "hosei-ichigaya-2026",
+      "university": "法政大学",
+      "name": "第79回自主法政祭市ヶ谷地区",
+      "campus": "市ヶ谷キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-03",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "officialUrl": "https://hoseifes79ichigaya.tokyo/",
+      "sourceUrl": "https://hoseifes79ichigaya.tokyo/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "shibaura-fes-2026",
+      "university": "芝浦工業大学",
+      "name": "第54回芝浦祭",
+      "campus": "豊洲キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://shibaurasai.jp/",
+      "sourceUrl": "https://shibaurasai.jp/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "nodai-atsugi-2026",
+      "university": "東京農業大学",
+      "name": "第27回厚木キャンパス収穫祭",
+      "campus": "厚木キャンパス",
+      "prefecture": "神奈川県",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.atsugifes.com/",
+      "sourceUrl": "https://www.nodai.ac.jp/campus/festival/2021/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "",
+      "additionalSources": [
+        "https://www.atsugifes.com/"
+      ]
+    },
+    {
+      "id": "obirin-orisai-2026",
+      "university": "桜美林大学",
+      "name": "桜李祭",
+      "campus": "町田キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.obirin.ac.jp/info/year_2026/u1ta3s000007tyky.html",
+      "sourceUrl": "https://www.obirin.ac.jp/info/year_2026/u1ta3s000007tyky.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜18:00。"
+    },
+    {
+      "id": "mie-fes-2026",
+      "university": "三重大学",
+      "name": "第78回三重大学祭",
+      "campus": "上浜キャンパス",
+      "prefecture": "三重県",
+      "region": "近畿",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://miefes.net/",
+      "sourceUrl": "https://miefes.net/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "実行委員会の開催告知を採用。10月30日の準備日・11月2日の後片付け日は含めていません。",
+      "additionalSources": [
+        "https://www.ars.mie-u.ac.jp/r8gyoujiyoteihyou.ver2.pdf"
+      ]
+    },
+    {
+      "id": "nanzan-fes-2026",
+      "university": "南山大学",
+      "name": "南山大学祭",
+      "campus": "名古屋キャンパス",
+      "prefecture": "愛知県",
+      "region": "中部",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-02",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02"
+      ],
+      "officialUrl": "https://www.nanzan-u.ac.jp/admission/event/",
+      "sourceUrl": "https://www.nanzan-u.ac.jp/admission/event/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "okayama-tsushimasai-2026",
+      "university": "岡山大学",
+      "name": "岡山大学大学祭（津島祭）",
+      "campus": "津島キャンパス",
+      "prefecture": "岡山県",
+      "region": "中国",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.okayama-u.ac.jp/tp/life/daigakusai.html",
+      "sourceUrl": "https://www.okayama-u.ac.jp/tp/life/daigakusai.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "31日は11:00〜19:00、1日は9:00〜19:00。津島東キャンパス内で開催。学年暦の準備・片付け日を含めず開催案内を採用。"
+    },
+    {
+      "id": "okayama-shikatasai-2026",
+      "university": "岡山大学",
+      "name": "鹿田祭",
+      "campus": "鹿田キャンパス",
+      "prefecture": "岡山県",
+      "region": "中国",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.okayama-u.ac.jp/tp/life/daigakusai.html",
+      "sourceUrl": "https://www.okayama-u.ac.jp/tp/life/daigakusai.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "usp-kofusai-2026",
+      "university": "滋賀県立大学",
+      "name": "第32回湖風祭",
+      "campus": "大学構内（彦根市）",
+      "prefecture": "滋賀県",
+      "region": "近畿",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.usp.ac.jp/nyushi/open/",
+      "sourceUrl": "https://www.usp.ac.jp/nyushi/open/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜19:00。",
+      "additionalSources": [
+        "https://www.usp.ac.jp/life/club/"
+      ]
+    },
+    {
+      "id": "kochi-kuroshiosai-2026",
+      "university": "高知大学",
+      "name": "第76回黒潮祭",
+      "campus": "朝倉キャンパス",
+      "prefecture": "高知県",
+      "region": "四国",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://kuroshio-fes.info/?p=26",
+      "sourceUrl": "https://kuroshio-fes.info/?p=26",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "",
+      "additionalSources": [
+        "https://www.janu.jp/other/index2026.php"
+      ]
+    },
+    {
+      "id": "oita-med-fes-2026",
+      "university": "大分大学",
+      "name": "大分大学医学部祭",
+      "campus": "挾間キャンパス",
+      "prefecture": "大分県",
+      "region": "九州・沖縄",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.med.oita-u.ac.jp/campus/igakubusai2026/index.html",
+      "sourceUrl": "https://www.med.oita-u.ac.jp/campus/igakubusai2026/index.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "大学公式の2026年度医学部祭案内を採用。どなたでも来場できます。"
+    },
+    {
+      "id": "okinawa-okidaisai-2026",
+      "university": "沖縄大学",
+      "name": "第67回沖大祭",
+      "campus": "国場キャンパス",
+      "prefecture": "沖縄県",
+      "region": "九州・沖縄",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "officialUrl": "https://sites.google.com/okinawa-u.ac.jp/okidaisai2020",
+      "sourceUrl": "https://sites.google.com/okinawa-u.ac.jp/okidaisai2020/%E7%AC%AC67%E5%9B%9E%E6%B2%96%E5%A4%A7%E7%A5%AD/%E7%AC%AC67%E5%9B%9E%E6%B2%96%E5%A4%A7%E7%A5%AD%E9%96%8B%E5%82%AC",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "本祭日程のみ掲載。"
     },
     {
       "id": "machikanesai-2026",
@@ -370,6 +1273,86 @@
       "notes": "一部トークショーは有料・チケット制。10月27日の学外前夜祭ライブは含めていません。"
     },
     {
+      "id": "yamagata-kakujusai-2026",
+      "university": "山形大学",
+      "name": "鶴寿祭",
+      "campus": "鶴岡キャンパス",
+      "prefecture": "山形県",
+      "region": "東北",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "officialUrl": "https://www.yamagata-u.ac.jp/jp/festival/festival2026/",
+      "sourceUrl": "https://www.yamagata-u.ac.jp/jp/festival/festival2026/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "tokai-shonan-2026",
+      "university": "東海大学",
+      "name": "第72回建学祭",
+      "campus": "湘南キャンパス",
+      "prefecture": "神奈川県",
+      "region": "関東",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-03",
+      "dates": [
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "officialUrl": "https://shonan-kengakusai.com/",
+      "sourceUrl": "https://shonan-kengakusai.com/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "nara-wu-kotosai-2026",
+      "university": "奈良女子大学",
+      "name": "第75回恋都祭",
+      "campus": "北魚屋キャンパス",
+      "prefecture": "奈良県",
+      "region": "近畿",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-03",
+      "dates": [
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03"
+      ],
+      "officialUrl": "https://kotofestival.wixsite.com/website",
+      "sourceUrl": "https://kotofestival.wixsite.com/website",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "",
+      "additionalSources": [
+        "https://www.janu.jp/other/index2026.php",
+        "https://camp-fire.jp/projects/922833/view/activities/890279"
+      ]
+    },
+    {
+      "id": "ritsumeikan-kinugasa-2026",
+      "university": "立命館大学",
+      "name": "立命館大学学園祭 衣笠祭典",
+      "campus": "衣笠キャンパス",
+      "prefecture": "京都府",
+      "region": "近畿",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-01",
+      "dates": [
+        "2026-11-01"
+      ],
+      "officialUrl": "https://festival.ritsumei.club/rits-brothers/kic/",
+      "sourceUrl": "https://www.ritsumei.ac.jp/sports-culture/culture/topics/detail/?id=1003",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
       "id": "rikkyo-spf-2026",
       "university": "立教大学",
       "name": "SPF（セントポールズ・フェスティバル）",
@@ -410,6 +1393,49 @@
       "additionalSources": [
         "https://www.kokushikan.ac.jp/campus_life/activity/2026_campusguide/pageindices/index7.html"
       ]
+    },
+    {
+      "id": "kindai-ikomasai-2026",
+      "university": "近畿大学",
+      "name": "第78回生駒祭",
+      "campus": "東大阪キャンパス",
+      "prefecture": "大阪府",
+      "region": "近畿",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-04",
+      "dates": [
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04"
+      ],
+      "officialUrl": "https://ikomasai.com/about",
+      "sourceUrl": "https://ikomasai.com/about",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜19:00。入場無料。",
+      "additionalSources": [
+        "https://dantai.kindai.ac.jp/"
+      ]
+    },
+    {
+      "id": "sophia-fes-2026",
+      "university": "上智大学",
+      "name": "ソフィア祭2026",
+      "campus": "四谷キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-04",
+      "dates": [
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04"
+      ],
+      "officialUrl": "https://www.sopfes2026.com/",
+      "sourceUrl": "https://www.sopfes2026.com/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "本祭の日程を掲載。11月1日の前夜祭は含めていません。2・3日は10:00〜16:00、4日は10:00〜15:00。"
     },
     {
       "id": "rikkyo-ivy-2026",
@@ -473,6 +1499,26 @@
       "sourceType": "実行委員会公式",
       "checkedAt": "2026-10-11",
       "notes": "準備・片付け期間は含めず、公式サイトの開催日を採用。"
+    },
+    {
+      "id": "hirosaki-fes-2026",
+      "university": "弘前大学",
+      "name": "第25回弘前大学総合文化祭",
+      "campus": "文京町キャンパス",
+      "prefecture": "青森県",
+      "region": "東北",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "dates": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "officialUrl": "https://www.hirosaki-u.ac.jp/events/117581/",
+      "sourceUrl": "https://www.hirosaki-u.ac.jp/events/117581/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "6日は13:00〜16:00、7・8日は10:00〜16:00。"
     },
     {
       "id": "hiroshima-fes-2026",
@@ -573,6 +1619,102 @@
       "notes": "9:00〜19:00。駐車場なし。"
     },
     {
+      "id": "dokkyo-yuhisai-2026",
+      "university": "獨協大学",
+      "name": "第62回雄飛祭",
+      "campus": "草加キャンパス",
+      "prefecture": "埼玉県",
+      "region": "関東",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "officialUrl": "https://www.dokkyoyuhifes.com/",
+      "sourceUrl": "https://www.dokkyoyuhifes.com/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "okapu-kendaisai-2026",
+      "university": "岡山県立大学",
+      "name": "第34回県大祭",
+      "campus": "大学構内（総社市）",
+      "prefecture": "岡山県",
+      "region": "中国",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "officialUrl": "https://www.oka-pu.ac.jp/life/page-754/",
+      "sourceUrl": "https://www.oka-pu.ac.jp/life/page-754/",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜19:00。"
+    },
+    {
+      "id": "kagoshima-sakuragaoka-2026",
+      "university": "鹿児島大学",
+      "name": "第44回桜ヶ丘祭",
+      "campus": "桜ヶ丘キャンパス",
+      "prefecture": "鹿児島県",
+      "region": "九州・沖縄",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "officialUrl": "https://www.kagoshima-u.ac.jp/education/post-407.html",
+      "sourceUrl": "https://www.kagoshima-u.ac.jp/education/post-407.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "模擬店は17:00まで。構内は禁煙・禁酒。"
+    },
+    {
+      "id": "kanazawa-kindaisai-2026",
+      "university": "金沢大学",
+      "name": "金大祭",
+      "campus": "角間キャンパス",
+      "prefecture": "石川県",
+      "region": "中部",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "officialUrl": "https://www.kanazawa-u.ac.jp/social-engagement/use/festival/",
+      "sourceUrl": "https://www.kanazawa-u.ac.jp/wp/wp-content/uploads/2025/10/ac2026_jp.pdf",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "2026年度学年暦の日程を採用。11月6日の設営・9日の撤収は含めていません。個別案内ページには前年度情報が残る場合があります。"
+    },
+    {
+      "id": "kagoshima-kadaisai-2026",
+      "university": "鹿児島大学",
+      "name": "第65回鹿大祭",
+      "campus": "郡元キャンパス",
+      "prefecture": "鹿児島県",
+      "region": "九州・沖縄",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-15",
+      "dates": [
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "officialUrl": "https://www.kagoshima-u.ac.jp/education/post-407.html",
+      "sourceUrl": "https://www.kagoshima-u.ac.jp/education/post-407.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "大学公式の令和8年度開催案内を採用。構内は禁煙・禁酒。"
+    },
+    {
       "id": "ehime-fes-2026",
       "university": "愛媛大学",
       "name": "第76回愛媛大学学生祭",
@@ -608,6 +1750,88 @@
       "sourceType": "大学公式",
       "checkedAt": "2026-10-11",
       "notes": "来場者用駐車場なし。公共交通機関をご利用ください。"
+    },
+    {
+      "id": "gunma-aramakisai-2026",
+      "university": "群馬大学",
+      "name": "第73回荒牧祭",
+      "campus": "荒牧キャンパス",
+      "prefecture": "群馬県",
+      "region": "関東",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "officialUrl": "https://www.gunma-u.ac.jp/studentlife/stu007/g2033",
+      "sourceUrl": "https://www.gunma-u.ac.jp/studentlife/stu007/g2033",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "miyazaki-kiyokasai-kibana-2026",
+      "university": "宮崎大学",
+      "name": "第22回清花祭（木花）",
+      "campus": "木花キャンパス",
+      "prefecture": "宮崎県",
+      "region": "九州・沖縄",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "officialUrl": "https://kiyokasai.info/",
+      "sourceUrl": "https://www.miyazaki-u.ac.jp/newsrelease/topics-info/8-10.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "",
+      "additionalSources": [
+        "https://kiyokasai.info/"
+      ]
+    },
+    {
+      "id": "miyazaki-kiyokasai-kiyotake-2026",
+      "university": "宮崎大学",
+      "name": "第22回清花祭（清武）",
+      "campus": "清武キャンパス",
+      "prefecture": "宮崎県",
+      "region": "九州・沖縄",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "officialUrl": "https://www.miyazaki-u.ac.jp/newsrelease/topics-info/8-10.html",
+      "sourceUrl": "https://www.miyazaki-u.ac.jp/newsrelease/topics-info/8-10.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "医学部キャンパスの大学祭。医学展・イベント・模擬店は一般参加可。"
+    },
+    {
+      "id": "tufs-gaigosai-2026",
+      "university": "東京外国語大学",
+      "name": "第104回外語祭",
+      "campus": "府中キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-23",
+      "dates": [
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-23"
+      ],
+      "officialUrl": "https://gaigosai.com/",
+      "sourceUrl": "https://www.tufs.ac.jp/event/2026/261119-23gaigosai.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜18:00。事前予約不要。準備・片付け日は含めていません。"
     },
     {
       "id": "kyoto-nf-2026",
@@ -695,6 +1919,63 @@
       "notes": "21・22日は9:00〜18:00、23日は9:00〜17:00。荒天時は一部企画の変更・中止あり。"
     },
     {
+      "id": "doshisha-womens-eve-2026",
+      "university": "同志社女子大学",
+      "name": "151st EVE",
+      "campus": "今出川キャンパス",
+      "prefecture": "京都府",
+      "region": "近畿",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-22",
+      "dates": [
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "officialUrl": "https://www.dwc.doshisha.ac.jp/current/various_events/festival",
+      "sourceUrl": "https://www.dwc.doshisha.ac.jp/current/various_events/festival",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜16:00。11月20日は創立記念礼拝のみのため本祭日程から除外。来場予約不要。一部企画はチケット制。"
+    },
+    {
+      "id": "wakayama-wadaisai-2026",
+      "university": "和歌山大学",
+      "name": "第97回和大祭",
+      "campus": "栄谷キャンパス",
+      "prefecture": "和歌山県",
+      "region": "近畿",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-22",
+      "dates": [
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "officialUrl": "https://www.wadaisaiunion.com/",
+      "sourceUrl": "https://www.wadaisaiunion.com/",
+      "sourceType": "実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "10:00〜17:00。一部企画は9:30〜18:30。"
+    },
+    {
+      "id": "doshisha-eve-2026",
+      "university": "同志社大学",
+      "name": "第151回同志社EVE",
+      "campus": "今出川・室町キャンパス",
+      "prefecture": "京都府",
+      "region": "近畿",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-28",
+      "dates": [
+        "2026-11-27",
+        "2026-11-28"
+      ],
+      "officialUrl": "https://student-support.doshisha.ac.jp/s-support/student-life/eve.html",
+      "sourceUrl": "https://student-support.doshisha.ac.jp/s-support/student-life/eve.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "ステージ・ブース企画の本祭日を掲載。11月26日の前日祭は含めていません。"
+    },
+    {
       "id": "mutsumesai-2026",
       "university": "埼玉大学",
       "name": "第77回むつめ祭",
@@ -713,6 +1994,61 @@
       "sourceType": "大学公式",
       "checkedAt": "2026-10-11",
       "notes": "大学公式の開催告知で日程確認。"
+    },
+    {
+      "id": "obirin-hyakuousai-2026",
+      "university": "桜美林大学",
+      "name": "百桜祭",
+      "campus": "新宿キャンパス",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-06",
+      "dates": [
+        "2026-12-05",
+        "2026-12-06"
+      ],
+      "officialUrl": "https://www.obirin.ac.jp/info/year_2026/u1ta3s000007tyky.html",
+      "sourceUrl": "https://www.obirin.ac.jp/info/year_2026/u1ta3s000007tyky.html",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": "5日は10:00〜18:00、6日は10:00〜19:00。"
+    },
+    {
+      "id": "ritsumeikan-oic-2026",
+      "university": "立命館大学",
+      "name": "立命館大学学園祭 OIC祭典",
+      "campus": "大阪いばらきキャンパス",
+      "prefecture": "大阪府",
+      "region": "近畿",
+      "startDate": "2026-12-06",
+      "endDate": "2026-12-06",
+      "dates": [
+        "2026-12-06"
+      ],
+      "officialUrl": "https://www.ritsumei.ac.jp/sports-culture/culture/topics/detail/?id=1003",
+      "sourceUrl": "https://www.ritsumei.ac.jp/sports-culture/culture/topics/detail/?id=1003",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
+    },
+    {
+      "id": "ritsumeikan-bkc-2026",
+      "university": "立命館大学",
+      "name": "立命館大学学園祭 BKC祭典",
+      "campus": "びわこ・くさつキャンパス",
+      "prefecture": "滋賀県",
+      "region": "近畿",
+      "startDate": "2026-12-13",
+      "endDate": "2026-12-13",
+      "dates": [
+        "2026-12-13"
+      ],
+      "officialUrl": "https://www.ritsumei.ac.jp/sports-culture/culture/topics/detail/?id=1003",
+      "sourceUrl": "https://www.ritsumei.ac.jp/sports-culture/culture/topics/detail/?id=1003",
+      "sourceType": "大学公式",
+      "checkedAt": "2026-10-11",
+      "notes": ""
     }
   ]
 }
