@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>学園祭カレンダー 2026</title>
+  <desc>週末、キャンパスへ。日付と都道府県から、大学の学園祭を探そう。</desc>
+  <rect width="1200" height="630" fill="#f6f5ed"/>
+  <path d="M56 94H1144M56 552H1144" stroke="#d4ddd1" stroke-width="2"/>
+  <g font-family="Noto Sans CJK JP, Noto Sans JP, sans-serif" fill="#183c34">
+    <text x="60" y="64" font-size="25" font-weight="700">takecian</text>
+    <text x="202" y="63" font-size="14" font-weight="600" letter-spacing="3">/ CAMPUS DAYS</text>
+    <rect x="64" y="140" width="112" height="37" rx="19" fill="none" stroke="#174b40" stroke-width="1.5"/>
+    <text x="120" y="166" text-anchor="middle" font-size="20" font-weight="600">2026</text>
+    <text x="59" y="272" font-size="74" font-weight="900" letter-spacing="-2">学園祭</text>
+    <text x="59" y="363" font-size="74" font-weight="900" letter-spacing="-2">カレンダー</text>
+    <text x="64" y="430" font-size="26" font-weight="600">週末、キャンパスへ。</text>
+    <text x="64" y="479" font-size="19" fill="#53685f">日付と都道府県から、大学の学園祭を探そう。</text>
+    <text x="64" y="593" font-size="15" fill="#53685f">takecian.github.io/festival-calendar/</text>
+  </g>
+  <g transform="translate(745 207) rotate(-8)">
+    <rect x="13" y="15" width="322" height="274" rx="12" fill="#e0e6d8"/>
+    <rect width="322" height="274" rx="12" fill="#fffdf7" stroke="#c4d0bf" stroke-width="2"/>
+    <path d="M12 0H310Q322 0 322 12V57H0V12Q0 0 12 0" fill="#174b40"/>
+    <text x="161" y="36" font-family="Noto Sans CJK JP, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="white" letter-spacing="3">CAMPUS DAYS</text>
+    <g fill="#dce5d6">
+      <rect x="32" y="91" width="46" height="43" rx="7"/><rect x="103" y="91" width="46" height="43" rx="7"/>
+      <rect x="174" y="91" width="46" height="43" rx="7"/><rect x="245" y="91" width="46" height="43" rx="7"/>
+      <rect x="32" y="151" width="46" height="43" rx="7"/><rect x="103" y="151" width="46" height="43" rx="7"/>
+      <rect x="174" y="151" width="46" height="43" rx="7"/>
+    </g>
+    <rect x="245" y="151" width="46" height="43" rx="7" fill="#174b40"/>
+    <path d="M256 172L264 180L281 164" fill="none" stroke="#fffdf7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="161" y="239" font-family="Noto Sans CJK JP, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#53685f">あたらしい景色に、会いにいく。</text>
+  </g>
+  <g transform="translate(1080 172) rotate(12)">
+    <circle r="59" fill="#f0cc69"/>
+    <text y="-5" text-anchor="middle" fill="#183c34" font-family="sans-serif" font-size="16" font-weight="700" letter-spacing="2">HAVE A</text>
+    <text y="20" text-anchor="middle" fill="#183c34" font-family="sans-serif" font-size="16" font-weight="700" letter-spacing="2">NICE DAY</text>
+  </g>
+  <g transform="translate(1110 450)" stroke="#b85c34" stroke-width="8" stroke-linecap="round">
+    <path d="M-23 0H23M0-23V23M-16-16L16 16M-16 16L16-16"/>
+  </g>
+</svg>
