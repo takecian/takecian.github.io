@@ -47,10 +47,14 @@ accepted, and new-tab links include `noopener noreferrer`.
 
 ## Data maintenance
 
-`festivals.json` is the single source of truth. The current snapshot contains 103
-festivals from 77 universities in 42 prefectures across eight broad regions,
+`festivals.json` is the single source of truth. The current snapshot contains 156
+festivals from 95 universities in 43 prefectures across eight broad regions,
 verified on 2026-10-11. The JSON file is loaded by the app, but the public page
 does not show a raw-data download link.
+Coverage includes all seven former imperial universities, Science Tokyo,
+Hitotsubashi, ICU, Waseda, Keio, Sophia, Tokyo University of Science, MARCH,
+Kansai, Kwansei Gakuin, Doshisha and Ritsumeikan, alongside other universities.
+Separate campus festivals are included when their dates can be verified.
 It is **not** a complete nationwide directory. Record sources are universities
 or their festival committees, not guessed annual dates. Spring/earlier autumn
 events remain available and display a finished badge. Follow the source links
