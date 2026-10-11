@@ -162,6 +162,25 @@
       "notes": "来場者用駐車場なし。公共交通機関をご利用ください。"
     },
     {
+      "id": "hoshiyakufes-2026",
+      "university": "星薬科大学",
+      "name": "第54回 星薬祭",
+      "campus": "星薬科大学（品川区荏原）",
+      "prefecture": "東京都",
+      "region": "関東",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "dates": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "officialUrl": "https://hoshiyakufes.wixsite.com/mysite",
+      "sourceUrl": "https://www.hoshi.ac.jp/admission/opencampus/",
+      "sourceType": "大学公式・実行委員会公式",
+      "checkedAt": "2026-10-11",
+      "notes": "両日10:00〜17:00。学園祭は予約不要（ミニガイダンスは事前申込）。駐車場・駐輪場なし。"
+    },
+    {
       "id": "chibafes-2026",
       "university": "千葉大学",
       "name": "第64回千葉大祭",

@@ -30,7 +30,7 @@ const data = JSON.parse(fs.readFileSync(path.join(source, 'festivals.json'),'utf
     await page.locator('[data-date="2026-11-01"]').click();assert.equal(await page.locator('#from').inputValue(),'2026-11-01');assert.equal(await page.locator('#to').inputValue(),'2026-11-01');
     assert.equal(await page.evaluate(()=>document.activeElement.dataset.date),'2026-11-01');
     await page.locator('#clear-dates').click();assert.equal(await page.locator('#prefecture').inputValue(),'東京都');
-    await page.locator('#query').fill('存在しない学園祭');assert(await page.locator('#empty').isVisible());await page.locator('#empty-reset').click();assert.equal(await page.locator('.festival-card').count(),35);
+    await page.locator('#query').fill('存在しない学園祭');assert(await page.locator('#empty').isVisible());await page.locator('#empty-reset').click();assert.equal(await page.locator('.festival-card').count(),36);
     await page.locator('#from').fill('2026-11-03');await page.locator('#to').fill('2026-11-01');await page.locator('#to').blur();assert(await page.locator('#filter-error').isVisible());assert.equal(await page.locator('#to').getAttribute('aria-invalid'),'true');await page.locator('#reset').click();
     await page.goto(base+'?prefecture='+encodeURIComponent('東京都')+'&from=2026-11-01&to=2026-11-03');await page.locator('#content').waitFor({state:'visible'});assert.equal(await page.locator('#prefecture').inputValue(),'東京都');assert.equal(await page.locator('#month-title').textContent(),'2026年 11月');
     await page.locator('#reset').click();

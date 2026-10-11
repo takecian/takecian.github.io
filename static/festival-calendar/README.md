@@ -47,7 +47,7 @@ accepted, and new-tab links include `noopener noreferrer`.
 
 ## Data maintenance
 
-`festivals.json` is the single source of truth. The initial snapshot contains 35
+`festivals.json` is the single source of truth. The initial snapshot contains 36
 festivals in 17 prefectures across eight broad regions, verified on 2026-10-11.
 It is **not** a complete nationwide directory. Record sources are universities
 or their festival committees, not guessed annual dates. Spring/earlier autumn
