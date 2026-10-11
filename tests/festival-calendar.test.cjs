@@ -8,13 +8,38 @@ const core = require(path.join(root, 'calendar.js'));
 const data = JSON.parse(fs.readFileSync(path.join(root, 'festivals.json'), 'utf8'));
 const fixture = {id:'test', name:'テスト祭', university:'テスト大学', campus:'本部キャンパス', prefecture:'東京都', dates:['2026-11-01','2026-11-03'], startDate:'2026-11-01', endDate:'2026-11-03', officialUrl:'https://example.com/', sourceUrl:'https://example.com/dates', checkedAt:'2026-10-11'};
 
-test('dataset has 35 official-sourced events in 17 prefectures and 8 regions', () => {
+test('dataset has expanded official-sourced coverage across 8 regions', () => {
   assert.equal(core.validateData(data), data);
-  assert.equal(data.festivals.length, 35);
-  assert.equal(new Set(data.festivals.map(x => x.prefecture)).size, 17);
+  assert(data.festivals.length >= 80);
+  assert(new Set(data.festivals.map(x => x.university)).size >= 60);
+  assert(new Set(data.festivals.map(x => x.prefecture)).size >= 30);
   assert.equal(new Set(data.festivals.map(x => x.region)).size, 8);
   assert.equal(core.PREFECTURES.length, 47);
   assert.match(data.scope, /網羅するものではありません/);
+});
+test('Hoshi festival retains its verified 2026 dates and source', () => {
+  const event = data.festivals.find(item => item.id === 'hoshiyakufes-2026');
+  assert.deepEqual(event.dates, ['2026-10-24', '2026-10-25']);
+  assert.equal(event.sourceUrl, 'https://www.hoshi.ac.jp/admission/opencampus/');
+  for (const day of event.dates) assert(core.filterFestivals(data.festivals, {prefecture:'東京都',from:day,to:day}).some(item => item.id === event.id));
+});
+test('public page has no raw JSON download links and retains the data-backed calendar', () => {
+  const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  assert(!html.includes('掲載データ（JSON）'));
+  assert(!/<a\b[^>]*href=["']festivals\.json["']/i.test(html));
+  assert(html.includes('id="checked-at"'));
+  assert(fs.readFileSync(path.join(root, 'app.js'), 'utf8').includes("fetch('festivals.json'"));
+});
+test('all records retain official sources and distinct university-campus events', () => {
+  const identities = new Set();
+  for (const item of data.festivals) {
+    assert(['大学公式', '実行委員会公式', '大学公式・実行委員会公式'].includes(item.sourceType), item.id);
+    assert(item.region && typeof item.region === 'string', item.id);
+    const identity = [item.university, item.campus, item.startDate, item.endDate].join('|');
+    assert(!identities.has(identity), `Duplicate campus festival: ${identity}`);
+    identities.add(identity);
+    for (const source of item.additionalSources || []) assert(core.safeUrl(source), item.id);
+  }
 });
 test('inclusive single-day and range matching checks actual days, including nonconsecutive festivals', () => {
   assert(core.matches(fixture, {from:'2026-11-01',to:'2026-11-01'}));
@@ -101,21 +126,36 @@ async function setup({search='', failures=0, payload=data}={}) {
   return {e:elements,window,events:windowEvents,active:()=>active,requests:()=>requests};
 }
 test('app loads records, source links, all prefectures and coverage; no executable markup',async()=>{
-  const {e}=await setup();assert.equal(e['festival-list'].children.length,35);assert.equal(e.prefecture.children.length,48);assert.equal(e.loading.hidden,true);assert.equal(e.content.hidden,false);assert.match(e.coverage.textContent,/35学園祭 \/ 17都道府県/);
+  const {e}=await setup();assert.equal(e['festival-list'].children.length,data.festivals.length);assert.equal(e.prefecture.children.length,48);assert.equal(e.loading.hidden,true);assert.equal(e.content.hidden,false);assert.equal(e.coverage.textContent,`${data.festivals.length}学園祭 / ${new Set(data.festivals.map(x=>x.prefecture)).size}都道府県を掲載`);
   const all=[];const walk=node=>{all.push(node);node.children.forEach(walk);};e['festival-list'].children.forEach(walk);
   assert(all.filter(x=>x.tagName==='A').every(x=>x.href.startsWith('https:')&&x.rel==='noopener noreferrer'));
   assert(!fs.readFileSync(path.join(root,'app.js'),'utf8').includes('innerHTML'));
+});
+test('every populated prefecture renders its full coverage and each university is searchable',async()=>{
+  const {e}=await setup();
+  for (const prefecture of new Set(data.festivals.map(item => item.prefecture))) {
+    e.prefecture.value=prefecture; await e.prefecture.fire('change');
+    const expected=data.festivals.filter(item => item.prefecture===prefecture);
+    assert.equal(e['festival-list'].children.length,expected.length,prefecture);
+    const option=e.prefecture.children.find(item => item.value===prefecture);
+    assert.equal(option.textContent,`${prefecture}（${expected.length}件）`);
+  }
+  await e.reset.fire('click');
+  for (const university of new Set(data.festivals.map(item => item.university))) {
+    e.query.value=university; await e.query.fire('input');
+    assert(e['festival-list'].children.length>0,university);
+  }
 });
 test('UI filters combine, preserve other criteria on date clear, and reset completely',async()=>{
   const {e,window}=await setup();e.prefecture.value='東京都';await e.prefecture.fire('change');const tokyo=core.filterFestivals(data.festivals,{prefecture:'東京都'}).length;assert.equal(e['festival-list'].children.length,tokyo);
   e.from.value='2026-11-01';e.to.value='2026-11-03';await e.from.fire('change');assert.equal(e['festival-list'].children.length,core.filterFestivals(data.festivals,{prefecture:'東京都',from:'2026-11-01',to:'2026-11-03'}).length);assert.match(window.location.search,/from=2026-11-01/);
   await e['clear-dates'].fire('click');assert.equal(e.prefecture.value,'東京都');assert.equal(e['festival-list'].children.length,tokyo);
   e.query.value='存在しない学園祭';await e.query.fire('input');assert.equal(e.empty.hidden,false);
-  await e['empty-reset'].fire('click');assert.equal(e['festival-list'].children.length,35);assert.equal(e.prefecture.value,'');assert.equal(e.query.value,'');assert.equal(window.location.search,'');
+  await e['empty-reset'].fire('click');assert.equal(e['festival-list'].children.length,data.festivals.length);assert.equal(e.prefecture.value,'');assert.equal(e.query.value,'');assert.equal(window.location.search,'');
 });
 test('inverted range shows accessible error and recovers on reset',async()=>{
   const {e}=await setup();e.from.value='2026-11-03';e.to.value='2026-11-01';await e.to.fire('change');assert.equal(e['filter-error'].hidden,false);assert.equal(e.to.attributes['aria-invalid'],'true');assert.equal(e['festival-list'].children.length,0);assert.equal(e.empty.hidden,true);
-  await e.reset.fire('click');assert.equal(e['filter-error'].hidden,true);assert.equal(e['festival-list'].children.length,35);
+  await e.reset.fire('click');assert.equal(e['filter-error'].hidden,true);assert.equal(e['festival-list'].children.length,data.festivals.length);
 });
 test('month navigation does not filter; day click selects single day and retains focus',async()=>{
   const {e,active}=await setup({search:'?from=2026-11-01&to=2026-11-03'});const previousCount=e['festival-list'].children.length;await e['next-month'].fire('click');assert.equal(e['month-title'].textContent,'2026年 12月');assert.equal(e['festival-list'].children.length,previousCount);assert.equal(e['next-month'].disabled,true);
@@ -125,7 +165,7 @@ test('shared URL and browser popstate restore form values and matching month',as
   const {e,window,events}=await setup({search:'?prefecture=東京都&from=2026-11-01&to=2026-11-03'});assert.equal(e.prefecture.value,'東京都');assert.equal(e['month-title'].textContent,'2026年 11月');window.location.search='?prefecture=北海道';events.popstate();assert.equal(e.prefecture.value,'北海道');assert.equal(e.from.value,'');assert(e['festival-list'].children.length>0);
 });
 test('failed load displays retry; successful retry does not duplicate handlers',async()=>{
-  const {e,requests}=await setup({failures:1});assert.equal(e['load-error'].hidden,false);await e.retry.fire('click');assert.equal(e['load-error'].hidden,true);assert.equal(e['festival-list'].children.length,35);assert.equal(e.prefecture.listeners.change.length,1);assert.equal(requests(),2);
+  const {e,requests}=await setup({failures:1});assert.equal(e['load-error'].hidden,false);await e.retry.fire('click');assert.equal(e['load-error'].hidden,true);assert.equal(e['festival-list'].children.length,data.festivals.length);assert.equal(e.prefecture.listeners.change.length,1);assert.equal(requests(),2);
 });
 test('malformed data is not silently shown as a valid empty calendar',async()=>{
   const {e}=await setup({payload:{...data,festivals:[]}});assert.equal(e['load-error'].hidden,false);assert.equal(e['festival-list'].children.length,0);
