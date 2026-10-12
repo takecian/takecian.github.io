@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="2026年の高校の学園祭・文化祭を、日付と都道府県から検索。公式発表の公開日、来場対象、予約の要否・申込締切を確認できます。">
+  <meta name="theme-color" content="#174b40">
+  <title>高校学園祭・文化祭カレンダー 2026 | takecian</title>
+  <link rel="canonical" href="https://takecian.github.io/high-school-festival-calendar/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="高校学園祭・文化祭カレンダー 2026 | takecian">
+  <meta property="og:description" content="2026年の高校の学園祭・文化祭を、日付と都道府県から検索。公式発表の公開日、来場対象、予約の要否・申込締切を確認できます。">
+  <meta property="og:url" content="https://takecian.github.io/high-school-festival-calendar/">
+  <meta property="og:site_name" content="高校学園祭・文化祭カレンダー | takecian">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://takecian.github.io/high-school-festival-calendar/og-image.png">
+  <meta property="og:image:secure_url" content="https://takecian.github.io/high-school-festival-calendar/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="高校学園祭・文化祭カレンダー 2026。公開日と来場条件を確かめて、学校の文化に会いにいこう。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="高校学園祭・文化祭カレンダー 2026 | takecian">
+  <meta name="twitter:description" content="2026年の高校の学園祭・文化祭を、日付と都道府県から検索。公式発表の公開日、来場対象、予約の要否・申込締切を確認できます。">
+  <meta name="twitter:image" content="https://takecian.github.io/high-school-festival-calendar/og-image.png">
+  <meta name="twitter:image:alt" content="高校学園祭・文化祭カレンダー 2026。公開日と来場条件を確かめて、学校の文化に会いにいこう。">
+  <link rel="stylesheet" href="../festival-calendar/style.css">
+  <link rel="stylesheet" href="../school-festival-calendar/style.css">
+  <script src="../festival-calendar/calendar.js" defer></script>
+  <script src="../school-festival-calendar/calendar.js" defer></script>
+  <script src="../school-festival-calendar/app.js" defer></script>
+</head>
+<body class="school-calendar" data-school-level="high">
+  <a class="skip-link" href="#results">学園祭・文化祭の一覧へ</a>
+  <header class="site-header wrap">
+    <a class="brand" href="/">takecian<span> / SCHOOL DAYS</span></a>
+    <a href="#about">掲載情報について <span aria-hidden="true">↗</span></a>
+  </header>
+  <nav class="calendar-types wrap" aria-label="カレンダーの種類">
+    <a href="/festival-calendar/">大学学園祭カレンダー</a>
+    <a href="/high-school-festival-calendar/" aria-current="page">高校学園祭・文化祭カレンダー</a>
+    <a href="/junior-high-school-festival-calendar/">中学学園祭・文化祭カレンダー</a>
+  </nav>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="title">
+      <div>
+        <p class="eyebrow">2026 HIGH SCHOOL FESTIVALS</p>
+        <h1 id="title">高校学園祭・文化祭<br>カレンダー</h1>
+        <p class="hero-description">学校の文化に、会いにいこう。<br>公開日と来場条件を確かめて、気になる学校へ。</p>
+        <div class="hero-meta"><span class="year-pill">2026年版</span><span id="coverage">公式発表の公開日・来場条件を掲載</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-stamp">SCHOOL<br>DAYS</div>
+        <div class="art-calendar"><div>HAVE A NICE WEEKEND</div><strong>2026</strong><span>その学校らしさに、ふれる一日。</span></div>
+        <span class="art-star">✳</span>
+      </div>
+    </section>
+
+    <section class="filter-panel" aria-labelledby="filter-title">
+      <div class="section-heading"><h2 id="filter-title">学園祭・文化祭を探す</h2><button id="reset" type="button" class="text-button" disabled>条件をリセット</button></div>
+      <form id="filters" novalidate>
+        <div class="field"><label for="prefecture">都道府県</label><select id="prefecture" name="prefecture" disabled><option value="">全国すべて</option></select></div>
+        <div class="field"><label for="from">開始日</label><input id="from" name="from" type="date" aria-describedby="date-help filter-error" disabled></div>
+        <div class="field"><label for="to">終了日</label><input id="to" name="to" type="date" aria-describedby="date-help filter-error" disabled></div>
+        <div class="field search-field"><label for="query">学校名・学園祭名</label><input id="query" name="q" type="search" placeholder="例：学校名、文化祭名" autocomplete="off" disabled></div>
+        <div class="field"><label for="admission">来場対象</label><select id="admission" name="admission" disabled><option value="">すべての来場条件</option><option value="public">一般来場可</option><option value="prospective_students">受験生向け</option><option value="related_only">関係者限定</option><option value="limited">来場条件あり</option><option value="unclear">要確認</option></select></div>
+        <div class="field"><label for="reservation">事前予約</label><select id="reservation" name="reservation" disabled><option value="">事前予約の条件すべて</option><option value="required">事前予約が必要</option><option value="not_required">事前予約不要</option><option value="varies">対象者による</option><option value="unknown">要確認</option></select></div>
+      </form>
+      <div class="filter-bottom"><p id="date-help">期間内に公開日がある学園祭を表示。来場対象・予約条件は必ず各カードと公式案内で確認してください。</p><button id="clear-dates" type="button" class="text-button" disabled>日付だけ解除</button></div>
+      <p id="filter-error" class="error" role="alert" hidden></p>
+    </section>
+
+    <div id="loading" class="state-panel" role="status">学園祭の日程を読み込んでいます…</div>
+    <div id="load-error" class="state-panel" role="alert" hidden><h2>日程を読み込めませんでした</h2><p>通信環境をご確認のうえ、もう一度お試しください。</p><button id="retry" type="button" class="primary-button">再読み込み</button></div>
+    <noscript><p class="state-panel">日付・都道府県で絞り込むにはJavaScriptを有効にしてください。</p></noscript>
+
+    <div id="content" class="content-layout" hidden>
+      <aside class="calendar-panel" aria-labelledby="month-title">
+        <div class="calendar-nav"><button id="previous-month" type="button" aria-label="前の月">←</button><h2 id="month-title" aria-live="polite" aria-atomic="true"></h2><button id="next-month" type="button" aria-label="次の月">→</button></div>
+        <div class="weekdays" aria-hidden="true"><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span><span>日</span></div>
+        <div id="calendar" class="calendar-grid" role="group" aria-labelledby="month-title"></div>
+        <p class="calendar-help"><span class="legend-dot" aria-hidden="true"></span>数字はその日の開催件数。日付を押して絞り込み。</p>
+        <p class="small-note">日付以外の検索条件を反映しています。件数は公開日のある催しの数です。月の切り替えだけでは一覧は変わりません。</p>
+        <div class="calendar-foot">予定が決まったら、<br>公式サイトで最新情報をチェック。<span aria-hidden="true">↗</span></div>
+      </aside>
+
+      <section id="results" class="results" aria-labelledby="results-title" tabindex="-1">
+        <div class="results-heading"><div><p class="eyebrow">FIND YOUR SCHOOL</p><h2 id="results-title">学園祭・文化祭の一覧 <span id="result-count"></span></h2></div><span class="sort-note">開催日順</span></div>
+        <p id="result-summary" class="result-summary" role="status" aria-live="polite" aria-atomic="true"></p>
+        <div id="festival-list" class="festival-list"></div>
+        <div id="empty" class="state-panel" hidden><span class="empty-symbol" aria-hidden="true">⌕</span><h3>条件に合う学園祭はありません</h3><p>日付や地域を変えて、もう一度探してみてください。<br>未掲載の学園祭もあります。</p><button id="empty-reset" type="button" class="primary-button">すべての学園祭を見る</button></div>
+      </section>
+    </div>
+
+    <section id="about" class="about" aria-labelledby="about-title"><div><p class="eyebrow">BEFORE YOU GO</p><h2 id="about-title">お出かけ前に</h2></div><div><p id="scope">学校などの公式サイトで、2026年の公開日を確認できた学園祭・文化祭を掲載しています。全国のすべての学校を網羅するものではありません。中高合同の催しは両方のカレンダーに表示しますが、各ページ内では1件として数えています。</p><p>掲載日でも、すべての方が入場できるとは限りません。受験生の学年、同伴人数、招待券などの条件にご注意ください。「予約不要」は入場制限なしという意味ではありません。</p><p>予約の空き状況はリアルタイムではありません。締切前でも満席・受付終了の場合があります。日程・条件は変更されるため、訪問前に必ず公式案内をご確認ください。日付は日本時間です。</p><p class="updated">最終確認：<time id="checked-at">読み込み中</time></p></div></section>
+  </main>
+  <footer class="wrap footer"><a href="/">takecian</a><span>高校学園祭・文化祭カレンダー 2026</span></footer>
+</body>
+</html>
