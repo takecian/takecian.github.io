@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BreachNote 2026 | takecian</title>
+  <meta name="description" content="情報漏えいに関する公表事例を、原因・業種・地域・規模から振り返るためのノート。">
+  <meta name="theme-color" content="#174b40">
+  <link rel="canonical" href="https://takecian.github.io/breach-note/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BreachNote 2026 | takecian">
+  <meta property="og:description" content="情報漏えいに関する公表事例を、原因・業種・地域・規模から振り返るためのノート。">
+  <meta property="og:url" content="https://takecian.github.io/breach-note/">
+  <meta property="og:site_name" content="takecian">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="style.css">
+  <script src="breach-note.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">事例一覧へ</a>
+  <header class="wrap"><a class="brand" href="/">takecian / BREACH NOTE</a><a href="#about">掲載情報について</a></header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="title">
+      <p class="eyebrow">SECURITY INCIDENT NOTES · 2026</p>
+      <h1 id="title">BreachNote<span>情報漏えいから、学ぶ。</span></h1>
+      <p>公表された事例を振り返り、原因と対策のヒントを整理するノート。</p>
+      <p id="coverage">事例データはまだ登録されていません。</p>
+    </section>
+    <section class="panel" aria-labelledby="filter-title">
+      <h2 id="filter-title">事例を探す</h2>
+      <form id="filters">
+        <div class="filter-grid">
+          <label class="search">キーワード<input id="query" name="q" type="search" maxlength="100" placeholder="企業名・サービス名・原因など"></label>
+          <label>原因<select id="cause" name="cause"><option value="">すべての原因</option></select></label>
+          <label>業種<select id="sector" name="sector"><option value="">すべての業種</option></select></label>
+          <label>地域<select id="region" name="region"><option value="">すべての地域</option></select></label>
+          <label>規模<select id="scale" name="scale"><option value="">すべての規模</option></select></label>
+          <label>公表日（開始）<input id="from" name="from" type="date" aria-describedby="date-help date-error"></label>
+          <label>公表日（終了）<input id="to" name="to" type="date" aria-describedby="date-help date-error"></label>
+        </div>
+        <p id="date-help" class="muted">初報・続報のいずれかが期間内にある事例を表示します。「1万件以上」などは下限の条件で絞り込みます。</p>
+        <p id="date-error" role="alert" hidden>開始日は終了日以前にしてください。</p>
+        <button type="reset">条件をリセット</button>
+      </form>
+    </section>
+    <section id="results" tabindex="-1" aria-labelledby="results-title">
+      <div class="section-heading"><h2 id="results-title">公表事例</h2><p id="result-count" role="status" aria-live="polite"></p></div>
+      <p id="message" class="panel" role="status">事例データはまだ登録されていません。</p>
+      <div id="incidents"></div>
+      <noscript><p class="panel">検索と事例表示には JavaScript が必要です。現在、事例データは未登録です。</p></noscript>
+    </section>
+    <section id="about" class="panel" aria-labelledby="about-title">
+      <h2 id="about-title">掲載情報について</h2>
+      <p>2026年の公表情報を対象とするノートです。現在は画面のみを用意しており、事例の調査・登録はまだ行っていません。</p>
+      <p>漏えいが確認された事例と、そのおそれがある事例、調査の結果漏えいがなかった事例は区別して表示します。件数非公表を「被害なし」とは扱いません。</p>
+      <p>掲載後の情報は各事例の確認日現在のものです。最新の状況は公式発表をご確認ください。網羅性を保証するものではありません。</p>
+    </section>
+  </main>
+  <footer class="wrap"><a href="/">takecian</a><span>BreachNote · 2026</span></footer>
+  <!-- No researched incidents yet. See README.md before adding verified records. -->
+  <script id="breach-data" type="application/json">{"year":2026,"checkedAt":null,"incidents":[]}</script>
+</body>
+</html>
