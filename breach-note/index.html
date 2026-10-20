@@ -60,7 +60,8 @@
   </main>
   <footer class="wrap"><a href="/">takecian</a><span>BreachNote</span></footer>
   <!-- Verified public-source summaries. See README.md for data maintenance. -->
-  <script id="breach-data" type="application/json">{
+  <script id="breach-data" type="application/json">
+{
   "year": 2026,
   "checkedAt": "2026-10-20",
   "incidents": [
@@ -470,8 +471,44 @@
       "checkedAt": "2026-10-20",
       "officialUrl": "https://www.city.amagasaki.hyogo.jp/_res/projects/default_project/_page_/001/030/947/221128.pdf",
       "sourceUrl": "https://www.city.amagasaki.hyogo.jp/_res/projects/default_project/_page_/001/030/947/220623.pdf"
+    },
+    {
+      "id": "ride-on-express-2026-ransomware",
+      "organization": "ライドオンエクスプレス（ライドオンエクスプレスホールディングスグループ）",
+      "service": "銀のさら・釜寅・すし上等の公式サイト・公式アプリ",
+      "title": "銀のさら等の外部サーバーへの攻撃と個人情報漏えいの可能性",
+      "causeCategory": "ランサムウェア攻撃",
+      "sector": "EC・小売・飲食",
+      "region": "国内",
+      "scaleLabel": "最大約650万件（漏えいの可能性がある総件数・確定件数ではない）",
+      "impactStatus": "漏えいのおそれ",
+      "summary": "10月7日にサービス停止を初報公表。10月13日に最大約650万件の登録情報が漏えいした可能性を公表したが、漏えいの事実・範囲は未特定。電話・出前館・Uber Eatsのみの注文者は対象外で、カード情報は含まれない。",
+      "causeDetail": "10月5日以降に不正アクセスを検知。7日に外部サーバーの障害が発生し、運営会社からランサムウェア被害の報告を受けた。具体的な侵入経路は公表されていない。",
+      "sourceType": "公式発表",
+      "affectedRecords": 6500000,
+      "dates": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-13"
+      ],
+      "disclosedAt": "2026-10-07",
+      "updatedAt": "2026-10-13",
+      "leakedData": [
+        "漏えい可能性：氏名、住所、電話番号、メールアドレス、性別、生年月日",
+        "パスワードのハッシュ値、注文履歴、デリポイント会員ID",
+        "登録された家族の氏名・誕生日、届け先の氏名・住所・電話番号も対象となる可能性"
+      ],
+      "learnings": [
+        "委託先で保管する個人情報を把握し、保持期間・必要性を見直す。",
+        "委託先障害も想定し、復旧手順と代替の受注経路を検証する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
+      "sourceUrl": "https://www.rideonexpresshd.co.jp/news/2026/10/post-482.html"
     }
   ]
-}</script>
+}
+</script>
 </body>
 </html>
