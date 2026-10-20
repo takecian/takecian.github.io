@@ -8,7 +8,7 @@
     if (!api) throw new Error('Missing BreachNote helpers');
     const data = JSON.parse($('breach-data').textContent);
     // The initial page intentionally has no research data or claimed check date.
-    const empty = data && data.year === 2026 && data.checkedAt === null && Array.isArray(data.incidents) && data.incidents.length === 0;
+    const empty = data && Number.isInteger(data.year) && data.checkedAt === null && Array.isArray(data.incidents) && data.incidents.length === 0;
     if (!empty) api.validateData(data);
     const items = data.incidents;
     const form = $('filters');
@@ -39,7 +39,7 @@
       details.append(element('summary', '原因・学び・出典を読む'));
       const dl = element('dl');
       for (const [label, value] of [['原因', item.causeDetail], ['対象データ', item.leakedData.join('、')]]) dl.append(element('dt', label), element('dd', value));
-      details.append(dl, element('h4', '学び'));
+      details.append(dl, element('h4', '対策のヒント（編集部の整理）'));
       const list = element('ul');
       for (const learning of item.learnings) list.append(element('li', learning));
       details.append(list);
@@ -79,7 +79,7 @@
       else if (!results.length) showMessage('条件に一致する事例はありません。検索条件を変更してください。');
       $('incidents').append(...results.map(card));
     }
-    if (items.length) $('coverage').textContent = `登録 ${items.length}件 · データ確認日：${data.checkedAt}`;
+    $('coverage').textContent = items.length ? `登録 ${items.length}件 · データ確認日：${data.checkedAt}` : '事例データはまだ登録されていません。';
     form.addEventListener('submit', event => event.preventDefault());
     form.addEventListener('input', () => render(true));
     form.addEventListener('change', () => render(true));

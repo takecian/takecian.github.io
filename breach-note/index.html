@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BreachNote 2026 | takecian</title>
+  <title>BreachNote | takecian</title>
   <meta name="description" content="情報漏えいに関する公表事例を、原因・業種・地域・規模から振り返るためのノート。">
   <meta name="theme-color" content="#174b40">
   <link rel="canonical" href="https://takecian.github.io/breach-note/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="BreachNote 2026 | takecian">
+  <meta property="og:title" content="BreachNote | takecian">
   <meta property="og:description" content="情報漏えいに関する公表事例を、原因・業種・地域・規模から振り返るためのノート。">
   <meta property="og:url" content="https://takecian.github.io/breach-note/">
   <meta property="og:site_name" content="takecian">
@@ -23,10 +23,10 @@
   <header class="wrap"><a class="brand" href="/">takecian / BREACH NOTE</a><a href="#about">掲載情報について</a></header>
   <main class="wrap">
     <section class="hero" aria-labelledby="title">
-      <p class="eyebrow">SECURITY INCIDENT NOTES · 2026</p>
+      <p class="eyebrow">SECURITY INCIDENT NOTES</p>
       <h1 id="title">BreachNote<span>情報漏えいから、学ぶ。</span></h1>
       <p>公表された事例を振り返り、原因と対策のヒントを整理するノート。</p>
-      <p id="coverage">事例データはまだ登録されていません。</p>
+      <p id="coverage">事例データを読み込み中です。</p>
     </section>
     <section class="panel" aria-labelledby="filter-title">
       <h2 id="filter-title">事例を探す</h2>
@@ -40,26 +40,438 @@
           <label>公表日（開始）<input id="from" name="from" type="date" aria-describedby="date-help date-error"></label>
           <label>公表日（終了）<input id="to" name="to" type="date" aria-describedby="date-help date-error"></label>
         </div>
-        <p id="date-help" class="muted">初報・続報のいずれかが期間内にある事例を表示します。「1万件以上」などは下限の条件で絞り込みます。</p>
+        <p id="date-help" class="muted">初報・続報のいずれかが期間内にある事例を表示します。規模は公表された人数・レコード数等の数値で絞り込みます。単位や対象範囲は事例ごとに異なり、漏えい確定件数とは限りません。</p>
         <p id="date-error" role="alert" hidden>開始日は終了日以前にしてください。</p>
         <button type="reset">条件をリセット</button>
       </form>
     </section>
     <section id="results" tabindex="-1" aria-labelledby="results-title">
       <div class="section-heading"><h2 id="results-title">公表事例</h2><p id="result-count" role="status" aria-live="polite"></p></div>
-      <p id="message" class="panel" role="status">事例データはまだ登録されていません。</p>
+      <p id="message" class="panel" role="status">事例データを読み込み中です。</p>
       <div id="incidents"></div>
-      <noscript><p class="panel">検索と事例表示には JavaScript が必要です。現在、事例データは未登録です。</p></noscript>
+      <noscript><p class="panel">検索と事例表示には JavaScript が必要です。掲載方針はこのページ下部をご覧ください。</p></noscript>
     </section>
     <section id="about" class="panel" aria-labelledby="about-title">
       <h2 id="about-title">掲載情報について</h2>
-      <p>2026年の公表情報を対象とするノートです。現在は画面のみを用意しており、事例の調査・登録はまだ行っていません。</p>
-      <p>漏えいが確認された事例と、そのおそれがある事例、調査の結果漏えいがなかった事例は区別して表示します。件数非公表を「被害なし」とは扱いません。</p>
-      <p>掲載後の情報は各事例の確認日現在のものです。最新の状況は公式発表をご確認ください。網羅性を保証するものではありません。</p>
+      <p>地域は公表組織の拠点で分類しています。国内を中心に、過去の公表事例を公式発表・公的資料で確認して整理したノートです。日付は発生日ではなく、出典で確認した公表日です。初回公表を確認できない場合は、その旨を本文に記載します。</p>
+      <p>漏えいが確認された事例と、そのおそれがある事例、調査で漏えいが確認されなかった事例は区別して表示します。件数非公表を「被害なし」とは扱いません。規模の単位・重複・最大値は各事例の表示を優先してください。「対策のヒント」は出典の引用や原因断定ではなく、事例を踏まえた編集上の整理です。</p>
+      <p>掲載後の情報は各事例の確認日現在のものです。最新の状況は公式発表をご確認ください。網羅性を保証するものではありません。<a href="sources.html">事例別の出典一覧</a>もご確認ください。</p>
     </section>
   </main>
-  <footer class="wrap"><a href="/">takecian</a><span>BreachNote · 2026</span></footer>
-  <!-- No researched incidents yet. See README.md before adding verified records. -->
-  <script id="breach-data" type="application/json">{"year":2026,"checkedAt":null,"incidents":[]}</script>
+  <footer class="wrap"><a href="/">takecian</a><span>BreachNote</span></footer>
+  <!-- Verified public-source summaries. See README.md for data maintenance. -->
+  <script id="breach-data" type="application/json">{
+  "year": 2026,
+  "checkedAt": "2026-10-20",
+  "incidents": [
+    {
+      "id": "kadokawa-2024-ransomware",
+      "organization": "KADOKAWAグループ（ドワンゴ等）",
+      "service": "ニコニコ関連システム・社内ファイルサーバー等",
+      "title": "KADOKAWAグループへのランサムウェア攻撃",
+      "causeCategory": "ランサムウェア攻撃",
+      "sector": "エンタメ・メディア",
+      "region": "国内",
+      "scaleLabel": "254,241人",
+      "impactStatus": "漏えい確認",
+      "summary": "2024年6月8日に発覚したサイバー攻撃で、ドワンゴのサーバーなどが被害を受けた。8月5日の調査結果では、取引先、従業員、学校関係者など254,241人の個人情報について外部漏洩を確認した。",
+      "causeDetail": "従業員のアカウント情報が窃取され、社内ネットワークへの侵入、ランサムウェア実行、情報漏洩につながったと会社が説明。フィッシングなどによる窃取は推測で、具体的経路・方法は不明としている。",
+      "sourceType": "公式発表",
+      "affectedRecords": 254241,
+      "dates": [
+        "2024-06-08",
+        "2024-06-09",
+        "2024-06-14",
+        "2024-06-28",
+        "2024-08-05"
+      ],
+      "disclosedAt": "2024-06-08",
+      "updatedAt": "2024-08-05",
+      "leakedData": [
+        "取引先・クリエイター等の氏名、住所、連絡先、生年月日、口座情報等",
+        "従業員・元従業員・採用応募者の属性、人事、選考情報等",
+        "角川ドワンゴ学園の一部生徒・保護者等の属性・学生情報",
+        "契約書・社内文書等"
+      ],
+      "learnings": [
+        "認証情報の窃取を前提に、多要素認証と不審なログインの監視を組み合わせる。",
+        "重要な個人情報へのアクセスを最小化し、ネットワーク分離や大量持ち出しの検知を検討する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.kadokawa.co.jp/topics/12088/",
+      "sourceUrl": "https://group.kadokawa.co.jp/information/media-download/1360/73b7af68478b8a51/"
+    },
+    {
+      "id": "ntt-west-group-2023-insider",
+      "organization": "NTT西日本グループ（NTTマーケティングアクトProCX・NTTビジネスソリューションズ）",
+      "service": "コールセンターシステム",
+      "title": "コールセンター顧客情報の内部不正持ち出し",
+      "causeCategory": "内部不正・情報持ち出し",
+      "sector": "IT・クラウド・SaaS",
+      "region": "国内",
+      "scaleLabel": "928万件",
+      "impactStatus": "漏えい確認",
+      "summary": "運用保守担当者による内部不正で、委託元から預かった顧客情報が長期間にわたり持ち出された。2023年10月の初報は約900万件だったが、12月の続報で69クライアント、928万件に更新された。",
+      "causeDetail": "コールセンターシステムの運用保守に従事していた元派遣社員が管理者アカウントを悪用し、顧客データを不正に持ち出した。公式調査報告書は、一部が名簿業者に売却されたことも確認している。",
+      "sourceType": "公式発表",
+      "affectedRecords": 9280000,
+      "dates": [
+        "2023-10-17",
+        "2023-12-19",
+        "2024-02-29"
+      ],
+      "disclosedAt": "2023-10-17",
+      "updatedAt": "2024-02-29",
+      "leakedData": [
+        "氏名、住所、電話番号",
+        "委託元等により性別、生年月日・年齢、顧客番号、配送・受注情報等",
+        "委託元2社の81件にはクレジットカード番号・有効期限等"
+      ],
+      "learnings": [
+        "管理者権限を必要な業務に限定し、特権操作を本人以外が継続して確認できるようにする。",
+        "外部媒体への書き出しや大量データ取得を制御し、委託先を含む監査と異常検知を実施する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.ntt-west.co.jp/news/2402/pdf/240229a_2.pdf",
+      "sourceUrl": "https://www.nttdata-act.com/info/detail/231017.html"
+    },
+    {
+      "id": "line-yahoo-2023-unauthorized-access",
+      "organization": "LINEヤフー",
+      "service": "旧LINE社内システム・業務用SaaS等",
+      "title": "委託先端末の感染を契機とした不正アクセス",
+      "causeCategory": "サプライチェーン・委託先",
+      "sector": "IT・クラウド・SaaS",
+      "region": "国内",
+      "scaleLabel": "519,506件（可能性・推計を含む）",
+      "impactStatus": "漏えい確認",
+      "summary": "委託先従業者の端末感染を契機として社内システムに不正アクセスが発生した。2024年2月の最終調査では、漏えいの可能性と推計を含め、個人データ3区分の合計が519,506件となった。 公表値は人数ではなく、重複を含む件数。",
+      "causeDetail": "LINEヤフーとNAVER Cloudの共通委託先の従業者PCがマルウェア感染。共通の認証基盤やネットワーク接続を介し、旧LINE社の社内システム等に不正アクセスが行われたと会社が説明。",
+      "sourceType": "公式発表",
+      "affectedRecords": 519506,
+      "dates": [
+        "2023-11-27",
+        "2023-12-27",
+        "2024-02-14"
+      ],
+      "disclosedAt": "2023-11-27",
+      "updatedAt": "2024-02-14",
+      "leakedData": [
+        "LINEの内部識別子に結び付くサービス利用履歴等",
+        "取引先等のメールアドレス・氏名・所属・Slackプロフィール等",
+        "従業者等の氏名、社員番号、メールアドレス、顔写真等"
+      ],
+      "learnings": [
+        "委託先や関連会社との認証・接続範囲を棚卸しし、侵害が別組織へ広がりにくい構成にする。",
+        "自社サーバーに加え、メールや業務用SaaSのログも保存・調査対象に含める。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.lycorp.co.jp/ja/news/announcements/007712/",
+      "sourceUrl": "https://www.lycorp.co.jp/ja/news/announcements/001002/"
+    },
+    {
+      "id": "jaxa-2023-2024-unauthorized-access",
+      "organization": "宇宙航空研究開発機構（JAXA）",
+      "service": "業務用イントラネット・Microsoft 365",
+      "title": "VPN装置を起点とした不正アクセスと情報漏洩",
+      "causeCategory": "機器・ソフトウェアの脆弱性",
+      "sector": "医療・教育・公的機関",
+      "region": "国内",
+      "scaleLabel": "人数・件数は非公表",
+      "impactStatus": "漏えい確認",
+      "summary": "JAXAは2023年10月に外部通報で不正アクセスを把握した。2024年7月の報告では、VPN装置への侵入後にアカウント情報が窃取され、Microsoft 365上の業務情報と個人情報の一部が漏洩したことを確認している。 表示する2023年12月1日は確認できた初期の公的言及日で、厳密な初公表日は未確定。",
+      "causeDetail": "VPN装置の脆弱性を起点として侵入し、アカウント情報等を窃取。それを使いMicrosoft 365に正規ユーザーを装ってアクセスしたとJAXAが説明。既に公表された脆弱性が悪用された可能性が高いとしている。",
+      "sourceType": "公式発表",
+      "affectedRecords": 0,
+      "dates": [
+        "2023-12-01",
+        "2024-07-05"
+      ],
+      "disclosedAt": "2023-12-01",
+      "updatedAt": "2024-07-05",
+      "leakedData": [
+        "Microsoft 365上の外部機関との共同業務に関する情報・個人情報（漏洩確認）",
+        "侵害された端末・サーバー内の一部情報、JAXA職員等の個人情報（漏洩可能性）"
+      ],
+      "learnings": [
+        "外部公開機器の脆弱性情報を継続確認し、更新や暫定的な遮断を迅速に実施できる体制を整える。",
+        "認証情報が盗まれた場合に備え、クラウドの不審なログインと内部通信を併せて監視する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.jaxa.jp/press/2024/07/20240705-2_j.html",
+      "sourceUrl": "https://www.mext.go.jp/b_menu/daijin/detail/mext_00434.html",
+      "disclosedAtQualifier": "確認できた初期の公的言及日。厳密な初公表日は未確定。"
+    },
+    {
+      "id": "toyota-2023-cloud-exposure",
+      "organization": "トヨタ自動車・トヨタコネクティッド",
+      "service": "T-Connect／G-Link／G-Link Lite／G-BOOK関連クラウド",
+      "title": "クラウド誤設定によるコネクティッドサービス情報の公開状態",
+      "causeCategory": "設定不備・人的ミス",
+      "sector": "交通・モビリティ・インフラ",
+      "region": "国内",
+      "scaleLabel": "約215万人（外部アクセス可能だった対象）",
+      "impactStatus": "漏えいのおそれ",
+      "summary": "クラウド設定の誤りにより、約215万人を対象とする車両関連情報が外部からアクセス可能な状態にあった。公表された期間は2013年11月から2023年4月で、実際の流出や閲覧人数を確認した発表ではない。 5月31日の追加事案は別範囲のため、この件数に合算していない。",
+      "causeDetail": "管理を委託していたクラウド環境の設定誤りによってデータが公開状態となった。データ取扱いルールの説明・徹底が不十分だったことなどを、会社は主な原因と考えている。",
+      "sourceType": "公式発表",
+      "affectedRecords": 2150000,
+      "dates": [
+        "2023-05-12",
+        "2023-05-31"
+      ],
+      "disclosedAt": "2023-05-12",
+      "updatedAt": "2023-05-31",
+      "leakedData": [
+        "車載端末ID",
+        "車台番号",
+        "車両の位置情報",
+        "時刻"
+      ],
+      "learnings": [
+        "クラウドの公開設定を自動監視し、意図しない変更を検知・修正できるようにする。",
+        "委託先を含めて設定責任者と確認手順を明確にし、不要なデータの保存期間を抑える。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://global.toyota/jp/newsroom/corporate/39174380.html",
+      "sourceUrl": "https://global.toyota/jp/newsroom/corporate/39241571.html"
+    },
+    {
+      "id": "casio-2024-ransomware",
+      "organization": "カシオ計算機",
+      "service": "社内システム・業務用文書",
+      "title": "ランサムウェア攻撃による社内文書・個人情報の流出",
+      "causeCategory": "ランサムウェア攻撃",
+      "sector": "製造・建設・その他",
+      "region": "国内",
+      "scaleLabel": "8,478人（3区分合計・区分間の重複排除不明）",
+      "impactStatus": "漏えい確認",
+      "summary": "2024年10月のランサムウェア攻撃でシステムが停止し、個人情報を含む社内文書が流出した。2025年1月の調査結果に示された従業員、取引先等、顧客の3区分は合計8,478人だった。",
+      "causeDetail": "海外からの不正アクセスとランサムウェア攻撃。会社はフィッシングメール対策及び海外拠点を含むネットワークセキュリティ体制に一部不備があったと説明している。",
+      "sourceType": "公式発表",
+      "affectedRecords": 8478,
+      "dates": [
+        "2024-10-08",
+        "2024-10-11",
+        "2025-01-07"
+      ],
+      "disclosedAt": "2024-10-08",
+      "updatedAt": "2025-01-07",
+      "leakedData": [
+        "従業員の氏名、メールアドレス、社員番号、所属、人事情報等",
+        "取引先担当者等の氏名・連絡先・所属会社等、応募者の経歴等",
+        "一部顧客の配送先住所、氏名、電話番号、購入情報",
+        "一部関係者の身分証記載情報や家族情報等",
+        "請求書・契約書・社内資料等"
+      ],
+      "learnings": [
+        "海外拠点も含め、メール防御とネットワークのセキュリティ基準を統一して点検する。",
+        "顧客データベースだけでなく、社内文書に含まれる個人情報の保存先・閲覧権限を管理する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.casio.co.jp/release/2025/0107-incident/",
+      "sourceUrl": "https://www.casio.co.jp/release/2024/1008-incident/"
+    },
+    {
+      "id": "benesse-2014",
+      "organization": "株式会社ベネッセコーポレーション",
+      "service": "進研ゼミ・こどもちゃれんじ等の顧客データベース",
+      "title": "委託先元社員による顧客情報の持ち出し・売却",
+      "causeCategory": "内部不正・情報持ち出し",
+      "sector": "医療・教育・公的機関",
+      "region": "国内",
+      "scaleLabel": "約2,895万件（会社による実態の推計）",
+      "impactStatus": "漏えい確認",
+      "summary": "正規のアクセス権を持つ委託先元社員が、顧客情報を私物端末へ移して名簿業者に売却した。会社は実態の影響を約2,895万件と推計している。登録件数と人数は別の集計であり、同じ指標として比較できない。 別の集計では、名寄せ後の登録情報は約3,504万件とされている。",
+      "causeDetail": "保守・管理用の権限が悪用された。特定スマートフォンへの書き出し制御が機能せず、対象データベースの大量取得アラートとアクセスログの定期確認にも不備があったと会社が説明。",
+      "sourceType": "企業公表・調査委員会報告",
+      "affectedRecords": 28950000,
+      "dates": [
+        "2014-07-09",
+        "2014-09-10",
+        "2014-09-25"
+      ],
+      "disclosedAt": "2014-07-09",
+      "updatedAt": "2014-09-25",
+      "leakedData": [
+        "登録者・保護者・子どもの氏名、性別、生年月日、続柄",
+        "郵便番号、住所、電話番号",
+        "一部のFAX番号、出産予定日、メールアドレス"
+      ],
+      "learnings": [
+        "委託先を含む正規権限を必要最小限にし、大量抽出を独立して監視する。",
+        "端末やソフトの更新後も外部媒体への書き出し制御を実機で確かめ、ログを定期点検する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.benesse.co.jp/customer/bcinfo/01",
+      "sourceUrl": "https://company.benesse.co.jp/newsrelease/m/2014/09/25/docs/20140925%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9.pdf"
+    },
+    {
+      "id": "japan-pension-service-2015",
+      "organization": "日本年金機構",
+      "service": "年金受給者・加入者の個人情報を含む業務用共有ファイル",
+      "title": "標的型メールを起点とする年金個人情報の流出",
+      "causeCategory": "マルウェア感染",
+      "sector": "医療・教育・公的機関",
+      "region": "国内",
+      "scaleLabel": "約125万件・約101万人",
+      "impactStatus": "漏えい確認",
+      "summary": "標的型メールを起点に端末が感染し、2015年5月21〜23日に約125万件の年金個人情報が流出した。対象者は約101万人。基幹システムへの侵入や同システムからの漏えいは確認されていない。",
+      "causeDetail": "職員が標的型メールの添付ファイル等を開き、端末の感染が拡大。インターネット接続環境から扱える共有ファイルに個人情報を置いていたことや、検知後の組織的な対応の不備を調査報告が指摘した。",
+      "sourceType": "公的機関公表・調査報告",
+      "affectedRecords": 1250000,
+      "dates": [
+        "2015-06-01",
+        "2015-08-20"
+      ],
+      "disclosedAt": "2015-06-01",
+      "updatedAt": "2015-08-20",
+      "leakedData": [
+        "基礎年金番号、氏名",
+        "対象によって生年月日、住所"
+      ],
+      "learnings": [
+        "個人情報の業務保管先を限定し、メール・インターネット環境からのアクセスを分離する。",
+        "不審通信の検知から端末隔離、組織への連絡、影響調査までの手順と責任者を決めて訓練する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.nenkin.go.jp/oshirase/topics/2015/20150721.html",
+      "sourceUrl": "https://www.nenkin.go.jp/oshirase/topics/2015/20150721.files/0000150601ndjIleouIi.pdf"
+    },
+    {
+      "id": "haj-2016",
+      "organization": "株式会社北海道アルバイト情報社",
+      "service": "HAJ介護ガイドnavi・求人Webサイト登録情報",
+      "title": "SQLインジェクションによる登録情報の流出可能性",
+      "causeCategory": "Web・APIの脆弱性",
+      "sector": "製造・建設・その他",
+      "region": "国内",
+      "scaleLabel": "4万6,446件（流出の可能性、2区分の合計）",
+      "impactStatus": "漏えいのおそれ",
+      "summary": "2016年3月のSQLインジェクション攻撃で、求人サイト登録情報が取得された可能性が判明。後日の調査報告では、メールアドレスのみ4万6,399件、氏名などを含む情報47件を対象としている。",
+      "causeDetail": "HAJ介護ガイドnaviへのSQLインジェクションによる不正取得の可能性を会社が確認。該当プログラムを修正し、同社の全サイトでも関連する脆弱性対策を実施したと説明。",
+      "sourceType": "企業公表",
+      "affectedRecords": 46446,
+      "dates": [
+        "2016-03-22",
+        "2016-06-15"
+      ],
+      "disclosedAt": "2016-03-22",
+      "updatedAt": "2016-06-15",
+      "leakedData": [
+        "メールアドレス",
+        "47件では氏名、住所、電話番号の一部または全部も対象"
+      ],
+      "learnings": [
+        "データベースへの問い合わせを安全な実装に統一し、SQLインジェクションの検証を継続する。",
+        "一つのサイトで問題が見つかったときは、共通する実装や他サイトへの影響も確認する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.haj.co.jp/important/",
+      "sourceUrl": "https://www.haj.co.jp/important/"
+    },
+    {
+      "id": "uniqlo-gu-2019",
+      "organization": "株式会社ファーストリテイリング・株式会社ユニクロ・株式会社ジーユー",
+      "service": "ユニクロ・ジーユー公式オンラインストア",
+      "title": "リスト型攻撃による46万超のアカウントへの不正ログイン",
+      "causeCategory": "不正ログイン・認証不備",
+      "sector": "EC・小売・飲食",
+      "region": "国内",
+      "scaleLabel": "46万1,091アカウント（不正ログイン確認）",
+      "impactStatus": "漏えいのおそれ",
+      "summary": "2019年4〜5月に46万1,091アカウントへの不正ログインを確認。氏名や住所、購入履歴などが閲覧された可能性があると公表し、対象IDのパスワードを無効化した。 掲載値は調査継続中とした2019年5月13日の公表時点で、後続の最終報告は今回確認できていない。",
+      "causeDetail": "会社はリスト型攻撃と説明。他社サービスから流出した可能性のあるID・パスワードが使われたと推測しており、認証情報の入手先は断定していない。",
+      "sourceType": "企業公表",
+      "affectedRecords": 461091,
+      "dates": [
+        "2019-05-13"
+      ],
+      "disclosedAt": "2019-05-13",
+      "updatedAt": "2019-05-13",
+      "leakedData": [
+        "氏名、住所、電話番号、メールアドレス、性別、生年月日",
+        "購入履歴、登録した氏名・衣服サイズ、配送先情報",
+        "カード名義・有効期限・番号の上4桁と下4桁"
+      ],
+      "learnings": [
+        "サービスごとに異なるパスワードを使い、再利用された認証情報による連鎖被害を減らす。",
+        "運営側は不審なログインを監視し、本人確認の追加や対象アカウント保護を組み合わせる。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.fastretailing.com/jp/group/news/1905132000.html",
+      "sourceUrl": "https://www.fastretailing.com/jp/group/news/1905132000.html"
+    },
+    {
+      "id": "paypay-merchant-server-2020",
+      "organization": "PayPay株式会社",
+      "service": "加盟店関連の営業情報を扱う管理サーバー",
+      "title": "アクセス権限の設定不備と加盟店情報への外部アクセス",
+      "causeCategory": "設定不備・人的ミス",
+      "sector": "金融・保険",
+      "region": "国内",
+      "scaleLabel": "最大2,101件（アクセスされた可能性）",
+      "impactStatus": "漏えいのおそれ",
+      "summary": "権限設定に不備のあった管理サーバーに、2020年11月28日の外部アクセスを確認。アクセスされた可能性のある最大件数は、後の調査で2,007万6,016件から2,101件へ訂正された。一般利用者の情報は対象外。",
+      "causeDetail": "会社がアクセス権限の設定不備を原因と公表。不備の期間は2020年10月18日〜12月3日。後続調査では当初確認された外部アクセス1件のみと再確認した。",
+      "sourceType": "企業公表",
+      "affectedRecords": 2101,
+      "dates": [
+        "2020-12-07",
+        "2021-04-12",
+        "2021-05-07"
+      ],
+      "disclosedAt": "2020-12-07",
+      "updatedAt": "2021-05-07",
+      "leakedData": [
+        "加盟店・営業先の名称、住所、連絡先、代表者情報、営業対応履歴等",
+        "一部の契約日・売上振込先",
+        "従業員・パートナー・代理店の担当者等の情報",
+        "加盟店向けアンケート回答者の氏名・連絡先"
+      ],
+      "learnings": [
+        "設定変更は承認・複数人確認・記録をそろえ、外部からの到達性も変更後に検証する。",
+        "アクセスログを継続監視し、初期の最大影響範囲と調査後の確定・修正値を分けて公表する。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://paypay.ne.jp/notice-merchant/20210507/01/",
+      "sourceUrl": "https://paypay.ne.jp/notice/20201207/02/"
+    },
+    {
+      "id": "amagasaki-usb-2022",
+      "organization": "尼崎市",
+      "service": "臨時特別給付金業務の委託先によるデータ移管",
+      "title": "住民情報入りUSBメモリーの一時紛失と回収",
+      "causeCategory": "サプライチェーン・委託先",
+      "sector": "医療・教育・公的機関",
+      "region": "国内",
+      "scaleLabel": "USBに46万517人分を記録・回収後に漏えい未確認",
+      "impactStatus": "調査で漏えい未確認",
+      "summary": "全市民46万517人分の住民情報などを含むUSBメモリーが、委託業務での持ち出し後に一時紛失した。2022年6月24日に発見され、11月の調査結果では関連機器を含めて個人情報の漏えいは確認されなかった。",
+      "causeDetail": "最終的な市の発表は、無承諾の再委託・再々委託、契約で定めた安全な運搬方法の不履行、受託者の作業者管理と市の監督の不足を指摘した。",
+      "sourceType": "自治体公表・調査委員会報告",
+      "affectedRecords": 460517,
+      "dates": [
+        "2022-06-23",
+        "2022-06-24",
+        "2022-11-28"
+      ],
+      "disclosedAt": "2022-06-23",
+      "updatedAt": "2022-11-28",
+      "leakedData": [
+        "USB収録情報：住民基本台帳の氏名、住所、生年月日、性別等",
+        "USB収録情報：住民税情報、給付対象世帯情報",
+        "USB収録情報：一部の給付等の振込口座情報"
+      ],
+      "learnings": [
+        "委託・再委託の実態と持ち出し手順を把握し、契約した管理方法が現場で守られるか確認する。",
+        "可搬媒体への複製を必要最小限にし、移管後の消去・回収までを作業完了の条件にする。"
+      ],
+      "checkedAt": "2026-10-20",
+      "officialUrl": "https://www.city.amagasaki.hyogo.jp/_res/projects/default_project/_page_/001/030/947/221128.pdf",
+      "sourceUrl": "https://www.city.amagasaki.hyogo.jp/_res/projects/default_project/_page_/001/030/947/220623.pdf"
+    }
+  ]
+}</script>
 </body>
 </html>

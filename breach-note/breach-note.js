@@ -3,11 +3,13 @@
 
   const CAUSE_CATEGORIES = [
     'Web・APIの脆弱性',
+    '機器・ソフトウェアの脆弱性',
     'ランサムウェア攻撃',
     'サプライチェーン・委託先',
     '不正ログイン・認証不備',
     'マルウェア感染',
-    '設定不備・人的ミス'
+    '設定不備・人的ミス',
+    '内部不正・情報持ち出し'
   ];
 
   const SECTORS = [
@@ -32,7 +34,8 @@
   const IMPACT_STATUSES = [
     '漏えい確認',
     '漏えいのおそれ',
-    '調査の結果漏えいなし'
+    '調査の結果漏えいなし',
+    '調査で漏えい未確認'
   ];
 
   const pad = value => String(value).padStart(2, '0');
@@ -58,7 +61,7 @@
   }
 
   function validateData(data) {
-    if (!data || data.year !== 2026 || !isDate(data.checkedAt) || !Array.isArray(data.incidents) || !data.incidents.length) {
+    if (!data || !Number.isInteger(data.year) || data.year < 2000 || data.year > 2100 || !isDate(data.checkedAt) || !Array.isArray(data.incidents) || !data.incidents.length) {
       throw new Error('Invalid breach dataset');
     }
     const ids = new Set();
@@ -73,7 +76,7 @@
         !SECTORS.includes(item.sector) ||
         !REGIONS.includes(item.region) ||
         !IMPACT_STATUSES.includes(item.impactStatus) ||
-        typeof item.affectedRecords !== 'number' ||
+        !Number.isSafeInteger(item.affectedRecords) ||
         item.affectedRecords < 0 ||
         !Array.isArray(item.dates) ||
         !item.dates.length ||
@@ -83,13 +86,13 @@
         !Array.isArray(item.learnings) ||
         item.learnings.length < 2 ||
         item.learnings.some(x => typeof x !== 'string' || !x.trim()) ||
-        !isDate(item.checkedAt) ||
+        !isDate(item.checkedAt) || item.checkedAt > data.checkedAt ||
         !safeUrl(item.officialUrl) ||
         !safeUrl(item.sourceUrl)
       ) {
         throw new Error(`Invalid incident record: ${item && item.id}`);
       }
-      if (item.dates.some(date => !isDate(date) || !date.startsWith('2026-')) || new Set(item.dates).size !== item.dates.length) {
+      if (item.dates.some(date => !isDate(date) || date > item.checkedAt) || new Set(item.dates).size !== item.dates.length) {
         throw new Error(`Invalid incident dates: ${item.id}`);
       }
       const dates = [...item.dates].sort();
@@ -179,13 +182,13 @@
 
   function shortDate(date) {
     const value = new Date(`${date}T00:00:00Z`);
-    return `${value.getUTCMonth() + 1}/${value.getUTCDate()}（${'日月火水木金土'[value.getUTCDay()]}）`;
+    return `${value.getUTCFullYear()}/${value.getUTCMonth() + 1}/${value.getUTCDate()}（${'日月火水木金土'[value.getUTCDay()]}）`;
   }
 
   function dateLabel(item) {
     const dates = [...item.dates].sort();
     if (dates.length === 1) return `公表：${shortDate(dates[0])}`;
-    return `初報：${shortDate(dates[0])} / 続報：${shortDate(dates[dates.length - 1])}`;
+    return `${item.disclosedAtQualifier ? '確認済み公表' : '初報'}：${shortDate(dates[0])} / 続報：${shortDate(dates[dates.length - 1])}`;
   }
 
   function formatCount(records) {
