@@ -92,3 +92,28 @@ test('Ride On Express preserves possible scope, record units and publication chr
   const sources = fs.readFileSync('static/breach-note/sources.html','utf8');
   for (const url of [item.officialUrl,item.sourceUrl,'https://www.rideonexpresshd.co.jp/news/2026/10/post-484.html']) assert.ok(sources.includes(url));
 });
+
+test('all production incidents provide sourced technical explanations without changing impact units', () => {
+  const data = productionData();
+  assert.equal(data.incidents.length, 13);
+  for (const item of data.incidents) {
+    assert.ok(item.technical, item.id);
+    assert.ok(item.technical.attackFlow.length >= 2);
+    assert.ok(item.technical.sources.length >= 1);
+    assert.ok(item.technical.unknowns.length > 10);
+    assert.ok(item.technical.interpretation.length > 10);
+  }
+  assert.equal(api.validateData(data), data);
+});
+test('technical text is searchable and unsafe or incomplete technical records fail closed', () => {
+  const data = productionData();
+  const item = data.incidents[0];
+  assert.equal(api.matches({...item,technical:{...item.technical,entryPoint:'technical-search-unique'}}, {query:'technical-search-unique'}), true);
+  for (const patch of [{entryPoint:''}, {attackFlow:[]}, {sources:[]}, {sources:[{title:'Invalid',url:'javascript:alert(1)',date:null,locator:'test'}]}]) {
+    assert.throws(() => api.validateData({...data,incidents:[{...item,technical:{...item.technical,...patch}}]}));
+  }
+  const app = fs.readFileSync('static/breach-note/app.js','utf8');
+  assert.doesNotMatch(app, /innerHTML\s*=/);
+  assert.match(app, /分かっていないこと/);
+  assert.match(app, /一般論・編集上の整理/);
+});

@@ -44,3 +44,22 @@ explicitly authorized. Preserve unrelated legacy production files, especially
 unpublished output must not be reintroduced. Do not use the deploy script's
 unconditional force push; verify the latest master and update with a guarded
 fast-forward from its real parent.
+
+## Technical explanations
+
+Each researched incident has a `technical` object with `entryPoint`,
+`vulnerability`, `attackFlow` (ordered statements), `exfiltration`, `unknowns`,
+`interpretation`, and `sources` (title, HTTPS URL, publication date or null,
+and section/page locator). The flow is a source-supported sequence, not a
+reconstruction of undisclosed attack steps. Distinguish a reported inference
+from a confirmed fact inside its wording. Do not invent product names, CVEs,
+privilege escalation, tools, data extraction methods, or exact chronology.
+`interpretation` is explicitly labeled general technical explanation, not an
+incident finding. A misconfiguration or insider case need not involve an
+external intrusion or software vulnerability. Search includes technical text.
+
+Technical UI regression: `node --test tests/breach-note-dom.cjs` uses jsdom 30
+as a development-only test dependency (not shipped to the browser). Install it
+in a separate test tools directory and set `NODE_PATH` to that directory's
+`node_modules` when running the test. Run the existing Playwright browser test
+as well for layout and real keyboard interaction; DOM tests do not replace it.

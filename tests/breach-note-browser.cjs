@@ -79,6 +79,11 @@ const record = {
     assert.match(await page.locator('#result-count').innerText(), new RegExp(`登録 ${production.incidents.length}件`));
     await page.locator('.incident summary').first().click();
     assert.match(await page.locator('.incident .meta').first().innerText(), /20\d{2}\//);
+    assert.equal(await page.locator('.technical').count(), production.incidents.length);
+    assert.match(await page.locator('.technical').first().innerText(), /侵入口・アクセスの起点/);
+    assert.match(await page.locator('.technical').first().innerText(), /分かっていないこと/);
+    assert.match(await page.locator('.technical').first().innerText(), /一般論・編集上の整理/);
+    assert.ok(await page.locator('.technical-sources a').count() >= production.incidents.length);
     for (const width of [375,1280]) {
       await page.setViewportSize({width,height:900});
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);

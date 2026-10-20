@@ -36,10 +36,34 @@
       for (const label of [item.impactStatus, item.causeCategory, item.sector, item.region]) tags.append(element('span', label, 'tag'));
       article.append(tags, element('h3', item.title), element('p', `${item.organization} / ${item.service}`), element('p', `${api.dateLabel(item)} · ${item.scaleLabel}`, 'meta'), element('p', item.summary));
       const details = element('details');
-      details.append(element('summary', '原因・学び・出典を読む'));
+      details.append(element('summary', '技術解説・原因・学び・出典を読む'));
       const dl = element('dl');
       for (const [label, value] of [['原因', item.causeDetail], ['対象データ', item.leakedData.join('、')]]) dl.append(element('dt', label), element('dd', value));
-      details.append(dl, element('h4', '対策のヒント（編集部の整理）'));
+      details.append(dl);
+      if (item.technical) {
+        const tech = item.technical;
+        const section = element('section', undefined, 'technical');
+        section.append(element('h4', '技術解説'), element('p', '公表資料で確認できる内容と、一般的な仕組みの解説を分けています。未公表の手口を推測で補っていません。', 'meta'));
+        const facts = element('dl');
+        for (const [label, value] of [['侵入口・アクセスの起点', tech.entryPoint], ['悪用された弱点・権限', tech.vulnerability]]) facts.append(element('dt', label), element('dd', value));
+        section.append(facts, element('h5', '公表資料から追える流れ'));
+        const flow = element('ol', undefined, 'attack-flow');
+        for (const step of tech.attackFlow) flow.append(element('li', step));
+        section.append(flow);
+        const outcome = element('dl');
+        for (const [label, value] of [['取得・持ち出しの方法と確認範囲', tech.exfiltration], ['分かっていないこと', tech.unknowns]]) outcome.append(element('dt', label), element('dd', value));
+        section.append(outcome, element('h5', '仕組みの解説（一般論・編集上の整理）'), element('p', tech.interpretation), element('h5', '技術解説の根拠'));
+        const refs = element('ul', undefined, 'technical-sources');
+        for (const source of tech.sources) {
+          const li = element('li');
+          const link = element('a', source.title);
+          link.href = api.safeUrl(source.url);
+          li.append(link, element('span', `（${source.date || '公表日未確認'}） ${source.locator}`));
+          refs.append(li);
+        }
+        section.append(refs); details.append(section);
+      }
+      details.append(element('h4', '対策のヒント（編集部の整理）'));
       const list = element('ul');
       for (const learning of item.learnings) list.append(element('li', learning));
       details.append(list);
