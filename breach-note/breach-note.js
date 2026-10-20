@@ -99,6 +99,15 @@
       if (item.disclosedAt !== dates[0] || item.updatedAt !== dates[dates.length - 1]) {
         throw new Error(`Incident disclosedAt/updatedAt does not match dates: ${item.id}`);
       }
+      if (item.technical !== undefined) {
+        const tech = item.technical;
+        const nonempty = value => typeof value === 'string' && !!value.trim();
+        if (!tech || !['entryPoint', 'vulnerability', 'exfiltration', 'unknowns', 'interpretation'].every(key => nonempty(tech[key])) ||
+          !Array.isArray(tech.attackFlow) || !tech.attackFlow.length || !tech.attackFlow.every(nonempty) ||
+          !Array.isArray(tech.sources) || !tech.sources.length || !tech.sources.every(source => source && nonempty(source.title) && safeUrl(source.url) && nonempty(source.locator) && (source.date === null || isDate(source.date) && source.date <= item.checkedAt))) {
+          throw new Error(`Invalid technical explanation: ${item.id}`);
+        }
+      }
       ids.add(item.id);
     }
     return data;
@@ -138,7 +147,8 @@
           item.causeDetail,
           ...(item.leakedData || []),
           ...(item.learnings || []),
-          ...(item.tags || [])
+          ...(item.tags || []),
+          ...(item.technical ? [item.technical.entryPoint, item.technical.vulnerability, ...item.technical.attackFlow, item.technical.exfiltration, item.technical.unknowns, item.technical.interpretation] : [])
         ].join(' ')
       );
       if (!words.every(word => haystack.includes(word))) return false;
