@@ -17,7 +17,7 @@ const record = {
 (async () => {
   const browser = await chromium.launch({executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', headless: true, args: ['--no-sandbox']});
   try {
-    let data;
+    let data = {year:2026,checkedAt:null,incidents:[]};
     let missingHelpers = false;
     const context = await browser.newContext();
     await context.route('https://breach.test/**', route => {
@@ -25,7 +25,7 @@ const record = {
       const name = path.resolve(root, '.' + (url.pathname.endsWith('/') ? url.pathname + 'index.html' : url.pathname));
       if (!name.startsWith(root + path.sep) || !fs.existsSync(name) || (missingHelpers && name.endsWith('/breach-note.js'))) return route.fulfill({status:404, body:''});
       let body = fs.readFileSync(name);
-      if (name.endsWith('/index.html') && data !== undefined) body = body.toString().replace('{"year":2026,"checkedAt":null,"incidents":[]}', typeof data === 'string' ? data : JSON.stringify(data).replace(/</g, '\\u003c'));
+      if (name.endsWith('/index.html') && data !== undefined) body = body.toString().replace(/(<script id="breach-data" type="application\/json">).*?(<\/script>)/s, (_, start, end) => start + (typeof data === 'string' ? data : JSON.stringify(data).replace(/</g, '\\u003c')) + end);
       return route.fulfill({body, contentType: {'.html':'text/html; charset=utf-8','.js':'application/javascript','.css':'text/css'}[path.extname(name)]});
     });
     const page = await context.newPage();
@@ -33,6 +33,7 @@ const record = {
     page.on('pageerror', error => errors.push(error.message));
     await page.goto('https://breach.test/breach-note/');
     assert.match(await page.locator('#message').innerText(), /まだ登録されていません/);
+    assert.match(await page.locator('#coverage').innerText(), /まだ登録されていません/);
     assert.equal(await page.locator('#cause option').count(), api.CAUSE_CATEGORIES.length + 1);
     assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'), 'https://takecian.github.io/breach-note/');
     await page.locator('#from').fill('2026-05-01');
@@ -71,7 +72,23 @@ const record = {
       assert.match(await page.locator('#message').innerText(), /読み込めませんでした/);
       assert.equal(await page.locator('#query').isDisabled(), true);
     }
-    data = undefined; missingHelpers = true;
+    data = undefined;
+    await page.goto('https://breach.test/breach-note/');
+    const production = JSON.parse(fs.readFileSync(path.join(root,'breach-note/index.html'),'utf8').match(/<script id="breach-data" type="application\/json">(.*?)<\/script>/s)[1]);
+    assert.equal(await page.locator('.incident').count(), production.incidents.length);
+    assert.match(await page.locator('#result-count').innerText(), new RegExp(`登録 ${production.incidents.length}件`));
+    await page.locator('.incident summary').first().click();
+    assert.match(await page.locator('.incident .meta').first().innerText(), /20\d{2}\//);
+    for (const width of [375,1280]) {
+      await page.setViewportSize({width,height:900});
+      assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+    }
+    if (process.env.SCREENSHOT_DIR) await page.screenshot({path:path.join(process.env.SCREENSHOT_DIR, 'breach-note-populated.png'),fullPage:true});
+    await page.locator('#query').fill(production.incidents[0].organization);
+    assert.ok(await page.locator('.incident').count() >= 1);
+    await page.locator('button[type=reset]').click();
+    assert.equal(await page.locator('.incident').count(), production.incidents.length);
+    missingHelpers = true;
     await page.reload();
     assert.match(await page.locator('#message').innerText(), /読み込めませんでした/);
     assert.deepEqual(errors, []);

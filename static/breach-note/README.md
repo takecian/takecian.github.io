@@ -3,26 +3,44 @@
 Source: `static/breach-note/`; published path: `/breach-note/`.
 Hugo copies this standalone page and assets without a content template.
 
-The page uses the existing `breach-note.js` helpers for options, query normalization,
-AND keyword matching, inclusive date ranges (any initial/follow-up date), minimum
-record-count thresholds, and ordering. Unknown record counts remain in the
-“under 10k / undisclosed” group, not a claim of zero impact.
+The inline `breach-data` JSON in `index.html` contains researched public-source
+summaries. `year` is the dataset edition year, not an incident-year restriction.
+`checkedAt` is the actual source-check date. Historical incidents are supported.
+The initial selection focuses on Japanese organizations; it is not exhaustive.
 
-No incident research or example incidents are included. The inline `breach-data`
-JSON in `index.html` starts with `year: 2026`, `checkedAt: null`, `incidents: []`.
-This exact empty state is supported by the UI; populated data must pass the
-existing `BreachNote.validateData` schema. Only add verified records with real
-source/official HTTPS links and actual check dates. Escape `<` as `\u003c` in inline
-JSON so record text cannot terminate its script element. The UI uses textContent
-for incident text and renders no HTML from the data. Do not add test fixtures to
-production data.
+## Data conventions
 
-Run `node --test tests/breach-note.test.cjs` for source/helper checks.
-Run `node tests/breach-note-browser.cjs` for browser checks (Playwright and Chromium required). They use only synthetic
-fixtures intercepted in the test browser, never production records.
+- Keep `disclosedAt` / `updatedAt` equal to the first / last dates in `dates`.
+  These are verified publication dates, not intrusion or discovery dates. Explain
+  in the summary when the first-ever announcement is not independently verified.
+- Distinguish confirmed leakage, possible access/exposure, and no leak found.
+- `affectedRecords` is the numeric scope for filtering, not a uniform unit or a
+  confirmed leakage total. `scaleLabel` must state people/accounts/records,
+  possible/maximum counts, and important overlap. Never sum these numbers.
+  Use 0 only as the existing unknown-count sentinel, with an explicit unknown
+  label; this is not a claim of zero harm. Actual confirmed zero leakage is
+  described in the status/summary, independently from the population at risk.
+- Prefer the latest verified final estimate; document major revisions and do not
+  mix estimates from separate announcements. Use conservative cause categories.
+- Link actual official HTTPS notices in `officialUrl` and `sourceUrl`; preserve
+  supporting notice dates and scope in the source register. Do not use fabricated
+  records, private leaked data, or copied article text.
+- `learnings` are editorial prevention ideas, not source quotations or proof of
+  which safeguards were absent. The UI labels this distinction.
+- Escape `<` as `\u003c` in inline JSON. Incident text uses `textContent`; URLs are
+  HTTPS-only without embedded credentials. Validate data before publishing.
 
-Build with Hugo into a temporary directory to inspect changes. Do not run
-`Scripts/deploy.sh` unless production publication is explicitly authorized.
-Changing the October diary to `draft: true` excludes it from normal future builds;
-it does not remove the already deployed page. A production rebuild/deployment
-must also remove stale output, rather than merely copy files over it.
+Helpers implement AND keyword matching, inclusive date ranges (any verified
+initial/follow-up date), minimum numeric thresholds, and newest-first ordering.
+Unknown counts remain in the “under 10k / undisclosed” group.
+
+Run `node --test tests/breach-note.test.cjs` for source/data/helper checks.
+Run `node tests/breach-note-browser.cjs` for browser checks (Playwright/Chromium).
+Synthetic fixtures are intercepted only in the test browser, never published.
+
+Build with Hugo into a temporary directory to inspect changes. Only publish when
+explicitly authorized. Preserve unrelated legacy production files, especially
+404.html and old calendars. The October diary remains draft and its previously
+unpublished output must not be reintroduced. Do not use the deploy script's
+unconditional force push; verify the latest master and update with a guarded
+fast-forward from its real parent.
