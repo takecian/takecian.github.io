@@ -77,3 +77,18 @@ test('qualified first-publication dates and inline script escaping remain explic
   const payload = fs.readFileSync('static/breach-note/index.html','utf8').match(/<script id="breach-data" type="application\/json">(.*?)<\/script>/s)[1];
   assert.equal(payload.includes('<'), false);
 });
+
+test('Ride On Express preserves possible scope, record units and publication chronology', () => {
+  const item = productionData().incidents.find(x => x.id === 'ride-on-express-2026-ransomware');
+  assert.ok(item);
+  assert.equal(item.impactStatus, '漏えいのおそれ');
+  assert.equal(item.affectedRecords, 6500000);
+  assert.match(item.scaleLabel, /最大約650万件.*確定件数ではない/);
+  assert.equal(item.disclosedAt, '2026-10-07');
+  assert.deepEqual(item.dates, ['2026-10-07','2026-10-08','2026-10-09','2026-10-13']);
+  assert.match(item.summary, /10月13日.*可能性/);
+  assert.match(item.summary, /カード情報は含まれない/);
+  assert.equal(api.filterIncidents(productionData().incidents, {query:'銀のさら',scale:'1m_plus'}).length, 1);
+  const sources = fs.readFileSync('static/breach-note/sources.html','utf8');
+  for (const url of [item.officialUrl,item.sourceUrl,'https://www.rideonexpresshd.co.jp/news/2026/10/post-484.html']) assert.ok(sources.includes(url));
+});
