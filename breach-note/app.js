@@ -12,14 +12,14 @@
     if (!empty) api.validateData(data);
     const items = data.incidents;
     const form = $('filters');
-    const controls = ['cause', 'sector', 'region', 'scale', 'from', 'to', 'query'];
+    const controls = ['cause', 'status', 'sector', 'region', 'scale', 'from', 'to', 'query'];
     function element(tag, text, className) {
       const node = document.createElement(tag);
       if (text !== undefined) node.textContent = text;
       if (className) node.className = className;
       return node;
     }
-    for (const [id, options] of Object.entries({cause: api.CAUSE_CATEGORIES, sector: api.SECTORS, region: api.REGIONS, scale: api.SCALES})) {
+    for (const [id, options] of Object.entries({cause: api.CAUSE_CATEGORIES, status: api.IMPACT_STATUSES, sector: api.SECTORS, region: api.REGIONS, scale: api.SCALES})) {
       for (const option of options) {
         const node = element('option', typeof option === 'string' ? option : option.label);
         node.value = typeof option === 'string' ? option : option.id;

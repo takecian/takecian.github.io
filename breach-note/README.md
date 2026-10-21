@@ -44,3 +44,52 @@ explicitly authorized. Preserve unrelated legacy production files, especially
 unpublished output must not be reintroduced. Do not use the deploy script's
 unconditional force push; verify the latest master and update with a guarded
 fast-forward from its real parent.
+
+## Technical explanations
+
+Each researched incident has a `technical` object with `entryPoint`,
+`vulnerability`, `attackFlow` (ordered statements), `exfiltration`, `unknowns`,
+`interpretation`, and `sources` (title, HTTPS URL, publication date or null,
+and section/page locator). The flow is a source-supported sequence, not a
+reconstruction of undisclosed attack steps. Distinguish a reported inference
+from a confirmed fact inside its wording. Do not invent product names, CVEs,
+privilege escalation, tools, data extraction methods, or exact chronology.
+`interpretation` is explicitly labeled general technical explanation, not an
+incident finding. A misconfiguration or insider case need not involve an
+external intrusion or software vulnerability. Search includes technical text.
+
+Technical UI regression: `node --test tests/breach-note-dom.cjs` uses jsdom 30
+as a development-only test dependency (not shipped to the browser). Install it
+in a separate test tools directory and set `NODE_PATH` to that directory's
+`node_modules` when running the test. Run the existing Playwright browser test
+as well for layout and real keyboard interaction; DOM tests do not replace it.
+
+## 2026 six-month coverage expansion
+
+The October 21, 2026 edition adds primary-verified disclosures and substantive
+follow-ups from April 21 through October 21, 2026. Keep the earlier historical
+records for comparison. The research pass covers each calendar-month segment
+and multiple industries, including accidental disclosure and loss, not only
+cyberattacks. This is a curated public-source register, never a complete national
+incident census. `sources.html#coverage-methodology` describes the scope,
+deduplication, excluded categories and count limitations.
+
+The optional `coverage` object records `from`, `to`, `checkedAt`, `periodTotal`,
+`firstVerifiedPublicationInPeriod`, `olderWithFollowupsInPeriod` and
+`exhaustive: false`. The validator recomputes incident counts from the verified
+publication dates. These counts do not add affected persons or records. A
+month's count means the first **verified publication** of a registered case,
+not necessarily the occurrence month or the true first announcement.
+
+Use `調査中・原因不明` when the published evidence does not establish a cause.
+An account suspension, password reset, software update, new EDR deployment or
+other response is not proof that a particular account, software flaw or machine
+was the initial entry point. Likewise, remote-control software in a support scam
+is not automatically malware. Distinguish absence of confirmed leakage from a
+positive final conclusion of no leakage.
+
+`status` is an independent URL/filter key for the confirmation status. The
+recent-period shortcut includes follow-up publication dates by the same rules as
+the date inputs. Source links and technical panels remain available for every
+record. Each record keeps its own source-check date; adding new records does not
+claim that every historical source was rechecked that day.

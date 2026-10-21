@@ -9,7 +9,8 @@
     '不正ログイン・認証不備',
     'マルウェア感染',
     '設定不備・人的ミス',
-    '内部不正・情報持ち出し'
+    '内部不正・情報持ち出し',
+    '調査中・原因不明'
   ];
 
   const SECTORS = [
@@ -110,6 +111,19 @@
       }
       ids.add(item.id);
     }
+    if (data.coverage !== undefined) {
+      const c = data.coverage;
+      if (!c || !isDate(c.from) || !isDate(c.to) || c.from > c.to || c.to > data.checkedAt ||
+        !isDate(c.checkedAt) || c.checkedAt > data.checkedAt || c.exhaustive !== false) {
+        throw new Error('Invalid research coverage');
+      }
+      const scoped = data.incidents.filter(item => item.dates.some(date => date >= c.from && date <= c.to));
+      const first = scoped.filter(item => item.disclosedAt >= c.from && item.disclosedAt <= c.to);
+      if (c.periodTotal !== scoped.length || c.firstVerifiedPublicationInPeriod !== first.length ||
+        c.olderWithFollowupsInPeriod !== scoped.length - first.length) {
+        throw new Error('Research coverage counts do not match incidents');
+      }
+    }
     return data;
   }
 
@@ -128,6 +142,7 @@
 
   function matches(item, filters = {}) {
     if (filters.cause && item.causeCategory !== filters.cause) return false;
+    if (filters.status && item.impactStatus !== filters.status) return false;
     if (filters.sector && item.sector !== filters.sector) return false;
     if (filters.region && item.region !== filters.region) return false;
     if (filters.scale && !matchesScale(item, filters.scale)) return false;
@@ -213,6 +228,7 @@
   function readFilters(search) {
     const params = new URLSearchParams(search);
     const cause = params.get('cause') || '';
+    const status = params.get('status') || '';
     const sector = params.get('sector') || '';
     const region = params.get('region') || '';
     const scale = params.get('scale') || '';
@@ -220,6 +236,7 @@
     const to = params.get('to') || '';
     return {
       cause: CAUSE_CATEGORIES.includes(cause) ? cause : '',
+      status: IMPACT_STATUSES.includes(status) ? status : '',
       sector: SECTORS.includes(sector) ? sector : '',
       region: REGIONS.includes(region) ? region : '',
       scale: SCALES.some(s => s.id === scale) ? scale : '',
