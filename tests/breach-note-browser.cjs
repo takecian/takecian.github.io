@@ -89,6 +89,10 @@ const record = {
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
     }
     if (process.env.SCREENSHOT_DIR) await page.screenshot({path:path.join(process.env.SCREENSHOT_DIR, 'breach-note-populated.png'),fullPage:true});
+    await page.locator('#status').selectOption('漏えい確認');
+    assert.equal(await page.locator('.incident').count(),production.incidents.filter(item=>item.impactStatus==='漏えい確認').length);
+    assert.equal(new URL(page.url()).searchParams.get('status'),'漏えい確認');
+    await page.locator('button[type=reset]').click();
     await page.locator('#query').fill(production.incidents[0].organization);
     assert.ok(await page.locator('.incident').count() >= 1);
     await page.locator('button[type=reset]').click();
