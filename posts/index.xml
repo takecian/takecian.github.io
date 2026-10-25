@@ -6,8 +6,15 @@
     <description>Recent content in Posts on takecian</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 25 Sep 2026 21:30:23 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 14:54:38 +0900</lastBuildDate>
     <atom:link href="https://takecian.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年10月</title>
+      <link>https://takecian.github.io/posts/2026-10-31_diary/</link>
+      <pubDate>Sun, 25 Oct 2026 14:54:38 +0900</pubDate>
+      <guid>https://takecian.github.io/posts/2026-10-31_diary/</guid>
+      <description>&lt;h1 id=&#34;10月&#34;&gt;10月&lt;/h1&gt;&#xA;&lt;h2 id=&#34;都民の日&#34;&gt;都民の日&lt;/h2&gt;&#xA;&lt;p&gt;10/1 は都民の日で小学校が休み。&#xA;会社を休みにしてアンパンマンミュージアムに行った。今年何回目かもうわからない。10回以上来てるのは間違いない。&lt;/p&gt;&#xA;&lt;h2 id=&#34;会社のmeedup&#34;&gt;会社のMeedup&lt;/h2&gt;&#xA;&lt;p&gt;会社の採用イベントのミートアップで最近の仕事内容を喋った。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://mercari.connpass.com/event/407406/&#34;&gt;https://mercari.connpass.com/event/407406/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;iphone-duo&#34;&gt;iPhone Duo&lt;/h2&gt;&#xA;&lt;p&gt;iPhone Duo の発売日。夜21時からの予約開始と同時に申し込み。多分21時1分くらいには注文を終えてた。無事発売日の23日に届くみたい。&lt;/p&gt;&#xA;&lt;p&gt;しかし36万円は高い。ペイディとかで分割払いにしようと思ったら限度額超えててだめだった。でも結局一括払いにした結果スムーズに注文できた気もする。&lt;/p&gt;&#xA;&lt;p&gt;23日当日無事届いた。データ移行して職場に持って行ったら他にも持ってきてた人が数人いた。&lt;/p&gt;&#xA;&lt;p&gt;当たり前だけどまだ Duo 対応 (Xcode 27以降でビルド)されてるものも少なくて、初日に手に入れたことのメリットはドヤれるくらいで、実は１ヶ月後くらいにアプリがDuo対応したくらいに変更するのが一番いい気もする。&lt;/p&gt;&#xA;&lt;h2 id=&#34;remote-agent&#34;&gt;Remote agent&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI Dot を使い始めた。&#xA;大雑把な指示をするとウェブアプリとかはすぐ作れてしまう。&lt;/p&gt;&#xA;&lt;p&gt;いくつか実験的に作ってみた。 &lt;a href=&#34;https://takecian.github.io/breach-note/&#34;&gt;情報漏洩データベース&lt;/a&gt; とか &lt;a href=&#34;https://takecian.github.io/festival-calendar/&#34;&gt;文化祭データベース&lt;/a&gt;、&lt;a href=&#34;https://takecian.github.io/sports-income/&#34;&gt;スポーツ選手年収データベース&lt;/a&gt; とか。人力で情報集めそうなものは Dot にやらせることで量産できそう。&lt;/p&gt;&#xA;&lt;p&gt;なんか精度とか規約とか怪しい部分も色々ありそうだけど。&lt;/p&gt;&#xA;&lt;h2 id=&#34;ダイエット&#34;&gt;ダイエット&lt;/h2&gt;&#xA;&lt;p&gt;ダイエットを始めた。１ヶ月１kg減を目標にする。とりあえず今月分はクリアできそう。これで来年の夏までに8kgくらい絞りたい。&lt;/p&gt;&#xA;&lt;h1 id=&#34;時事とかニュース&#34;&gt;時事とかニュース&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;iPhone Duo 発売&lt;/li&gt;&#xA;&lt;li&gt;Tesla が空飛んだ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;読んだ漫画&#34;&gt;読んだ漫画&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;忍空&lt;/li&gt;&#xA;&lt;li&gt;こち亀203巻&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;買ったもの&#34;&gt;買ったもの&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;iPhone Duo 256GB&lt;/li&gt;&#xA;&lt;li&gt;GRAMICCI ショートパンツ&#xA;&lt;ul&gt;&#xA;&lt;li&gt;夏用を今買った。痩せた前提のものを買ったのでもう後戻りできない。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;今欲しいもの&#34;&gt;今欲しいもの&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;アウター: and wander にするかパタゴニアにするか迷ってる。&#xA;&lt;ul&gt;&#xA;&lt;li&gt;被りが少ないことを目的にするなら and wander かな。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>2026年9月</title>
       <link>https://takecian.github.io/posts/2026-09-30_diary/</link>
