@@ -1,0 +1,2962 @@
+{
+  "schemaVersion": 2,
+  "checkedAt": "2026-10-24",
+  "players": [
+    {
+      "id": "sato-teruaki",
+      "name": "佐藤輝明",
+      "reading": "さとう てるあき",
+      "sport": "baseball",
+      "records": [
+        {
+          "year": 2021,
+          "season": "2021",
+          "team": "阪神タイガース",
+          "kind": "salary",
+          "amount": 16000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "佐藤輝明の入団仮契約",
+              "publisher": "日刊スポーツ",
+              "publishedAt": "2020-11-12",
+              "url": "https://www.nikkansports.com/baseball/news/202011120000285.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            }
+          ],
+          "note": "初年度の報道推定年俸。契約金とは別。"
+        },
+        {
+          "year": 2020,
+          "season": "2020",
+          "team": "阪神タイガース",
+          "kind": "signing-bonus",
+          "amount": 100000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "佐藤輝明の入団仮契約",
+              "publisher": "日刊スポーツ",
+              "publishedAt": "2020-11-12",
+              "url": "https://www.nikkansports.com/baseball/news/202011120000285.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            }
+          ],
+          "note": "入団仮契約時の一時金。報道推定。"
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "阪神タイガース",
+          "kind": "salary",
+          "amount": 150000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "佐藤輝明の2024年契約更改",
+              "publisher": "日刊スポーツ",
+              "publishedAt": "2023-12-07",
+              "url": "https://www.nikkansports.com/baseball/news/202312070000440.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "press"
+            }
+          ],
+          "note": "単年年俸の報道推定。総年収・手取りではない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "阪神タイガース",
+          "kind": "salary",
+          "amount": 150000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "佐藤輝明の2025年契約更改",
+              "publisher": "日刊スポーツ",
+              "publishedAt": "2024-12-23",
+              "url": "https://www.nikkansports.com/baseball/news/202412230000594.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            }
+          ],
+          "note": "単年年俸の報道推定。総年収・手取りではない。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "阪神タイガース",
+          "kind": "salary",
+          "amount": 450000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "佐藤輝明の2026年単年契約",
+              "publisher": "デイリースポーツ",
+              "publishedAt": "2026-02-01",
+              "url": "https://www.daily.co.jp/tigers/2026/02/01/0019971632.shtml",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "press"
+            }
+          ],
+          "note": "単年年俸の報道推定。総年収・手取りではない。基本年俸。別枠の出来高5000万円を加算しない。"
+        },
+        {
+          "year": 2020,
+          "season": "2020",
+          "team": "阪神タイガース",
+          "kind": "conditional-bonus",
+          "amount": 50000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "佐藤輝明の入団仮契約",
+              "publisher": "日刊スポーツ",
+              "publishedAt": "2020-11-12",
+              "url": "https://www.nikkansports.com/baseball/news/202011120000285.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            }
+          ],
+          "note": "出来高の上限。実際の支払いは未確認。年俸に加算しない。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "阪神タイガース",
+          "kind": "conditional-bonus",
+          "amount": 50000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "佐藤輝明の2026年単年契約",
+              "publisher": "デイリースポーツ",
+              "publishedAt": "2026-02-01",
+              "url": "https://www.daily.co.jp/tigers/2026/02/01/0019971632.shtml",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "press"
+            }
+          ],
+          "note": "出来高の上限。実際の支払いは未確認。年俸に加算しない。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2020-11-12",
+          "label": "2020年ドラフト1位・入団仮契約",
+          "team": "阪神タイガース",
+          "sources": [
+            {
+              "title": "佐藤輝明の入団仮契約",
+              "publisher": "日刊スポーツ",
+              "publishedAt": "2020-11-12",
+              "url": "https://www.nikkansports.com/baseball/news/202011120000285.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            },
+            {
+              "title": "佐藤輝明の選手プロフィール",
+              "publisher": "NPB",
+              "publishedAt": null,
+              "url": "https://bis.npb.or.jp/bis/players/41045153.html",
+              "checkedAt": "2026-10-24",
+              "access": "検索インデックス確認のみ・本文取得タイムアウト",
+              "kind": "official"
+            }
+          ],
+          "note": "近畿大学から加入。プロ初年度は2021年。契約金と初年度年俸は値表に分離。"
+        }
+      ],
+      "league": "NPB"
+    },
+    {
+      "id": "maki-shugo",
+      "name": "牧秀悟",
+      "reading": "まき しゅうご",
+      "sport": "baseball",
+      "records": [
+        {
+          "year": 2021,
+          "season": "2021",
+          "team": "横浜DeNAベイスターズ",
+          "kind": "salary",
+          "amount": 13000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "牧秀悟の入団仮契約",
+              "publisher": "Full-Count",
+              "publishedAt": "2020-11-23",
+              "url": "https://full-count.jp/2020/11/23/post981357/",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "press"
+            }
+          ],
+          "note": "初年度の報道推定年俸。契約金とは別。"
+        },
+        {
+          "year": 2020,
+          "season": "2020",
+          "team": "横浜DeNAベイスターズ",
+          "kind": "signing-bonus",
+          "amount": 77000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "牧秀悟の入団仮契約",
+              "publisher": "Full-Count",
+              "publishedAt": "2020-11-23",
+              "url": "https://full-count.jp/2020/11/23/post981357/",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "press"
+            }
+          ],
+          "note": "入団仮契約時の一時金。報道推定。"
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "横浜DeNAベイスターズ",
+          "kind": "salary",
+          "amount": 230000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "牧秀悟の2024年契約更改",
+              "publisher": "日刊スポーツ",
+              "publishedAt": "2023-12-21",
+              "url": "https://www.nikkansports.com/baseball/news/202312200001155.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            }
+          ],
+          "note": "単年年俸の報道推定。総年収・手取りではない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "横浜DeNAベイスターズ",
+          "kind": "salary",
+          "amount": 250000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "牧秀悟の2025年推定年俸",
+              "publisher": "テレビ東京",
+              "publishedAt": "2024-12-05",
+              "url": "https://www.tv-tokyo.co.jp/sports/articles/2024/12/036382.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            }
+          ],
+          "note": "単年年俸の報道推定。総年収・手取りではない。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "横浜DeNAベイスターズ",
+          "kind": "salary",
+          "amount": 250000000,
+          "currency": "JPY",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "牧秀悟の2026年契約更改",
+              "publisher": "TBSテレビ",
+              "publishedAt": "2025-12-16",
+              "url": "https://newsdig.tbs.co.jp/articles/-/2348547?display=1",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            }
+          ],
+          "note": "単年年俸の報道推定。総年収・手取りではない。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2020-11-23",
+          "label": "2020年ドラフト2位・入団仮契約",
+          "team": "横浜DeNAベイスターズ",
+          "sources": [
+            {
+              "title": "牧秀悟の入団仮契約",
+              "publisher": "Full-Count",
+              "publishedAt": "2020-11-23",
+              "url": "https://full-count.jp/2020/11/23/post981357/",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "press"
+            },
+            {
+              "title": "牧秀悟の選手プロフィール",
+              "publisher": "NPB",
+              "publishedAt": null,
+              "url": "https://draft.npb.or.jp/bis/players/13115153.html",
+              "checkedAt": "2026-10-24",
+              "access": "検索インデックス確認のみ・本文取得タイムアウト",
+              "kind": "official"
+            }
+          ],
+          "note": "中央大学から加入。プロ初年度は2021年。契約金と初年度年俸は値表に分離。"
+        }
+      ],
+      "league": "NPB"
+    },
+    {
+      "id": "ohtani-shohei",
+      "name": "大谷翔平",
+      "nameEn": "Shohei Ohtani",
+      "reading": "おおたに しょうへい",
+      "sport": "baseball",
+      "league": "MLB",
+      "audienceTags": [
+        "日本人MLB選手"
+      ],
+      "currentClub": {
+        "name": "ロサンゼルス・ドジャース",
+        "verifiedAsOf": "2026-10-24",
+        "sourceIds": [
+          "ohtaniProfile"
+        ]
+      },
+      "records": [
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "salary",
+          "amount": 70000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "後払いを含む契約上の年額。当年支払予定とは異なる。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "契約上の年額（後払い含む）",
+          "comparisonEligible": false,
+          "comparisonGroup": null,
+          "scheduledCurrentYearSalaryCash": 2000000,
+          "scheduledDeferredSalary": 68000000
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "scheduled-payment",
+          "amount": 2000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の当年給与支払予定。実際の入金は未確認。契約金を含まない。"
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "deferred-compensation",
+          "amount": 68000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "この契約年度から将来へ繰り延べる額。支払は2034〜2043年の各7月1日、毎年6800万ドル・無利息の予定。実際の入金は未確認。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "salary",
+          "amount": 70000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "後払いを含む契約上の年額。当年支払予定とは異なる。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "契約上の年額（後払い含む）",
+          "comparisonEligible": false,
+          "comparisonGroup": null,
+          "scheduledCurrentYearSalaryCash": 2000000,
+          "scheduledDeferredSalary": 68000000
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "scheduled-payment",
+          "amount": 2000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の当年給与支払予定。実際の入金は未確認。契約金を含まない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "deferred-compensation",
+          "amount": 68000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "この契約年度から将来へ繰り延べる額。支払は2034〜2043年の各7月1日、毎年6800万ドル・無利息の予定。実際の入金は未確認。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "salary",
+          "amount": 70000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "後払いを含む契約上の年額。当年支払予定とは異なる。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "契約上の年額（後払い含む）",
+          "comparisonEligible": false,
+          "comparisonGroup": null,
+          "scheduledCurrentYearSalaryCash": 2000000,
+          "scheduledDeferredSalary": 68000000
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "scheduled-payment",
+          "amount": 2000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の当年給与支払予定。実際の入金は未確認。契約金を含まない。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "deferred-compensation",
+          "amount": 68000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "この契約年度から将来へ繰り延べる額。支払は2034〜2043年の各7月1日、毎年6800万ドル・無利息の予定。実際の入金は未確認。"
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "multi-year-total",
+          "amount": 700000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "名目契約総額。単年年俸ではない。年数で割って年俸にはしない。実際の入金は未確認。",
+          "period": {
+            "start": "2024",
+            "end": "2033"
+          }
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "signing-bonus",
+          "amount": null,
+          "currency": "USD",
+          "precision": "undisclosed",
+          "status": "unknown",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約金を別項目として確認できず。ゼロとは断定しない。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2023-12-11",
+          "label": "FA契約",
+          "team": "ロサンゼルス・ドジャース",
+          "sources": [
+            {
+              "publisher": "Associated Press / KEYT",
+              "publishedAt": "2023-12-11",
+              "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+              "title": "大谷翔平の契約と後払いに関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": null,
+              "url": "https://www.mlb.com/player/shohei-ohtani-660271",
+              "title": "大谷翔平 選手ページ",
+              "kind": "official",
+              "sourceType": "official_player_profile",
+              "evidenceParaphrase": "ドジャース所属と2023年12月11日契約。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "ohtaniContract",
+            "ohtaniProfile"
+          ],
+          "note": "2024〜2033の契約。後払い計6億8000万ドルは2034〜2043年の各7月1日に6800万ドルずつ、無利息の支払予定。実際の入金は未確認。"
+        }
+      ],
+      "annualRecords": [
+        {
+          "period": "2024",
+          "yearBasis": "season",
+          "seasonClub": "ロサンゼルス・ドジャース",
+          "currency": "USD",
+          "amount": 70000000,
+          "metric": "annual_contract_salary_including_deferrals",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "sourcePublishedDate": "2023-12-11",
+          "scheduledCurrentYearSalaryCash": 2000000,
+          "scheduledDeferredSalary": 68000000,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": false,
+          "comparisonGroup": null
+        },
+        {
+          "period": "2025",
+          "yearBasis": "season",
+          "seasonClub": "ロサンゼルス・ドジャース",
+          "currency": "USD",
+          "amount": 70000000,
+          "metric": "annual_contract_salary_including_deferrals",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "sourcePublishedDate": "2023-12-11",
+          "scheduledCurrentYearSalaryCash": 2000000,
+          "scheduledDeferredSalary": 68000000,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": false,
+          "comparisonGroup": null
+        },
+        {
+          "period": "2026",
+          "yearBasis": "season",
+          "seasonClub": "ロサンゼルス・ドジャース",
+          "currency": "USD",
+          "amount": 70000000,
+          "metric": "annual_contract_salary_including_deferrals",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "ohtaniContract"
+          ],
+          "sourcePublishedDate": "2023-12-11",
+          "scheduledCurrentYearSalaryCash": 2000000,
+          "scheduledDeferredSalary": 68000000,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": false,
+          "comparisonGroup": null
+        }
+      ],
+      "contractEvents": [
+        {
+          "date": "2023-12-11",
+          "kind": "FA契約",
+          "to": "ロサンゼルス・ドジャース",
+          "periodStart": "2024",
+          "periodEnd": "2033",
+          "termYears": 10,
+          "currency": "USD",
+          "totalContractValue": 700000000,
+          "totalContractValueMetric": "nominal_contract_total",
+          "status": "reported_contract_terms",
+          "sourceIds": [
+            "ohtaniContract",
+            "ohtaniProfile"
+          ],
+          "signingBonus": {
+            "amount": null,
+            "currency": "USD",
+            "status": "not_separately_established",
+            "oneOff": true,
+            "actualPaid": null,
+            "sourceIds": [
+              "ohtaniContract"
+            ]
+          },
+          "postingFee": {
+            "amount": null,
+            "currency": "USD",
+            "status": "not_applicable_free_agent",
+            "isPlayerIncome": false
+          },
+          "deferredSalary": {
+            "amount": 680000000,
+            "currency": "USD",
+            "status": "reported_contract_schedule",
+            "annualAccrual": 68000000,
+            "accrualStartSeason": "2024",
+            "accrualEndSeason": "2033",
+            "interestRate": 0,
+            "paymentSchedule": {
+              "firstDate": "2034-07-01",
+              "lastDate": "2043-07-01",
+              "frequency": "annual",
+              "installmentAmount": 68000000,
+              "installments": 10
+            },
+            "actualPaid": null,
+            "sourceIds": [
+              "ohtaniContract",
+              "ohtaniDeferrals"
+            ]
+          }
+        }
+      ],
+      "totalAnnualIncome": {
+        "amount": null,
+        "status": "not_established",
+        "note": "スポンサー収入、賞金、出来高の実収額、税引後所得は未確認。"
+      }
+    },
+    {
+      "id": "yamamoto-yoshinobu",
+      "name": "山本由伸",
+      "nameEn": "Yoshinobu Yamamoto",
+      "reading": "やまもと よしのぶ",
+      "sport": "baseball",
+      "league": "MLB",
+      "audienceTags": [
+        "日本人MLB選手"
+      ],
+      "currentClub": {
+        "name": "ロサンゼルス・ドジャース",
+        "verifiedAsOf": "2026-10-24",
+        "sourceIds": [
+          "yamamotoProfile"
+        ]
+      },
+      "records": [
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "salary",
+          "amount": 5000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の基本年俸。契約金を含まない。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "基本年俸（契約上の額）",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract",
+          "scheduledCurrentYearSalaryCash": 5000000,
+          "scheduledDeferredSalary": 0
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "scheduled-payment",
+          "amount": 5000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の当年給与支払予定。実際の入金は未確認。契約金を含まない。"
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "deferred-compensation",
+          "amount": 0,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上、給与の後払いなしと報道。実際の入金は未確認。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "salary",
+          "amount": 10000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の基本年俸。契約金を含まない。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "基本年俸（契約上の額）",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract",
+          "scheduledCurrentYearSalaryCash": 10000000,
+          "scheduledDeferredSalary": 0
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "scheduled-payment",
+          "amount": 10000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の当年給与支払予定。実際の入金は未確認。契約金を含まない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "deferred-compensation",
+          "amount": 0,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上、給与の後払いなしと報道。実際の入金は未確認。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "salary",
+          "amount": 12000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の基本年俸。契約金を含まない。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "基本年俸（契約上の額）",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract",
+          "scheduledCurrentYearSalaryCash": 12000000,
+          "scheduledDeferredSalary": 0
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "scheduled-payment",
+          "amount": 12000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の当年給与支払予定。実際の入金は未確認。契約金を含まない。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "deferred-compensation",
+          "amount": 0,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+              "title": "山本由伸のドジャース加入報道",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上、給与の後払いなしと報道。実際の入金は未確認。"
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "multi-year-total",
+          "amount": 325000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "名目契約総額。単年年俸ではない。契約金を含む。年数で割って年俸にはしない。実際の入金は未確認。",
+          "period": {
+            "start": "2024",
+            "end": "2035"
+          }
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ロサンゼルス・ドジャース",
+          "kind": "signing-bonus",
+          "amount": 50000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約金は一時金で契約総額に含まれる。2024年2月1日までに2000万ドル、7月1日までに3000万ドルの支払予定。実際の入金は未確認。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2023-12-27",
+          "label": "ポスティング移籍・MLB契約",
+          "team": "ロサンゼルス・ドジャース",
+          "sources": [
+            {
+              "publisher": "Associated Press",
+              "publishedAt": "2024-01-02",
+              "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+              "title": "山本由伸の契約内訳に関するAP報道",
+              "kind": "press",
+              "sourceType": "wire_service_original_reporting",
+              "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+              "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+              "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "Los Angeles Dodgers",
+              "publishedAt": "2023-12-27",
+              "url": "https://www.mlb.com/press-release/dodgers-sign-three-time-pacific-league-mvp-yoshinobu-yamamoto",
+              "title": "山本由伸との契約に関する球団発表",
+              "kind": "official",
+              "sourceType": "official_club_release",
+              "evidenceParaphrase": "12年契約成立。年別金額の根拠はAP報道。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoAnnouncement"
+          ],
+          "note": "2024〜2035の契約。後年のオプトアウト等の条件あり。給与の後払いなしと報道。実際の入金は未確認。ポスティング料は球団間の金銭で、選手収入には含めない。"
+        }
+      ],
+      "annualRecords": [
+        {
+          "period": "2024",
+          "yearBasis": "season",
+          "seasonClub": "ロサンゼルス・ドジャース",
+          "currency": "USD",
+          "amount": 5000000,
+          "metric": "base_annual_salary",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "sourcePublishedDate": "2024-01-02",
+          "scheduledCurrentYearSalaryCash": 5000000,
+          "scheduledDeferredSalary": 0,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract"
+        },
+        {
+          "period": "2025",
+          "yearBasis": "season",
+          "seasonClub": "ロサンゼルス・ドジャース",
+          "currency": "USD",
+          "amount": 10000000,
+          "metric": "base_annual_salary",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "sourcePublishedDate": "2024-01-02",
+          "scheduledCurrentYearSalaryCash": 10000000,
+          "scheduledDeferredSalary": 0,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract"
+        },
+        {
+          "period": "2026",
+          "yearBasis": "season",
+          "seasonClub": "ロサンゼルス・ドジャース",
+          "currency": "USD",
+          "amount": 12000000,
+          "metric": "base_annual_salary",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoNoDeferral"
+          ],
+          "sourcePublishedDate": "2024-01-02",
+          "scheduledCurrentYearSalaryCash": 12000000,
+          "scheduledDeferredSalary": 0,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract"
+        }
+      ],
+      "contractEvents": [
+        {
+          "date": "2023-12-27",
+          "kind": "ポスティング移籍・MLB契約",
+          "to": "ロサンゼルス・ドジャース",
+          "periodStart": "2024",
+          "periodEnd": "2035",
+          "termYears": 12,
+          "currency": "USD",
+          "totalContractValue": 325000000,
+          "totalContractValueMetric": "nominal_contract_total_including_signing_bonus",
+          "status": "reported_contract_terms",
+          "sourceIds": [
+            "yamamotoContract",
+            "yamamotoAnnouncement"
+          ],
+          "signingBonus": {
+            "amount": 50000000,
+            "currency": "USD",
+            "status": "reported_contract_schedule",
+            "oneOff": true,
+            "actualPaid": null,
+            "sourceIds": [
+              "yamamotoContract"
+            ],
+            "includedInContractTotal": true,
+            "paymentSchedule": [
+              {
+                "dueBy": "2024-02-01",
+                "amount": 20000000
+              },
+              {
+                "dueBy": "2024-07-01",
+                "amount": 30000000
+              }
+            ]
+          },
+          "from": "オリックス・バファローズ",
+          "postingFee": {
+            "amount": 50625000,
+            "currency": "USD",
+            "payer": "ロサンゼルス・ドジャース",
+            "recipient": "オリックス・バファローズ",
+            "isPlayerIncome": false,
+            "includedInContractTotal": false,
+            "status": "reported_contract_terms",
+            "sourceIds": [
+              "yamamotoContract"
+            ]
+          },
+          "deferredSalary": {
+            "amount": 0,
+            "currency": "USD",
+            "status": "reported_none",
+            "sourceIds": [
+              "yamamotoNoDeferral"
+            ]
+          }
+        }
+      ],
+      "totalAnnualIncome": {
+        "amount": null,
+        "status": "not_established",
+        "note": "スポンサー収入、賞金、出来高の実収額、税引後所得は未確認。"
+      }
+    },
+    {
+      "id": "suzuki-seiya",
+      "name": "鈴木誠也",
+      "nameEn": "Seiya Suzuki",
+      "reading": "すずき せいや",
+      "sport": "baseball",
+      "league": "MLB",
+      "audienceTags": [
+        "日本人MLB選手"
+      ],
+      "currentClub": {
+        "name": "シカゴ・カブス",
+        "verifiedAsOf": "2026-10-24",
+        "sourceIds": [
+          "suzukiProfile"
+        ]
+      },
+      "records": [
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "シカゴ・カブス",
+          "kind": "salary",
+          "amount": 20000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の基本年俸。契約金を含まない。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "基本年俸（契約上の額）",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract",
+          "scheduledCurrentYearSalaryCash": null,
+          "scheduledDeferredSalary": null
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "シカゴ・カブス",
+          "kind": "scheduled-payment",
+          "amount": null,
+          "currency": "USD",
+          "precision": "undisclosed",
+          "status": "unknown",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "当年の給与支払予定額は確認できず。基本年俸と同額とは断定しない。"
+        },
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "シカゴ・カブス",
+          "kind": "deferred-compensation",
+          "amount": null,
+          "currency": "USD",
+          "precision": "undisclosed",
+          "status": "unknown",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "後払い条件の有無・金額は確認できず。ゼロではない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "シカゴ・カブス",
+          "kind": "salary",
+          "amount": 18000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の基本年俸。契約金を含まない。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "基本年俸（契約上の額）",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract",
+          "scheduledCurrentYearSalaryCash": null,
+          "scheduledDeferredSalary": null
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "シカゴ・カブス",
+          "kind": "scheduled-payment",
+          "amount": null,
+          "currency": "USD",
+          "precision": "undisclosed",
+          "status": "unknown",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "当年の給与支払予定額は確認できず。基本年俸と同額とは断定しない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "シカゴ・カブス",
+          "kind": "deferred-compensation",
+          "amount": null,
+          "currency": "USD",
+          "precision": "undisclosed",
+          "status": "unknown",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "後払い条件の有無・金額は確認できず。ゼロではない。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "シカゴ・カブス",
+          "kind": "salary",
+          "amount": 18000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約上の基本年俸。契約金を含まない。実際の入金・総年収・手取りではない。",
+          "displayMetricLabel": "基本年俸（契約上の額）",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract",
+          "scheduledCurrentYearSalaryCash": null,
+          "scheduledDeferredSalary": null
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "シカゴ・カブス",
+          "kind": "scheduled-payment",
+          "amount": null,
+          "currency": "USD",
+          "precision": "undisclosed",
+          "status": "unknown",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "当年の給与支払予定額は確認できず。基本年俸と同額とは断定しない。"
+        },
+        {
+          "year": 2026,
+          "season": "2026",
+          "team": "シカゴ・カブス",
+          "kind": "deferred-compensation",
+          "amount": null,
+          "currency": "USD",
+          "precision": "undisclosed",
+          "status": "unknown",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "後払い条件の有無・金額は確認できず。ゼロではない。"
+        },
+        {
+          "year": 2022,
+          "season": "2022",
+          "team": "シカゴ・カブス",
+          "kind": "multi-year-total",
+          "amount": 85000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "名目契約総額。単年年俸ではない。契約金を含む。年数で割って年俸にはしない。実際の入金は未確認。",
+          "period": {
+            "start": "2022",
+            "end": "2026"
+          }
+        },
+        {
+          "year": 2022,
+          "season": "2022",
+          "team": "シカゴ・カブス",
+          "kind": "signing-bonus",
+          "amount": 5000000,
+          "currency": "USD",
+          "precision": "exact",
+          "status": "estimated",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "note": "契約金は一時金で契約総額に含まれる。支払日は確認できず。実際の入金は未確認。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2022-03-18",
+          "label": "ポスティング移籍・MLB契約",
+          "team": "シカゴ・カブス",
+          "sources": [
+            {
+              "publisher": "MLB.com",
+              "publishedAt": "2022-03-19",
+              "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+              "title": "鈴木誠也のカブス契約内訳",
+              "kind": "press",
+              "sourceType": "league_site_report",
+              "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24",
+              "originalBreakdownReportedDate": "2022-03-18",
+              "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+              "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+            },
+            {
+              "publisher": "Chicago Cubs",
+              "publishedAt": "2022-03-18",
+              "url": "https://www.mlb.com/press-release/press-release-cubs-agree-to-terms-with-outfielder-seiya-suzuki-on-a-five-year-ma",
+              "title": "鈴木誠也との契約に関する球団発表",
+              "kind": "official",
+              "sourceType": "official_club_release",
+              "evidenceParaphrase": "5年契約成立。球団は条件を非公表。",
+              "access": "public_text_verified",
+              "checkedAt": "2026-10-24"
+            }
+          ],
+          "sourceIds": [
+            "suzukiContract",
+            "suzukiAnnouncement"
+          ],
+          "note": "2022〜2026の契約。後払い条件の有無と契約金支払日は確認できず。実際の入金は未確認。ポスティング料は球団間の金銭で、選手収入には含めない。"
+        }
+      ],
+      "annualRecords": [
+        {
+          "period": "2024",
+          "yearBasis": "season",
+          "seasonClub": "シカゴ・カブス",
+          "currency": "USD",
+          "amount": 20000000,
+          "metric": "base_annual_salary",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "sourcePublishedDate": "2022-03-19",
+          "scheduledCurrentYearSalaryCash": null,
+          "scheduledDeferredSalary": null,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract"
+        },
+        {
+          "period": "2025",
+          "yearBasis": "season",
+          "seasonClub": "シカゴ・カブス",
+          "currency": "USD",
+          "amount": 18000000,
+          "metric": "base_annual_salary",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "sourcePublishedDate": "2022-03-19",
+          "scheduledCurrentYearSalaryCash": null,
+          "scheduledDeferredSalary": null,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract"
+        },
+        {
+          "period": "2026",
+          "yearBasis": "season",
+          "seasonClub": "シカゴ・カブス",
+          "currency": "USD",
+          "amount": 18000000,
+          "metric": "base_annual_salary",
+          "status": "reported_contract_schedule",
+          "sourceIds": [
+            "suzukiContract"
+          ],
+          "sourcePublishedDate": "2022-03-19",
+          "scheduledCurrentYearSalaryCash": null,
+          "scheduledDeferredSalary": null,
+          "actualPaid": null,
+          "actualPaidStatus": "not_verified",
+          "comparisonEligible": true,
+          "comparisonGroup": "MLB_USD_base_salary_reported_contract"
+        }
+      ],
+      "contractEvents": [
+        {
+          "date": "2022-03-18",
+          "kind": "ポスティング移籍・MLB契約",
+          "to": "シカゴ・カブス",
+          "periodStart": "2022",
+          "periodEnd": "2026",
+          "termYears": 5,
+          "currency": "USD",
+          "totalContractValue": 85000000,
+          "totalContractValueMetric": "nominal_contract_total_including_signing_bonus",
+          "status": "reported_contract_terms",
+          "sourceIds": [
+            "suzukiContract",
+            "suzukiAnnouncement"
+          ],
+          "signingBonus": {
+            "amount": 5000000,
+            "currency": "USD",
+            "status": "reported_contract_schedule",
+            "oneOff": true,
+            "actualPaid": null,
+            "sourceIds": [
+              "suzukiContract"
+            ],
+            "includedInContractTotal": true,
+            "paymentSchedule": null
+          },
+          "from": "広島東洋カープ",
+          "postingFee": {
+            "amount": 14625000,
+            "currency": "USD",
+            "payer": "シカゴ・カブス",
+            "recipient": "広島東洋カープ",
+            "isPlayerIncome": false,
+            "includedInContractTotal": false,
+            "status": "reported_contract_terms",
+            "sourceIds": [
+              "suzukiContract"
+            ]
+          },
+          "deferredSalary": {
+            "amount": null,
+            "currency": "USD",
+            "status": "not_separately_verified",
+            "sourceIds": []
+          }
+        }
+      ],
+      "totalAnnualIncome": {
+        "amount": null,
+        "status": "not_established",
+        "note": "スポンサー収入、賞金、出来高の実収額、税引後所得は未確認。"
+      }
+    }
+  ],
+  "sourceCatalog": {
+    "sato24": {
+      "title": "佐藤輝明の2024年契約更改",
+      "publisher": "日刊スポーツ",
+      "publishedAt": "2023-12-07",
+      "url": "https://www.nikkansports.com/baseball/news/202312070000440.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文を独立確認",
+      "kind": "press"
+    },
+    "sato25": {
+      "title": "佐藤輝明の2025年契約更改",
+      "publisher": "日刊スポーツ",
+      "publishedAt": "2024-12-23",
+      "url": "https://www.nikkansports.com/baseball/news/202412230000594.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "press"
+    },
+    "sato26": {
+      "title": "佐藤輝明の2026年単年契約",
+      "publisher": "デイリースポーツ",
+      "publishedAt": "2026-02-01",
+      "url": "https://www.daily.co.jp/tigers/2026/02/01/0019971632.shtml",
+      "checkedAt": "2026-10-24",
+      "access": "本文を独立確認",
+      "kind": "press"
+    },
+    "maki24": {
+      "title": "牧秀悟の2024年契約更改",
+      "publisher": "日刊スポーツ",
+      "publishedAt": "2023-12-21",
+      "url": "https://www.nikkansports.com/baseball/news/202312200001155.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "press"
+    },
+    "maki25": {
+      "title": "牧秀悟の2025年推定年俸",
+      "publisher": "テレビ東京",
+      "publishedAt": "2024-12-05",
+      "url": "https://www.tv-tokyo.co.jp/sports/articles/2024/12/036382.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "press"
+    },
+    "maki26": {
+      "title": "牧秀悟の2026年契約更改",
+      "publisher": "TBSテレビ",
+      "publishedAt": "2025-12-16",
+      "url": "https://newsdig.tbs.co.jp/articles/-/2348547?display=1",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "press"
+    },
+    "satoEntry": {
+      "title": "佐藤輝明の入団仮契約",
+      "publisher": "日刊スポーツ",
+      "publishedAt": "2020-11-12",
+      "url": "https://www.nikkansports.com/baseball/news/202011120000285.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "press"
+    },
+    "makiEntry": {
+      "title": "牧秀悟の入団仮契約",
+      "publisher": "Full-Count",
+      "publishedAt": "2020-11-23",
+      "url": "https://full-count.jp/2020/11/23/post981357/",
+      "checkedAt": "2026-10-24",
+      "access": "本文を独立確認",
+      "kind": "press"
+    },
+    "satoProfile": {
+      "title": "佐藤輝明の選手プロフィール",
+      "publisher": "NPB",
+      "publishedAt": null,
+      "url": "https://bis.npb.or.jp/bis/players/41045153.html",
+      "checkedAt": "2026-10-24",
+      "access": "検索インデックス確認のみ・本文取得タイムアウト",
+      "kind": "official"
+    },
+    "makiProfile": {
+      "title": "牧秀悟の選手プロフィール",
+      "publisher": "NPB",
+      "publishedAt": null,
+      "url": "https://draft.npb.or.jp/bis/players/13115153.html",
+      "checkedAt": "2026-10-24",
+      "access": "検索インデックス確認のみ・本文取得タイムアウト",
+      "kind": "official"
+    },
+    "osakoContract": {
+      "title": "大迫勇也の契約延長",
+      "publisher": "ヴィッセル神戸",
+      "publishedAt": "2024-02-06",
+      "url": "https://www.vissel-kobe.co.jp/news/article/22536.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文を独立確認",
+      "kind": "official"
+    },
+    "mutoContract": {
+      "title": "武藤嘉紀の契約更新",
+      "publisher": "ヴィッセル神戸",
+      "publishedAt": "2024-12-24",
+      "url": "https://www.vissel-kobe.co.jp/news/article/24201.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "kobe24": {
+      "title": "2024シーズンのトップチームメンバー",
+      "publisher": "ヴィッセル神戸",
+      "publishedAt": "2024-01-12",
+      "url": "https://www.vissel-kobe.co.jp/news/article/22460.html?source=visselapp",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "osakoProfile": {
+      "title": "大迫勇也のプロフィール",
+      "publisher": "Jリーグ",
+      "publishedAt": null,
+      "url": "https://www.jleague.jp/player/900142/",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "mutoProfile": {
+      "title": "武藤嘉紀のプロフィール",
+      "publisher": "Jリーグ",
+      "publishedAt": null,
+      "url": "https://www.jleague.jp/player/1000640/?navicode=j1",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "osakoJoin": {
+      "title": "大迫勇也の完全移籍加入",
+      "publisher": "ヴィッセル神戸",
+      "publishedAt": "2021-08-08",
+      "url": "https://www.vissel-kobe.co.jp/news/article/19005.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "mutoJoin": {
+      "title": "武藤嘉紀の完全移籍加入",
+      "publisher": "ヴィッセル神戸",
+      "publishedAt": "2021-08-07",
+      "url": "https://www.vissel-kobe.co.jp/news/article/19003.html/",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "togashi24": {
+      "title": "富樫勇樹の4年間契約",
+      "publisher": "株式会社千葉ジェッツふなばし",
+      "publishedAt": "2024-05-29",
+      "url": "https://prtimes.jp/main/html/rd/p/000000114.000035649.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "togashi25": {
+      "title": "富樫勇樹の2025-26契約継続",
+      "publisher": "千葉ジェッツ",
+      "publishedAt": "2025-05-29",
+      "url": "https://chibajets.jp/news/detail/id=23520",
+      "checkedAt": "2026-10-24",
+      "access": "検索インデックス確認のみ・本文未取得。年俸の記載有無は未確認",
+      "kind": "official"
+    },
+    "togashi26": {
+      "title": "富樫勇樹の2026-27契約継続",
+      "publisher": "千葉ジェッツ",
+      "publishedAt": "2026-06-02",
+      "url": "https://chibajets.jp/news/detail/id=26774",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "watanabe24": {
+      "title": "渡邊雄太の新規契約基本合意",
+      "publisher": "千葉ジェッツ",
+      "publishedAt": "2024-07-11",
+      "url": "https://chibajets.jp/news/detail/id=22803",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "watanabe25": {
+      "title": "渡邊雄太の2025-26契約継続",
+      "publisher": "千葉ジェッツ",
+      "publishedAt": "2025-05-29",
+      "url": "https://chibajets.jp/news/detail/id=23521",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "watanabe26": {
+      "title": "渡邊雄太の2026-27契約継続",
+      "publisher": "千葉ジェッツ",
+      "publishedAt": "2026-07-01",
+      "url": "https://chibajets.jp/news/detail/id=26888",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "official"
+    },
+    "togashi19": {
+      "title": "富樫勇樹の基本報酬1億円超",
+      "publisher": "バスケットボールキング",
+      "publishedAt": "2019-06-03",
+      "url": "https://basketballking.jp/news/japan/20190603/166301.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文を独立確認",
+      "kind": "press"
+    },
+    "togashiNonDisclosure": {
+      "title": "富樫勇樹の4年契約・年俸非公開",
+      "publisher": "日刊スポーツ",
+      "publishedAt": "2024-05-28",
+      "url": "https://www.nikkansports.com/sports/news/202405280001294.html",
+      "checkedAt": "2026-10-24",
+      "access": "本文確認（親の調査）",
+      "kind": "press"
+    },
+    "ohtaniContract": {
+      "publisher": "Associated Press / KEYT",
+      "publishedAt": "2023-12-11",
+      "url": "https://keyt.com/news/california/ap-california-news/2023/12/11/ohtanis-dodgers-contract-has-680-million-deferred-lowering-tax-value-to-46-million-annually/",
+      "title": "大谷翔平の契約と後払いに関するAP報道",
+      "kind": "press",
+      "sourceType": "wire_service_original_reporting",
+      "evidenceParaphrase": "10年7億ドル。年額7000万ドル中6800万ドルは無利息で2034〜2043年の各7月1日に後払い。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24",
+      "independentVerification": "本文で年額・繰延額・支払期間・無利息を確認"
+    },
+    "ohtaniDeferrals": {
+      "publisher": "MLB.com",
+      "publishedAt": "2023-12-12",
+      "url": "https://www.mlb.com/news/shohei-ohtani-dodgers-deal-deferrals-explained",
+      "title": "大谷翔平の後払い契約の解説",
+      "kind": "press",
+      "sourceType": "league_site_report",
+      "evidenceParaphrase": "契約期間の当年200万ドルと2034〜2043年の6800万ドル支払予定。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24",
+      "independentVerification": "本文で金額と2034〜2043年の支払予定を確認"
+    },
+    "ohtaniProfile": {
+      "publisher": "MLB.com",
+      "publishedAt": null,
+      "url": "https://www.mlb.com/player/shohei-ohtani-660271",
+      "title": "大谷翔平 選手ページ",
+      "kind": "official",
+      "sourceType": "official_player_profile",
+      "evidenceParaphrase": "ドジャース所属と2023年12月11日契約。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24"
+    },
+    "yamamotoContract": {
+      "publisher": "Associated Press",
+      "publishedAt": "2024-01-02",
+      "url": "https://apnews.com/article/yamamoto-dodgers-contract-6db9b90240352c39ebe08830c8c03c01",
+      "title": "山本由伸の契約内訳に関するAP報道",
+      "kind": "press",
+      "sourceType": "wire_service_original_reporting",
+      "evidenceParaphrase": "2024〜2026年は500万・1000万・1200万ドル。契約金5000万ドル。譲渡金5062万5000ドルは球団間。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24",
+      "publishedDateVerificationSourceId": "yamamotoContractSyndicated",
+      "accessNote": "本文抽出に公開日がなく親がSportsnet同一配信記事の日時で照合。",
+      "independentVerification": "本文で2024〜2026年俸・契約金・2月1日と7月1日の支払予定・球団間譲渡金を確認"
+    },
+    "yamamotoContractSyndicated": {
+      "publisher": "Sportsnet / Associated Press",
+      "publishedAt": "2024-01-02",
+      "url": "https://www.sportsnet.ca/mlb/article/yamamotos-dodgers-contract-includes-two-opt-outs-timing-based-on-elbow-health/",
+      "title": "山本由伸の契約内訳（AP配信記事）",
+      "kind": "press",
+      "sourceType": "wire_service_syndication",
+      "evidenceParaphrase": "同一AP記事の日付照合用。独立した2本目の取材記事ではない。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24"
+    },
+    "yamamotoNoDeferral": {
+      "publisher": "MLB.com",
+      "publishedAt": "2023-12-27",
+      "url": "https://www.mlb.com/news/yoshinobu-yamamoto-dodgers-free-agent-deal",
+      "title": "山本由伸のドジャース加入報道",
+      "kind": "press",
+      "sourceType": "league_site_report",
+      "evidenceParaphrase": "関係者情報として給与の後払いなし。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24",
+      "independentVerification": "本文で給与後払いなしと契約金を確認"
+    },
+    "yamamotoAnnouncement": {
+      "publisher": "Los Angeles Dodgers",
+      "publishedAt": "2023-12-27",
+      "url": "https://www.mlb.com/press-release/dodgers-sign-three-time-pacific-league-mvp-yoshinobu-yamamoto",
+      "title": "山本由伸との契約に関する球団発表",
+      "kind": "official",
+      "sourceType": "official_club_release",
+      "evidenceParaphrase": "12年契約成立。年別金額の根拠はAP報道。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24"
+    },
+    "yamamotoProfile": {
+      "publisher": "MLB.com",
+      "publishedAt": null,
+      "url": "https://www.mlb.com/player/yoshinobu-yamamoto-808967",
+      "title": "山本由伸 選手ページ",
+      "kind": "official",
+      "sourceType": "official_player_profile",
+      "evidenceParaphrase": "ドジャース所属。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24"
+    },
+    "suzukiContract": {
+      "publisher": "MLB.com",
+      "publishedAt": "2022-03-19",
+      "url": "https://www.mlb.com/news/seiya-suzuki-signs-5-year-deal-with-cubs",
+      "title": "鈴木誠也のカブス契約内訳",
+      "kind": "press",
+      "sourceType": "league_site_report",
+      "evidenceParaphrase": "2024〜2026年は2000万・1800万・1800万ドル。契約金500万ドル。金額は関係者情報。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24",
+      "originalBreakdownReportedDate": "2022-03-18",
+      "accessNote": "記事表示日は3月19日、本文内の年別金額の報道日時は3月18日。公式の金額開示ではない。",
+      "independentVerification": "本文掲載の年別内訳・契約金・球団間譲渡金を確認"
+    },
+    "suzukiAnnouncement": {
+      "publisher": "Chicago Cubs",
+      "publishedAt": "2022-03-18",
+      "url": "https://www.mlb.com/press-release/press-release-cubs-agree-to-terms-with-outfielder-seiya-suzuki-on-a-five-year-ma",
+      "title": "鈴木誠也との契約に関する球団発表",
+      "kind": "official",
+      "sourceType": "official_club_release",
+      "evidenceParaphrase": "5年契約成立。球団は条件を非公表。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24"
+    },
+    "suzukiProfile": {
+      "publisher": "MLB.com",
+      "publishedAt": null,
+      "url": "https://www.mlb.com/player/seiya-suzuki-673548",
+      "title": "鈴木誠也 選手ページ",
+      "kind": "official",
+      "sourceType": "official_player_profile",
+      "evidenceParaphrase": "カブス所属。",
+      "access": "public_text_verified",
+      "checkedAt": "2026-10-24"
+    }
+  },
+  "archivedPlayers": [
+    {
+      "id": "osako-yuya",
+      "name": "大迫勇也",
+      "reading": "おおさこ ゆうや",
+      "sport": "football",
+      "records": [
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ヴィッセル神戸",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "大迫勇也の契約延長",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2024-02-06",
+              "url": "https://www.vissel-kobe.co.jp/news/article/22536.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "official"
+            }
+          ],
+          "note": "確認した公式資料に年俸の数値なし。0円を意味しない。2026年以降への延長掲載はしない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "ヴィッセル神戸",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "大迫勇也の契約延長",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2024-02-06",
+              "url": "https://www.vissel-kobe.co.jp/news/article/22536.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "official"
+            }
+          ],
+          "note": "確認した公式資料に年俸の数値なし。0円を意味しない。2026年以降への延長掲載はしない。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2009",
+          "label": "プロクラブへの正式加入",
+          "team": "鹿島アントラーズ",
+          "sources": [
+            {
+              "title": "大迫勇也の契約延長",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2024-02-06",
+              "url": "https://www.vissel-kobe.co.jp/news/article/22536.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "official"
+            }
+          ],
+          "note": "鹿児島城西高等学校から加入。契約金は確認できず。"
+        },
+        {
+          "date": "2021-08-08",
+          "label": "完全移籍加入",
+          "team": "ヴィッセル神戸",
+          "sources": [
+            {
+              "title": "大迫勇也の完全移籍加入",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2021-08-08",
+              "url": "https://www.vissel-kobe.co.jp/news/article/19005.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "契約金・クラブ間移籍金から年俸を推測しない。"
+        },
+        {
+          "date": "2024-02-06",
+          "label": "契約延長",
+          "team": "ヴィッセル神戸",
+          "sources": [
+            {
+              "title": "大迫勇也の契約延長",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2024-02-06",
+              "url": "https://www.vissel-kobe.co.jp/news/article/22536.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "official"
+            }
+          ],
+          "note": "2026年までの契約延長。年俸・総額は確認できず。"
+        }
+      ]
+    },
+    {
+      "id": "muto-yoshinori",
+      "name": "武藤嘉紀",
+      "reading": "むとう よしのり",
+      "sport": "football",
+      "records": [
+        {
+          "year": 2024,
+          "season": "2024",
+          "team": "ヴィッセル神戸",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "2024シーズンのトップチームメンバー",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2024-01-12",
+              "url": "https://www.vissel-kobe.co.jp/news/article/22460.html?source=visselapp",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "確認した公式資料に年俸の数値なし。0円を意味しない。2026年以降への延長掲載はしない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025",
+          "team": "ヴィッセル神戸",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "武藤嘉紀の契約更新",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2024-12-24",
+              "url": "https://www.vissel-kobe.co.jp/news/article/24201.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "確認した公式資料に年俸の数値なし。0円を意味しない。2026年以降への延長掲載はしない。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2014",
+          "label": "プロクラブへの正式加入",
+          "team": "FC東京",
+          "sources": [
+            {
+              "title": "武藤嘉紀の契約更新",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2024-12-24",
+              "url": "https://www.vissel-kobe.co.jp/news/article/24201.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "慶應義塾大学から加入。契約金は確認できず。2010年の2種登録、2012・2013年の特別指定とは区別。"
+        },
+        {
+          "date": "2021-08-07",
+          "label": "完全移籍加入",
+          "team": "ヴィッセル神戸",
+          "sources": [
+            {
+              "title": "武藤嘉紀の完全移籍加入",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2021-08-07",
+              "url": "https://www.vissel-kobe.co.jp/news/article/19003.html/",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "契約金・クラブ間移籍金から年俸を推測しない。"
+        },
+        {
+          "date": "2024-12-24",
+          "label": "契約更新",
+          "team": "ヴィッセル神戸",
+          "sources": [
+            {
+              "title": "武藤嘉紀の契約更新",
+              "publisher": "ヴィッセル神戸",
+              "publishedAt": "2024-12-24",
+              "url": "https://www.vissel-kobe.co.jp/news/article/24201.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "契約更新を確認。年俸額は確認できず。"
+        }
+      ]
+    },
+    {
+      "id": "togashi-yuki",
+      "name": "富樫勇樹",
+      "reading": "とがし ゆうき",
+      "sport": "basketball",
+      "records": [
+        {
+          "year": 2019,
+          "season": "2019-20",
+          "team": "千葉ジェッツ",
+          "kind": "salary",
+          "amount": 100000000,
+          "currency": "JPY",
+          "precision": "lower-bound",
+          "status": "estimated",
+          "sources": [
+            {
+              "title": "富樫勇樹の基本報酬1億円超",
+              "publisher": "バスケットボールキング",
+              "publishedAt": "2019-06-03",
+              "url": "https://basketballking.jp/news/japan/20190603/166301.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文を独立確認",
+              "kind": "press"
+            }
+          ],
+          "note": "基本報酬の下限。正確な額は不明。グラフの点や以後の年俸には使わない。",
+          "bound": "gt"
+        },
+        {
+          "year": 2024,
+          "season": "2024-25",
+          "team": "千葉ジェッツ",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "富樫勇樹の4年間契約",
+              "publisher": "株式会社千葉ジェッツふなばし",
+              "publishedAt": "2024-05-29",
+              "url": "https://prtimes.jp/main/html/rd/p/000000114.000035649.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            },
+            {
+              "title": "富樫勇樹の4年契約・年俸非公開",
+              "publisher": "日刊スポーツ",
+              "publishedAt": "2024-05-28",
+              "url": "https://www.nikkansports.com/sports/news/202405280001294.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "press"
+            }
+          ],
+          "note": "年俸非公開と報道。4年契約の総額から年俸は算出しない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025-26",
+          "team": "千葉ジェッツ",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "unknown",
+          "sources": [
+            {
+              "title": "富樫勇樹の2025-26契約継続",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2025-05-29",
+              "url": "https://chibajets.jp/news/detail/id=23520",
+              "checkedAt": "2026-10-24",
+              "access": "検索インデックス確認のみ・本文未取得。年俸の記載有無は未確認",
+              "kind": "official"
+            }
+          ],
+          "note": "契約継続は検索インデックスで確認。本文未取得のため金額の記載有無は未確認。金額は確認できず。"
+        },
+        {
+          "year": 2026,
+          "season": "2026-27",
+          "team": "千葉ジェッツ",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "富樫勇樹の2026-27契約継続",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2026-06-02",
+              "url": "https://chibajets.jp/news/detail/id=26774",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "公式契約継続発表を確認。資料中に年俸の数値なし。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2012-14",
+          "label": "国内最初の所属（経歴）",
+          "team": "秋田ノーザンハピネッツ",
+          "sources": [
+            {
+              "title": "富樫勇樹の2025-26契約継続",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2025-05-29",
+              "url": "https://chibajets.jp/news/detail/id=23520",
+              "checkedAt": "2026-10-24",
+              "access": "検索インデックス確認のみ・本文未取得。年俸の記載有無は未確認",
+              "kind": "official"
+            }
+          ],
+          "note": "経歴は検索インデックスによる確認。本文未取得。加入時の契約金は確認できず。"
+        },
+        {
+          "date": "2015",
+          "label": "千葉加入（経歴）",
+          "team": "千葉ジェッツ",
+          "sources": [
+            {
+              "title": "富樫勇樹の2025-26契約継続",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2025-05-29",
+              "url": "https://chibajets.jp/news/detail/id=23520",
+              "checkedAt": "2026-10-24",
+              "access": "検索インデックス確認のみ・本文未取得。年俸の記載有無は未確認",
+              "kind": "official"
+            }
+          ],
+          "note": "検索インデックスによる確認。"
+        },
+        {
+          "date": "2024-05-29",
+          "label": "4年間の複数年契約",
+          "team": "千葉ジェッツ",
+          "sources": [
+            {
+              "title": "富樫勇樹の4年間契約",
+              "publisher": "株式会社千葉ジェッツふなばし",
+              "publishedAt": "2024-05-29",
+              "url": "https://prtimes.jp/main/html/rd/p/000000114.000035649.html",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "2024-25〜2027-28。契約総額は確認できず。クラブ告知は5月28日、PR TIMES掲載は5月29日。"
+        }
+      ]
+    },
+    {
+      "id": "watanabe-yuta",
+      "name": "渡邊雄太",
+      "reading": "わたなべ ゆうた",
+      "sport": "basketball",
+      "records": [
+        {
+          "year": 2024,
+          "season": "2024-25",
+          "team": "千葉ジェッツ",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "渡邊雄太の新規契約基本合意",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2024-07-11",
+              "url": "https://chibajets.jp/news/detail/id=22803",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "公式の契約発表を確認。資料中に年俸の数値なし。継続から金額を推測しない。"
+        },
+        {
+          "year": 2025,
+          "season": "2025-26",
+          "team": "千葉ジェッツ",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "渡邊雄太の2025-26契約継続",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2025-05-29",
+              "url": "https://chibajets.jp/news/detail/id=23521",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "公式の契約発表を確認。資料中に年俸の数値なし。継続から金額を推測しない。"
+        },
+        {
+          "year": 2026,
+          "season": "2026-27",
+          "team": "千葉ジェッツ",
+          "kind": "salary",
+          "amount": null,
+          "currency": "JPY",
+          "precision": "undisclosed",
+          "status": "undisclosed",
+          "sources": [
+            {
+              "title": "渡邊雄太の2026-27契約継続",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2026-07-01",
+              "url": "https://chibajets.jp/news/detail/id=26888",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "公式の契約発表を確認。資料中に年俸の数値なし。継続から金額を推測しない。"
+        }
+      ],
+      "events": [
+        {
+          "date": "2018-19",
+          "label": "NBA契約",
+          "team": "メンフィス・グリズリーズ",
+          "sources": [
+            {
+              "title": "渡邊雄太の新規契約基本合意",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2024-07-11",
+              "url": "https://chibajets.jp/news/detail/id=22803",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "経歴情報。入団時の契約金は確認できず。"
+        },
+        {
+          "date": "2024-07-11",
+          "label": "国内加入・新規契約基本合意",
+          "team": "千葉ジェッツ",
+          "sources": [
+            {
+              "title": "渡邊雄太の新規契約基本合意",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2024-07-11",
+              "url": "https://chibajets.jp/news/detail/id=22803",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": "契約年数・総額・契約金は確認できず。"
+        },
+        {
+          "date": "2025-05-29",
+          "label": "2025-26の契約継続",
+          "team": "千葉ジェッツ",
+          "sources": [
+            {
+              "title": "渡邊雄太の2025-26契約継続",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2025-05-29",
+              "url": "https://chibajets.jp/news/detail/id=23521",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "date": "2026-07-01",
+          "label": "2026-27の契約継続",
+          "team": "千葉ジェッツ",
+          "sources": [
+            {
+              "title": "渡邊雄太の2026-27契約継続",
+              "publisher": "千葉ジェッツ",
+              "publishedAt": "2026-07-01",
+              "url": "https://chibajets.jp/news/detail/id=26888",
+              "checkedAt": "2026-10-24",
+              "access": "本文確認（親の調査）",
+              "kind": "official"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "mlbScope": {
+    "asOf": "2026-10-24",
+    "recordCount": 9,
+    "currency": "USD",
+    "amountUnit": "dollar",
+    "fx": null,
+    "methodology": [
+      "各年額は報道された契約上の予定で、実入金ではない。",
+      "契約年俸・当年給与支払予定・繰延額・契約金・複数年総額は別項目。",
+      "ポスティング料は球団間の金銭で選手収入に含めない。",
+      "円換算・通貨横断合算・ランキングはしない。"
+    ]
+  }
+}
