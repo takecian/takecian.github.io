@@ -1,0 +1,12 @@
+2026-10-31 検証結果
+取得済み12 JPEGをすべてローカル画像ビューで目視確認。ジャケットの配色・物撮り/着用画像を確認。
+12画像のJPEG形式、画像寸法、SHA-256整合性、21件すべての画像パスがローカル相対参照であることを検証。
+index.htmlのローカルJS/CSS/JSON/出典一覧参照先が存在することを確認。
+JavaScript構文チェック成功。fetch等のネットワークAPI呼び出しなし。CSP connect-src none、外部画像を許可しないimg-src self data:を設定。
+フォルダは公開repo外、アクセス権700。公開repoはcleanのまま。push・公開・アップロードは未実施。
+
+未完了の検証
+file:///Users/takecian-mac-mini/Documents/Codex/2026-10-31/task-2/needles-private/index.html をブラウザツールで直接開く操作は拒否されました。
+理由: URL policyでfile:プロトコル禁止、http/httpsのみ許可。結果はdenied（未実行）。
+代替経路で同じ操作を試していません。ブラウザでのオフライン表示・手動追加UIの実動作は未検証です。
+ユーザー自身がindex.htmlを直接開き、ネット接続を切って取得済み画像を確認できます。
