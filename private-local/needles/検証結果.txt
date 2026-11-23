@@ -10,3 +10,8 @@ file:///Users/takecian-mac-mini/Documents/Codex/2026-10-31/task-2/needles-privat
 理由: URL policyでfile:プロトコル禁止、http/httpsのみ許可。結果はdenied（未実行）。
 代替経路で同じ操作を試していません。ブラウザでのオフライン表示・手動追加UIの実動作は未検証です。
 ユーザー自身がindex.htmlを直接開き、ネット接続を切って取得済み画像を確認できます。
+
+2026-10-31 ローカル画像追加
+ユーザーのDownloadsに保存されたWebP 10枚を目視で配色確認し、sipsでJPEGに変換。B’2nd 4色・L.H.P 6色を追加。L.H.Pのチャコール・オリーブを追加し23配色に更新。22枚のJPEGシグネチャとSHA-256を検証。BEAVERの1枚は未追加。data.js・data.json・出典一覧を同期。
+
+BEAVER保存画像4枚を目視確認して追加。ブラック・ブラウン・チャコール・ロイヤルの名称と色番号を公式ページで確認。全26件のJPEGシグネチャ・SHA-256・ID重複なし・data.js/JSON同期を検証。未追加画像なし。
